@@ -1,0 +1,15 @@
+{
+  "dataGenerated": false,
+  "reason": "YOUTUBE_API_KEY not provided",
+  "generatedAt": null,
+  "channelHandle": "@space_tamnik",
+  "videosScanned": 0,
+  "likelyShorts": 0,
+  "ownerCommentCandidates": 0,
+  "japanCandidates": 0,
+  "geocoded": 0,
+  "published": 0,
+  "excludedNegativeSignal": 0,
+  "needsGeocode": 0,
+  "heldBack": 0
+}

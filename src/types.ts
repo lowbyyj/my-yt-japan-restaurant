@@ -1,0 +1,40 @@
+export type PublicPlace = {
+  id: string;
+  status: "published";
+  country: "JP";
+  nameKoOrOriginal: string;
+  nameLocal?: string;
+  city: string;
+  area?: string;
+  lat: number;
+  lng: number;
+  categoryTags: string[];
+  commentKoAuto: string;
+  verdict: "auto_recommended";
+  confidence: number;
+  negativeSignalHits: [];
+  sourceVideoId: string;
+  sourceVideoTitle: string;
+  sourceVideoUrl: string;
+  thumbnailUrl: string;
+  sourceCommentId: string;
+  sourceKind: "owner_location_comment_candidate";
+  googleMapsUrl?: string;
+  generatedAt: string;
+};
+
+export type DataStatus = {
+  dataGenerated: boolean;
+  reason?: string;
+  generatedAt: string | null;
+  channelHandle: string;
+  videosScanned: number;
+  likelyShorts: number;
+  ownerCommentCandidates: number;
+  japanCandidates: number;
+  geocoded: number;
+  published: number;
+  excludedNegativeSignal: number;
+  needsGeocode: number;
+  heldBack: number;
+};
