@@ -90,6 +90,24 @@ async function main() {
   const geocoded = candidates.filter(
     (candidate) => candidate.country === "JP" && typeof candidate.lat === "number",
   ).length;
+  const heldBackNonJapan = candidates.filter(
+    (candidate) =>
+      candidate.verdict !== "excluded_negative_signal" && candidate.country !== "JP",
+  ).length;
+  const heldBackMissingGeocode = candidates.filter(
+    (candidate) =>
+      candidate.verdict !== "excluded_negative_signal" &&
+      candidate.country === "JP" &&
+      (typeof candidate.lat !== "number" || typeof candidate.lng !== "number"),
+  ).length;
+  const heldBackLowConfidence = candidates.filter(
+    (candidate) =>
+      candidate.verdict !== "excluded_negative_signal" &&
+      candidate.country === "JP" &&
+      typeof candidate.lat === "number" &&
+      typeof candidate.lng === "number" &&
+      candidate.confidence < CONFIDENCE_THRESHOLD,
+  ).length;
   const heldBack = Math.max(
     0,
     candidates.length - places.length - excludedNegativeSignal,
@@ -115,6 +133,9 @@ async function main() {
     excludedNegativeSignal,
     needsGeocode,
     heldBack,
+    heldBackLowConfidence,
+    heldBackMissingGeocode,
+    heldBackNonJapan,
   });
 
   await writeJsonFile(PUBLIC_PLACES_PATH, places);

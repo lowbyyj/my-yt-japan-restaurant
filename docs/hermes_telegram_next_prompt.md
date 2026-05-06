@@ -1,8 +1,6 @@
-# Telegram Message To Hermes
-
 [작업 전환: my-yt-japan-restaurant]
 
-Hermes, keep this same Telegram DM as the manager/director session. Do not use `/new` by default. Switch tasks with `[작업 전환: <task-name>]`, and separate actual coding context by repo, folder, branch, worktree, or process.
+Hermes, continue in this same Telegram manager session. Do not use `/new` by default. Separate actual coding context by repo, folder, branch, worktree, or process.
 
 Clone or pull:
 
@@ -19,22 +17,35 @@ git status
 git pull --ff-only
 ```
 
-Stop immediately if there are conflicts or unexpected uncommitted local changes.
+Stop immediately on conflicts or unexpected uncommitted local changes.
 
-First run the no-key-safe verification:
+First verify the Windows M2 state:
 
 ```bash
 npm ci
 npm run data:doctor
 npm run data:dry-run
-npm run test
 npm run validate:data
+npm run test
 npm run build
 ```
 
-Check whether `YOUTUBE_API_KEY` is available on Linux. Do not print the value.
+M2 Windows result to expect:
 
-If `YOUTUBE_API_KEY` is available, run:
+- videos scanned: 50
+- likely Shorts: 50
+- owner comment candidates: 50
+- Japan candidates: 38
+- geocoded: 1
+- published: 1
+- excluded negative signal: 0
+- held back total: 49
+- held back missing geocode: 37
+- held back non-Japan: 12
+
+Check whether `YOUTUBE_API_KEY` is available on Linux, but do not print the value.
+
+If `YOUTUBE_API_KEY` is available on Linux and dr.lowb explicitly asks for a refresh, run:
 
 ```bash
 npm run data:all
@@ -43,21 +54,16 @@ npm run test
 npm run build
 ```
 
-Commit and push sanitized generated public data only if `data:all` succeeds. Do not commit `.env`, API keys, raw API responses, raw comment dumps, cache files, `node_modules`, `dist`, logs, or full comment dumps.
+Otherwise do not re-run real ingestion automatically.
 
-If `YOUTUBE_API_KEY` is not available, do not fabricate data and do not manually enter shops. Just report that the env var is missing.
+Do not fabricate data. Do not ask dr.lowb for manual restaurant curation. Do not commit raw API dumps, raw comment dumps, caches, `.env`, tokens, `node_modules`, `dist`, or logs.
 
-Do not ask dr.lowb for manual restaurant curation.
+Report back:
 
-Report back in Telegram:
-
-- videos scanned
-- likely Shorts
-- owner comment candidates found
-- Japan candidates
-- geocoded
-- published
-- excluded for negative signals
-- held back due to geocode/low confidence
-- verification command results
-- commit hash
+- branch
+- HEAD commit
+- whether it matches or descends from the Windows M2 commit
+- verification results
+- public published count
+- blockers
+- next recommended task

@@ -34,6 +34,16 @@ function confidenceFromSignals(score: number, boost: number, hasName: boolean) {
   return Math.max(0, Math.min(0.98, 0.32 + normalizedScore + boost + nameBoost));
 }
 
+function shouldPreferGoogleMapsQuery(
+  nameCandidate: string | undefined,
+  googleMapsQuery: string | undefined,
+) {
+  if (!googleMapsQuery) return false;
+  if (!nameCandidate) return true;
+  if (nameCandidate.length > 24 && googleMapsQuery.length <= 80) return true;
+  return /https?:\/\/|google|maps\.app/iu.test(nameCandidate);
+}
+
 function verdictForCandidate(args: {
   negativeSignalHits: string[];
   japanSignalHits: string[];
@@ -89,8 +99,14 @@ async function main() {
       confidence,
     });
 
-    const nameKoOrOriginal =
-      parsed.nameKoOrOriginal || parsed.googleMapsQuery || video.title.replace(/#\S+/gu, "");
+    const googleMapsQuery = actualMapsUrl
+      ? extractGoogleMapsQuery(actualMapsUrl)
+      : parsed.googleMapsQuery;
+    const parsedName =
+      parsed.nameKoOrOriginal || googleMapsQuery || video.title.replace(/#\S+/gu, "");
+    const nameKoOrOriginal = shouldPreferGoogleMapsQuery(parsedName, googleMapsQuery)
+      ? googleMapsQuery!
+      : parsedName;
 
     candidates.push({
       id: stableCandidateId(video.videoId, ownerComment.commentId),
@@ -109,9 +125,7 @@ async function main() {
       city: parsed.city,
       country: japanSignalHits.length > 0 ? "JP" : undefined,
       googleMapsUrl: actualMapsUrl ?? parsed.googleMapsUrl,
-      googleMapsQuery: actualMapsUrl
-        ? extractGoogleMapsQuery(actualMapsUrl)
-        : parsed.googleMapsQuery,
+      googleMapsQuery,
       categoryTags: parsed.categoryTags,
       commentKoAuto: parsed.commentKoAuto,
       verdict,

@@ -37,4 +37,7 @@ export type DataStatus = {
   excludedNegativeSignal: number;
   needsGeocode: number;
   heldBack: number;
+  heldBackLowConfidence?: number;
+  heldBackMissingGeocode?: number;
+  heldBackNonJapan?: number;
 };

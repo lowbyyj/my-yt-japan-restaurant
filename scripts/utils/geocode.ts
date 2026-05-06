@@ -68,6 +68,7 @@ export async function geocodePlace(
   if (googleMapsUrl) {
     googleMapsUrl = await resolveGoogleMapsUrl(googleMapsUrl);
     result.resolvedGoogleMapsUrl = googleMapsUrl;
+    result.googleMapsQuery = extractGoogleMapsQuery(googleMapsUrl);
 
     const coordinates = parseCoordinatesFromGoogleMapsUrl(googleMapsUrl);
     if (coordinates) {
@@ -81,7 +82,6 @@ export async function geocodePlace(
       };
     }
 
-    result.googleMapsQuery = extractGoogleMapsQuery(googleMapsUrl);
   }
 
   if (options.provider !== "nominatim") return result;

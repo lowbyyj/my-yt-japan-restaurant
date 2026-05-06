@@ -1,1 +1,31 @@
-[]
+[
+  {
+    "id": "yt_sgt_nouotWY_UgwRgpARPv1U5xkqXuJ4AaABAg",
+    "status": "published",
+    "country": "JP",
+    "nameKoOrOriginal": "THREE",
+    "city": "Japan",
+    "lat": 35.6423363,
+    "lng": 139.6664223,
+    "categoryTags": [
+      "라멘",
+      "우동",
+      "카레",
+      "덮밥",
+      "디저트",
+      "베이커리"
+    ],
+    "commentKoAuto": "YouTube owner comment candidate에서 자동 추출한 장소입니다.",
+    "verdict": "auto_recommended",
+    "confidence": 0.98,
+    "negativeSignalHits": [],
+    "sourceVideoId": "sgt_nouotWY",
+    "sourceVideoTitle": "일본 말차 음식 평점매기기",
+    "sourceVideoUrl": "https://www.youtube.com/watch?v=sgt_nouotWY",
+    "thumbnailUrl": "https://i.ytimg.com/vi/sgt_nouotWY/maxresdefault.jpg",
+    "sourceCommentId": "UgwRgpARPv1U5xkqXuJ4AaABAg",
+    "sourceKind": "owner_location_comment_candidate",
+    "googleMapsUrl": "https://www.google.co.kr/maps/place/THREE/@35.6423363,139.6664223,17z/data=!3m1!4b1!4m6!3m5!1s0x6018f5b982ffee73:0x914aae6a1ad381c7!8m2!3d35.642332!4d139.6689972!16s%2Fg%2F11v9kky8bc?entry=tts&g_ep=EgoyMDI2MDQwOC4wIPu8ASoASAFQAw%3D%3D&skid=518ccbdb-0860-4c65-91e9-a0024f7a490e",
+    "generatedAt": "2026-05-06T14:20:19.536Z"
+  }
+]

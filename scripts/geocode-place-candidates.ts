@@ -19,6 +19,15 @@ type CacheEntry = {
   query: string;
 };
 
+function shouldPreferResolvedMapName(nameCandidate: string, googleMapsQuery?: string) {
+  if (!googleMapsQuery) return false;
+  if (nameCandidate.length > 24 && googleMapsQuery.length <= 80) return true;
+  if (/(?:\uC694\uCCAD|\uBAA8\uC74C|\uCD94\uCC9C|\uC815\uB9AC|\uB9AC\uC2A4\uD2B8)/u.test(nameCandidate)) {
+    return googleMapsQuery.length <= 80;
+  }
+  return /https?:\/\/|google|maps\.app/iu.test(nameCandidate);
+}
+
 async function main() {
   const candidates = placeCandidatesSchema.parse(await readJsonFile(INPUT_PATH, []));
   const cache = await readJsonFile<Record<string, CacheEntry>>(CACHE_PATH, {});
@@ -49,6 +58,12 @@ async function main() {
 
     output.push({
       ...candidate,
+      nameKoOrOriginal: shouldPreferResolvedMapName(
+        candidate.nameKoOrOriginal,
+        geocode.googleMapsQuery,
+      )
+        ? geocode.googleMapsQuery!
+        : candidate.nameKoOrOriginal,
       country: hasJapanCoords ? "JP" : candidate.country,
       lat: hasJapanCoords ? geocode.lat : undefined,
       lng: hasJapanCoords ? geocode.lng : undefined,

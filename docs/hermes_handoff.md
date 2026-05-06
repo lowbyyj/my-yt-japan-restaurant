@@ -4,7 +4,7 @@
 
 - URL: `https://github.com/lowbyyj/my-yt-japan-restaurant`
 - Branch: `main`
-- Latest commit hash: see `docs/project_state.md` and the latest final handoff report.
+- Latest commit hash: see `docs/project_state.md` and the latest M2 final handoff report.
 
 ## Operator And Session Rules
 
@@ -67,9 +67,9 @@ If `YOUTUBE_API_KEY` is missing, do not fabricate data and do not manually enter
 
 ## Remaining Work
 
-- Run the first real ingestion from Linux/Hermes if `YOUTUBE_API_KEY` is available.
-- Review generated count summaries and confidence behavior.
-- Commit and push sanitized `public/data/places.json` and `public/data/data_status.json` if successful.
+- Pull and verify the Windows M2 generated public dataset.
+- Windows M2 generated `1` published public place from `50` scanned likely Shorts.
+- Do not rerun real ingestion automatically. Run `npm run data:all` only if `YOUTUBE_API_KEY` is available and dr.lowb explicitly asks for a refresh.
 - Later: enable GitHub Pages after repo visibility/deployment policy is finalized.
 
 ## Known Limitations
