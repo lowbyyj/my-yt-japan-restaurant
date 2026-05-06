@@ -24,3 +24,7 @@ https://lowbyyj.github.io/my-yt-japan-restaurant/
 4. Run `npm ci`, `npm run test`, `npm run validate:data`, and `npm run build` before deploying.
 
 No Google Maps API key, backend server, database, or paid host is required.
+
+## Operator/Handoff Note
+
+dr.lowb is the product director and final tester. Deployment and data-refresh agents must not ask dr.lowb for manual restaurant curation. Hermes should keep the same Telegram DM and switch tasks with `[작업 전환: <task-name>]` instead of using `/new` by default.

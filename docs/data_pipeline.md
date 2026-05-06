@@ -1,5 +1,27 @@
 # Data Pipeline
 
+## No-Network Readiness
+
+`npm run data:doctor`
+
+- Checks local Node/npm/git/data readiness.
+- Confirms `YOUTUBE_API_KEY` presence without printing its value.
+- Validates `public/data/places.json` and `public/data/data_status.json`.
+- Confirms `data/raw` and `data/cache` are ignored by git.
+- Confirms the Vite base path is `/my-yt-japan-restaurant/`.
+- Does not call YouTube, Nominatim, or any other network service.
+- Does not modify public data.
+
+`npm run data:dry-run`
+
+- Uses synthetic fake videos/comments only.
+- Exercises owner comment parsing, negative signal exclusion, Japan hint checks, coordinate parsing, and held-back behavior.
+- Does not use real `@space_tamnik` data.
+- Does not call YouTube or Nominatim.
+- Does not write `public/data/places.json`.
+
+`npm run data:all` is the real ingestion path. Run it only when `YOUTUBE_API_KEY` is available through the environment.
+
 ## 1. YouTube Ingestion
 
 `npm run ingest:youtube`
@@ -13,7 +35,7 @@
 - Ranks comments by relevance/time order and place/address/map text patterns.
 - Stores sanitized owner comment candidate data under `data/generated/`.
 
-Raw API dumps and caches must not be committed.
+Raw API dumps, full comment dumps, secrets, and caches must not be committed.
 
 ## 2. Place Extraction
 

@@ -4,7 +4,17 @@
 
 - URL: `https://github.com/lowbyyj/my-yt-japan-restaurant`
 - Branch: `main`
-- Latest commit hash: `TO_BE_FILLED_AFTER_M0_5_COMMIT`
+- Latest commit hash: see `docs/project_state.md` and the latest final handoff report.
+
+## Operator And Session Rules
+
+- Operator identity: `dr.lowb`.
+- Korean display/호칭 may remain 박사님.
+- dr.lowb is product director and final tester, not a manual data-entry operator.
+- Hermes should keep the same Telegram DM as the manager/director session.
+- Do not use `/new` by default.
+- Switch tasks with `[작업 전환: <task-name>]`.
+- Separate actual coding context by repo, folder, branch, worktree, or process.
 
 ## Local Setup
 
@@ -34,10 +44,22 @@ export GEOCODE_PROVIDER="nominatim"
 
 ## Commands
 
+No-key-safe readiness:
+
 ```bash
-npm run data:all
+npm run data:doctor
+npm run data:dry-run
 npm run test
 npm run validate:data
+npm run build
+```
+
+Real ingestion, only when `YOUTUBE_API_KEY` exists:
+
+```bash
+npm run data:all
+npm run validate:data
+npm run test
 npm run build
 ```
 

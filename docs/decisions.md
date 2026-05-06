@@ -19,3 +19,11 @@ Nominatim is only a fallback for small, cached, respectful one-time geocoding. N
 ## No Manual Real Data
 
 Manual production restaurant data is forbidden. Synthetic tests are allowed only when clearly fake.
+
+## Hermes Session Model
+
+Hermes should keep the same Telegram DM as the manager/director session and switch work with `[작업 전환: <task-name>]`. Do not use `/new` by default. Separate implementation context by repo, folder, branch, worktree, or process.
+
+## No-Key Readiness
+
+The project includes `npm run data:doctor` and `npm run data:dry-run` so agents can verify pipeline readiness without a YouTube API key, without network calls, and without fabricating public restaurant data.
