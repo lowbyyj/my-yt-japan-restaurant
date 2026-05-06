@@ -1,4 +1,4 @@
-# space-tamnik-japan-map
+# my-yt-japan-restaurant
 
 Unofficial auto-generated Japan map of places from `@space_tamnik` Shorts owner comment candidates.
 

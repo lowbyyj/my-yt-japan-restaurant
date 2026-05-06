@@ -41,7 +41,7 @@ async function resolveGoogleMapsUrl(url: string) {
       method: "GET",
       redirect: "follow",
       headers: {
-        "User-Agent": "space-tamnik-japan-map/0.1 (Google Maps link resolver)",
+        "User-Agent": "my-yt-japan-restaurant/0.1 (Google Maps link resolver)",
       },
     });
     return response.url || url;
@@ -102,7 +102,7 @@ export async function geocodePlace(
   const response = await fetch(url, {
     headers: {
       "User-Agent":
-        "space-tamnik-japan-map/0.1 (https://github.com/lowbyyj/space-tamnik-japan-map)",
+        "my-yt-japan-restaurant/0.1 (https://github.com/lowbyyj/my-yt-japan-restaurant)",
       Accept: "application/json",
     },
   });

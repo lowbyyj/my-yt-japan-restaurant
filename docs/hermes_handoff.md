@@ -2,15 +2,15 @@
 
 ## Repository
 
-- URL: `https://github.com/lowbyyj/space-tamnik-japan-map`
+- URL: `https://github.com/lowbyyj/my-yt-japan-restaurant`
 - Branch: `main`
-- Latest commit hash: `TO_BE_FILLED_AFTER_COMMIT`
+- Latest commit hash: `TO_BE_FILLED_AFTER_M0_5_COMMIT`
 
 ## Local Setup
 
 ```bash
-git clone https://github.com/lowbyyj/space-tamnik-japan-map.git
-cd space-tamnik-japan-map
+git clone https://github.com/lowbyyj/my-yt-japan-restaurant.git
+cd my-yt-japan-restaurant
 npm ci
 ```
 

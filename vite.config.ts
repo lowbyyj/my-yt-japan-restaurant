@@ -2,6 +2,6 @@ import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 
 export default defineConfig({
-  base: "/space-tamnik-japan-map/",
+  base: "/my-yt-japan-restaurant/",
   plugins: [react()],
 });

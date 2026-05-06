@@ -7,13 +7,13 @@ This milestone prepares the site for future GitHub Pages deployment but does not
 `vite.config.ts` uses:
 
 ```ts
-base: "/space-tamnik-japan-map/"
+base: "/my-yt-japan-restaurant/"
 ```
 
 This matches the future public URL:
 
 ```text
-https://lowbyyj.github.io/space-tamnik-japan-map/
+https://lowbyyj.github.io/my-yt-japan-restaurant/
 ```
 
 ## Later GitHub Pages Steps

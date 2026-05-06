@@ -1,6 +1,8 @@
 # Telegram Message To Hermes
 
-Hermes, clone or pull `lowbyyj/space-tamnik-japan-map`.
+[작업 전환: my-yt-japan-restaurant]
+
+Hermes, clone or pull `https://github.com/lowbyyj/my-yt-japan-restaurant.git`.
 
 Work on `main` unless Dr. Low says otherwise.
 
@@ -25,6 +27,8 @@ npm run build
 If successful, commit and push only generated sanitized public data such as `public/data/places.json` and `public/data/data_status.json`. Do not commit `.env`, API keys, raw API dumps, cache files, `node_modules`, `dist`, logs, or full comment dumps.
 
 If `YOUTUBE_API_KEY` is not available, do not fabricate data and do not manually enter shops. Just report that the env var is missing.
+
+Do not ask Dr. Low for manual restaurant curation.
 
 Report back in Telegram:
 
