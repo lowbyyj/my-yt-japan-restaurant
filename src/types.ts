@@ -24,6 +24,7 @@ export type PublicPlace = {
   signatureKo?: string;
   whyKo?: string;
   displayDescriptionKo?: string;
+  broadCategoryKo?: "밥" | "디저트" | "술";
   generatedAt: string;
 };
 

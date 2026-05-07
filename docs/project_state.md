@@ -2,7 +2,7 @@
 
 - Project display name: 탐닉 일본 맛집 지도
 - Operator identity: `dr.lowb`
-- Current task: `M3.3 bulk marker expansion`
+- Current task: `M3.4 content cleanup and bulk marker expansion`
 - Repo name: `my-yt-japan-restaurant`
 - Repo URL: `https://github.com/lowbyyj/my-yt-japan-restaurant`
 - Branch: `main`
@@ -12,6 +12,7 @@
 - M3.1 starting commit: `cccb1a2286e0041487eb928e59047efbad8c95d3`
 - M3.2 starting commit: `a161024a2d6fa6ab4456c639b0654fc357b7c248`
 - M3.3 starting commit: `c224c202c7425d70a94e450537ecdba522c16d1d`
+- M3.4 starting commit: `47b3458a26b61e7202fb28e67b0e2422b4a12aae`
 - Vite base path: `/my-yt-japan-restaurant/`
 - Public project URL: `https://lowbyyj.github.io/my-yt-japan-restaurant/`
 - GitHub Pages hosting: free, `gh-pages` branch deployment from this repo.
@@ -23,10 +24,10 @@
 - Real data source: automated `@space_tamnik` Shorts owner comment candidate extraction only.
 - Agent-assisted resolutions: allowed only when tied to an automated candidate and backed by public/free evidence in `data/location_resolutions.json`.
 - Public enrichment: allowed only as public-safe Korean display copy in `data/place_enrichments.json`; never edit `public/data/places.json` directly to add real records.
-- Public published count after M3.3: `75`.
-- Published records resolved by public-safe Hermes/GSI evidence: `75`.
+- Public published count after M3.4: `158`.
+- Published records resolved by public-safe Hermes/GSI evidence: `158`.
 - Automatic geocode-only published records after M3.2: `0`.
-- Public enrichment records after M3.3: `76` tracked records; all `75` published places have enrichment.
+- Public enrichment records after M3.4: `166` tracked records; all `158` published places have enrichment and `broadCategoryKo`.
 - Raw API dumps committed: no.
 - Cache/raw paths committed: no.
 
@@ -110,6 +111,24 @@
 - The +50 resolution batch resulted in +49 published markers because one tracked resolution does not add an extra marker after current build matching/dedupe.
 - Skip/holdback policy remains unchanged: branch-unclear chains, product-only entries, broad city-only geocodes, Google Maps search-only candidates, and candidates without public/free coordinate evidence remain held back.
 - Next recommended step: M3.4 can add another GSI-backed or Tabelog/Mapion-backed batch, but should first improve duplicate/branch reporting so the number of new resolutions and newly published markers is easier to predict.
+
+## M3.4 Content Cleanup and Bulk Marker Expansion
+
+- Current milestone: `M3.4 clean descriptions and bulk expand places`.
+- Starting commit: `47b3458a26b61e7202fb28e67b0e2422b4a12aae`.
+- Scope stayed limited to content cleanup, broad genre simplification, Tokyo initial view, and bulk expansion from the existing channel candidate pool.
+- No other YouTubers were added and the separate `lowbyyj.github.io` personal homepage repo was not modified.
+- Public card descriptions were rewritten to remove internal provenance/coordinate wording such as GSI, Hermes, evidence, confidence, source, and coordinate.
+- Added `broadCategoryKo` with only three UI filter values: `밥`, `디저트`, `술`.
+- The genre filter UI now shows only `전체`, `밥`, `디저트`, `술`; detailed category tags remain small card chips only.
+- Initial map config now starts around Tokyo (`35.681236, 139.767125`, zoom `11`) without hiding non-Tokyo markers.
+- Reused `MAX_VIDEOS=300`; no other channel and no `MAX_VIDEOS=500` refresh was needed.
+- Added `90` new GSI-backed `data/location_resolutions.json` records and matching enrichment records from generated owner-comment candidates.
+- Published markers increased from `75` to `158`.
+- Broad category counts after build: `밥 85`, `디저트 60`, `술 13`.
+- Description scan after build: `158/158` descriptions present, forbidden wording count `0`.
+- Data status after `MAX_VIDEOS=300 npm run data:all`: `ownerCommentCandidates=298`, `japanCandidates=237`, `published=158`, `heldBack=134`.
+- Next recommended step: if more markers are needed, add a reusable candidate-to-GSI address conversion helper and duplicate/net-new report before the next bulk pass.
 
 ## Resolved Places
 

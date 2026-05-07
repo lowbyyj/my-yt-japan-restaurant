@@ -56,3 +56,13 @@ This repo does not use binary asset packs for the restaurant map. M3.2's “asse
 - Coordinate source for the M3.3 bulk batch: Japan GSI public address search from exact owner-comment addresses.
 - External copyright assets: none.
 - Paid Google Places/Maps APIs and Google Maps scraping: not used.
+
+## M3.4 Content Cleanup Addendum
+
+- `data/location_resolutions.json` now contains `166` tracked public-safe resolution records.
+- M3.4 added `90` new GSI-backed resolution records from existing `@space_tamnik` owner-comment candidates.
+- `data/place_enrichments.json` now contains `166` tracked enrichment records with `broadCategoryKo`.
+- `public/data/places.json` publishes `158` places after build.
+- All published places have user-facing `displayDescriptionKo`; forbidden provenance/coordinate wording scan count is `0`.
+- External copyright assets: none.
+- Paid Google Places/Maps APIs and Google Maps scraping: not used.

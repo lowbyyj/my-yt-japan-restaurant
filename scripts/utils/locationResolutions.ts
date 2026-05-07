@@ -68,6 +68,7 @@ function toResolvedPublicPlace(
     signatureKo: resolution.signatureKo,
     whyKo: resolution.whyKo,
     displayDescriptionKo: resolution.displayDescriptionKo,
+    broadCategoryKo: resolution.broadCategoryKo,
     generatedAt,
   };
 }

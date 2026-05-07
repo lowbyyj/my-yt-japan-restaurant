@@ -92,7 +92,7 @@ Google Maps links are used only as outbound URLs. The site does not use the Goog
 
 `data/location_resolutions.json` is a public-safe bridge for cases where the automated owner-comment candidate clearly names a Japan place but automated geocoding only produced a search URL. Each resolution must match an existing generated candidate by video/comment, include public evidence URLs, avoid paid Google Places data or Google Maps scraping as the coordinate source, and keep unresolved or ambiguous branches out of `places.json`.
 
-`data/place_enrichments.json` stores optional public-safe Korean display copy for published places. The public UI uses `displayDescriptionKo`, `placeTypeKo`, `signatureKo`, and `whyKo` when present, while preserving generated fallback text when enrichment is absent. M3.3 bulk marker expansion uses Japan GSI public address search as a public/free coordinate source for exact owner-comment addresses, raising the public map to 75 enriched markers without paid Google APIs or direct `places.json` editing.
+`data/place_enrichments.json` stores optional public-safe Korean display copy for published places. The public UI uses `displayDescriptionKo`, `placeTypeKo`, `signatureKo`, and `whyKo` when present, while preserving generated fallback text when enrichment is absent. M3.3 bulk marker expansion uses Japan GSI public address search as a public/free coordinate source for exact owner-comment addresses, raising the public map to 75 enriched markers without paid Google APIs or direct `places.json` editing. M3.4 keeps the same source constraints, rewrites public descriptions to user-facing copy, simplifies genre filters to `밥`/`디저트`/`술`, starts the map on Tokyo, and expands the public map to 158 enriched markers.
 
 ## Unofficial Status
 

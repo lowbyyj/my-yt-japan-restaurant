@@ -47,6 +47,16 @@ Bulk marker expansion:
 - Adds 50 GSI-backed public/free location resolutions and matching enrichments.
 - Publishes 75 total markers while keeping Google Maps search-only and ambiguous candidates held back.
 
+## M3.4
+
+Content cleanup and bulk marker expansion:
+
+- Removes internal provenance/coordinate wording from public card descriptions.
+- Simplifies the genre filter to `전체`, `밥`, `디저트`, `술`.
+- Starts the map around Tokyo while keeping all cities visible by pan/zoom.
+- Adds a 90-record GSI-backed resolution/enrichment batch from existing `@space_tamnik` candidates.
+- Publishes 158 enriched markers.
+
 ## M4
 
 Optional next step: add link from the separate `lowbyyj.github.io` homepage repo, only when explicitly requested.

@@ -30,6 +30,7 @@ export const publicPlaceSchema = z.object({
   signatureKo: z.string().min(1).optional(),
   whyKo: z.string().min(1).optional(),
   displayDescriptionKo: z.string().min(1).optional(),
+  broadCategoryKo: z.enum(["밥", "디저트", "술"]).optional(),
   generatedAt: z.string().datetime(),
 });
 
@@ -118,6 +119,7 @@ export const locationResolutionSchema = z.object({
   signatureKo: z.string().min(1).optional(),
   whyKo: z.string().min(1).optional(),
   displayDescriptionKo: z.string().min(1).optional(),
+  broadCategoryKo: z.enum(["밥", "디저트", "술"]).optional(),
   resolvedBy: z.literal("hermes"),
   resolvedAt: z.string().datetime(),
   confidence: z.number().min(0).max(1),
@@ -133,6 +135,7 @@ export const placeEnrichmentSchema = z.object({
   signatureKo: z.string().min(1).optional(),
   whyKo: z.string().min(1).optional(),
   displayDescriptionKo: z.string().min(1).optional(),
+  broadCategoryKo: z.enum(["밥", "디저트", "술"]).optional(),
 });
 
 export const placeEnrichmentsSchema = z.array(placeEnrichmentSchema);

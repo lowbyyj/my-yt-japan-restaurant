@@ -3,6 +3,8 @@ import {
   buildDisplayDescription,
   buildGoogleMapsDirectionsUrl,
   buildGoogleMapsViewUrl,
+  classifyBroadCategory,
+  forbiddenPublicDescriptionPattern,
   friendlyCategoryTag,
 } from "../src/placeDisplay.js";
 import type { PublicPlace } from "../src/types.js";
@@ -35,6 +37,9 @@ function place(overrides: Partial<PublicPlace> = {}): PublicPlace {
     ...overrides,
   };
 }
+
+const forbiddenDescriptionWords =
+  /영상의 상호|상호·주소|GSI|공개 주소|좌표|지도에 추가|위치를 확정|후보입니다|public evidence|Hermes|자동 추출|coordinate|source|evidence|confidence/i;
 
 describe("place display helpers", () => {
   it("uses coordinates for primary Google Maps view URL even when a comment-derived URL exists", () => {
@@ -86,5 +91,43 @@ describe("place display helpers", () => {
     expect(friendlyCategoryTag("ramen")).toBe("라멘");
     expect(friendlyCategoryTag("yakiniku")).toBe("야키니쿠");
     expect(friendlyCategoryTag("unknown-tag")).toBe("unknown-tag");
+  });
+
+  it("classifies meal genres into 밥", () => {
+    expect(classifyBroadCategory(place({ categoryTags: ["ramen"] }))).toBe("밥");
+    expect(classifyBroadCategory(place({ categoryTags: ["sushi"] }))).toBe("밥");
+    expect(classifyBroadCategory(place({ categoryTags: ["yakiniku"] }))).toBe("밥");
+  });
+
+  it("classifies dessert genres into 디저트", () => {
+    expect(classifyBroadCategory(place({ categoryTags: ["cafe"] }))).toBe("디저트");
+    expect(classifyBroadCategory(place({ categoryTags: ["dessert"] }))).toBe("디저트");
+    expect(classifyBroadCategory(place({ categoryTags: ["bakery"] }))).toBe("디저트");
+  });
+
+  it("classifies drinking genres into 술", () => {
+    expect(classifyBroadCategory(place({ placeTypeKo: "바" }))).toBe("술");
+    expect(classifyBroadCategory(place({ placeTypeKo: "이자카야" }))).toBe("술");
+    expect(classifyBroadCategory(place({ signatureKo: "사케와 야키토리" }))).toBe("술");
+  });
+
+  it("exposes a shared forbidden public description pattern", () => {
+    expect("영상의 상호·주소를 기준으로 GSI 공개 주소 좌표를 확인해 지도에 추가했습니다.").toMatch(
+      forbiddenPublicDescriptionPattern,
+    );
+    expect("도쿄에서 라멘 일정을 짤 때 넣기 좋은 라멘집.").not.toMatch(
+      forbiddenPublicDescriptionPattern,
+    );
+  });
+
+  it("does not return forbidden wording from enriched descriptions", () => {
+    const description = buildDisplayDescription(
+      place({
+        displayDescriptionKo:
+          "영상의 상호·주소를 기준으로 GSI 공개 주소 좌표를 확인해 지도에 추가했습니다.",
+      }),
+    );
+
+    expect(description).not.toMatch(forbiddenDescriptionWords);
   });
 });

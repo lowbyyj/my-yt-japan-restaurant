@@ -1,15 +1,16 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import { Icon, type LatLngExpression } from "leaflet";
 import { MapContainer, Marker, Popup, TileLayer, useMap } from "react-leaflet";
+import { DEFAULT_CENTER, DEFAULT_ZOOM } from "./mapConfig";
 import {
   buildDisplayDescription,
   buildGoogleMapsDirectionsUrl,
   buildGoogleMapsViewUrl,
+  classifyBroadCategory,
   friendlyCategoryTag,
 } from "./placeDisplay";
 import type { DataStatus, PublicPlace } from "./types";
 
-const DEFAULT_CENTER: LatLngExpression = [36.2048, 138.2529];
 const DEFAULT_STATUS: DataStatus = {
   dataGenerated: false,
   reason: "YOUTUBE_API_KEY not provided",
@@ -125,20 +126,14 @@ export function App() {
     [places],
   );
 
-  const categoryOptions = useMemo(
-    () =>
-      Array.from(new Set(places.flatMap((place) => place.categoryTags))).sort(
-        (a, b) => a.localeCompare(b),
-      ),
-    [places],
-  );
+  const categoryOptions = ["밥", "디저트", "술"] as const;
 
   const filteredPlaces = useMemo(() => {
     const query = normalizeForSearch(search);
     return places.filter((place) => {
       const cityMatches = city === "all" || place.city === city;
       const categoryMatches =
-        category === "all" || place.categoryTags.includes(category);
+        category === "all" || classifyBroadCategory(place) === category;
       const text = normalizeForSearch(
         [
           place.nameKoOrOriginal,
@@ -154,7 +149,7 @@ export function App() {
   }, [category, city, places, search]);
 
   const selectedPlace = useMemo(
-    () => filteredPlaces.find((place) => place.id === selectedId) ?? filteredPlaces[0],
+    () => (selectedId ? filteredPlaces.find((place) => place.id === selectedId) : undefined),
     [filteredPlaces, selectedId],
   );
 
@@ -211,7 +206,7 @@ export function App() {
                   </select>
                 </label>
                 <label>
-                  <span>카테고리</span>
+                  <span>장르</span>
                   <select
                     value={category}
                     onChange={(event) => setCategory(event.target.value)}
@@ -359,7 +354,7 @@ export function App() {
               )}
             </div>
           </div>
-          <MapContainer center={center} zoom={selectedPlace ? 13 : 5} className="map">
+          <MapContainer center={center} zoom={selectedPlace ? 13 : DEFAULT_ZOOM} className="map">
             <TileLayer
               attribution={activeTileLayer.attribution}
               key={tileLayer}

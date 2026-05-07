@@ -121,6 +121,7 @@ function applyPlaceEnrichments(places: PublicPlace[], enrichments: PlaceEnrichme
         signatureKo: enrichment.signatureKo ?? place.signatureKo,
         whyKo: enrichment.whyKo ?? place.whyKo,
         displayDescriptionKo: enrichment.displayDescriptionKo ?? place.displayDescriptionKo,
+        broadCategoryKo: enrichment.broadCategoryKo ?? place.broadCategoryKo,
       };
     }),
   );
