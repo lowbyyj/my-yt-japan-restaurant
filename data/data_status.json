@@ -1,0 +1,21 @@
+{
+  "dataGenerated": true,
+  "generatedAt": "2026-05-07T04:20:29.882Z",
+  "channelHandle": "@space_tamnik",
+  "videosScanned": 100,
+  "likelyShorts": 100,
+  "ownerCommentCandidates": 100,
+  "japanCandidates": 80,
+  "geocoded": 1,
+  "published": 19,
+  "excludedNegativeSignal": 1,
+  "needsGeocode": 98,
+  "heldBack": 80,
+  "heldBackLowConfidence": 0,
+  "heldBackMissingGeocode": 78,
+  "heldBackNonJapan": 20,
+  "geocodeHoldbackBreakdown": {
+    "google_maps_search_query_only": 77,
+    "maps_short_url_unresolved": 1
+  }
+}
