@@ -34,6 +34,11 @@ export function parseCoordinatesFromGoogleMapsUrl(
   const bangMatch = decoded.match(new RegExp(`!3d${LAT}!4d${LNG}`, "i"));
   if (bangMatch) return toCoordinate(bangMatch[1], bangMatch[2], "!3d!4d");
 
+  const lngLatBangMatch = decoded.match(new RegExp(`!2d${LNG}!3d${LAT}`, "i"));
+  if (lngLatBangMatch) {
+    return toCoordinate(lngLatBangMatch[2], lngLatBangMatch[1], "!2d!3d");
+  }
+
   const pairMatch = decoded.match(
     new RegExp(`(?:query|q|ll|center|destination)=${LAT},\\s*${LNG}`, "i"),
   );
@@ -52,6 +57,22 @@ export function parseCoordinatesFromGoogleMapsUrl(
   }
 
   return undefined;
+}
+
+export function isGoogleMapsRedirectCandidate(urlText: string) {
+  if (parseCoordinatesFromGoogleMapsUrl(urlText)) return false;
+  try {
+    const parsed = new URL(urlText);
+    const host = parsed.hostname.toLowerCase();
+    const path = parsed.pathname.toLowerCase();
+    if (host === "maps.app.goo.gl" || (host === "goo.gl" && path.startsWith("/maps"))) {
+      return true;
+    }
+    if (!host.includes("google.") || !path.includes("/maps")) return false;
+    return path.includes("/maps/search") || path.includes("/maps/place");
+  } catch {
+    return false;
+  }
 }
 
 export function extractGoogleMapsQuery(urlText: string): string | undefined {

@@ -2,7 +2,7 @@
 
 - Project display name: 탐닉 일본 맛집 지도
 - Operator identity: `dr.lowb`
-- Current task: `M2 first real automated YouTube ingestion run + mobile Hermes handoff preparation`
+- Current task: `M2.3 geocode unlock sprint`
 - Repo name: `my-yt-japan-restaurant`
 - Repo URL: `https://github.com/lowbyyj/my-yt-japan-restaurant`
 - Branch: `main`
@@ -20,6 +20,23 @@
 - Public published count: `1`.
 - Raw API dumps committed: no.
 - Cache/raw paths committed: no.
+
+## M2.3 Counts
+
+- Videos scanned: `100`
+- Likely Shorts: `100`
+- Owner comment candidates: `100`
+- Japan candidates: `80`
+- Geocoded: `1`
+- Published: `1`
+- Excluded negative signal: `1`
+- Held back total: `98`
+- Held back low confidence: `0`
+- Held back missing geocode: `78`
+- Held back non-Japan: `20`
+- Public-safe holdback breakdown:
+  - `google_maps_search_query_only`: `77`
+  - `maps_short_url_unresolved`: `1`
 
 ## M2 Counts
 
@@ -48,8 +65,10 @@
 
 ## Current Blocker
 
-- No current blocker for M2.
-- Most candidates were held back because they did not expose confident coordinates/geocode signals. Do not manually fix them.
+- Geocode remains the active blocker after M2.3.
+- The dominant public-safe pattern is generated Google Maps search URLs without embedded coordinates (`77` of the `78` Japan missing-geocode holdbacks).
+- One additional Japan holdback is a short Google Maps URL that did not resolve to parseable coordinates in the automated resolver.
+- Do not manually fix `places.json`; the next unlock needs better automated extraction or an approved geocoding/search provider.
 
 ## Hermes Next Task
 

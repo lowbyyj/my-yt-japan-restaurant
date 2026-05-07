@@ -44,6 +44,7 @@ export const dataStatusSchema = z.object({
   heldBackLowConfidence: z.number().int().nonnegative().default(0),
   heldBackMissingGeocode: z.number().int().nonnegative().default(0),
   heldBackNonJapan: z.number().int().nonnegative().default(0),
+  geocodeHoldbackBreakdown: z.record(z.string(), z.number().int().nonnegative()).optional(),
 });
 
 export type PublicPlace = z.infer<typeof publicPlaceSchema>;

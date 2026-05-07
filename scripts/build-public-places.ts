@@ -66,6 +66,34 @@ function toPublicPlace(candidate: (typeof geocodedCandidatesSchema._output)[numb
   return place;
 }
 
+function classifyMissingGeocode(candidate: (typeof geocodedCandidatesSchema._output)[number]) {
+  const url = candidate.googleMapsUrl ?? "";
+  if (/maps\.app\.goo\.gl|goo\.gl\/maps/iu.test(url)) return "maps_short_url_unresolved";
+  if (/google\.[^/]+\/maps\/place/iu.test(url)) return "google_maps_place_without_coordinates";
+  if (/google\.[^/]+\/maps\/search/iu.test(url)) return "google_maps_search_query_only";
+  if (candidate.addressCandidate) return "address_candidate_geocoder_failed";
+  if (candidate.googleMapsQuery) return "map_query_geocoder_failed";
+  if (candidate.nameKoOrOriginal && candidate.city) return "name_city_query_geocoder_failed";
+  if (candidate.nameKoOrOriginal) return "name_only_query_geocoder_failed";
+  return "no_usable_location_candidate";
+}
+
+function buildHoldbackBreakdown(candidates: Array<(typeof geocodedCandidatesSchema._output)[number]>) {
+  const breakdown: Record<string, number> = {};
+  for (const candidate of candidates) {
+    if (
+      candidate.verdict === "excluded_negative_signal" ||
+      candidate.country !== "JP" ||
+      (typeof candidate.lat === "number" && typeof candidate.lng === "number")
+    ) {
+      continue;
+    }
+    const reason = classifyMissingGeocode(candidate);
+    breakdown[reason] = (breakdown[reason] ?? 0) + 1;
+  }
+  return breakdown;
+}
+
 async function main() {
   const ingest = await readJsonFile<IngestSummary>(INGEST_PATH, {
     dataGenerated: false,
@@ -136,6 +164,7 @@ async function main() {
     heldBackLowConfidence,
     heldBackMissingGeocode,
     heldBackNonJapan,
+    geocodeHoldbackBreakdown: buildHoldbackBreakdown(candidates),
   });
 
   await writeJsonFile(PUBLIC_PLACES_PATH, places);

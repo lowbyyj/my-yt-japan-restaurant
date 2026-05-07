@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { geocodePlace } from "../scripts/utils/geocode.js";
+import { buildNominatimQueries, geocodePlace } from "../scripts/utils/geocode.js";
 
 describe("geocodePlace URL-first behavior", () => {
   it("extracts coordinates and place query from a direct Google Maps URL without network fallback", async () => {
@@ -19,5 +19,35 @@ describe("geocodePlace URL-first behavior", () => {
       country: "JP",
       googleMapsQuery: "FAKE_TEST_SHOP_ZETA",
     });
+  });
+
+  it("builds fallback Nominatim query variants from strongest to broadest", () => {
+    expect(
+      buildNominatimQueries(
+        {
+          name: "FAKE_TEST_SHOP_ZETA",
+          address: "1-2-3 Fakecho Shibuya-ku Tokyo",
+          city: "Tokyo",
+        },
+        "FAKE_TEST_SHOP_ZETA",
+      ),
+    ).toEqual([
+      "1-2-3 Fakecho Shibuya-ku Tokyo FAKE_TEST_SHOP_ZETA Tokyo Japan",
+      "1-2-3 Fakecho Shibuya-ku Tokyo Japan",
+      "FAKE_TEST_SHOP_ZETA Tokyo Japan",
+      "FAKE_TEST_SHOP_ZETA Japan",
+    ]);
+  });
+
+  it("deduplicates fallback query variants and keeps Japan suffix", () => {
+    expect(
+      buildNominatimQueries(
+        {
+          name: "FAKE_TEST_SHOP_ZETA",
+          city: "Tokyo",
+        },
+        "FAKE_TEST_SHOP_ZETA",
+      ),
+    ).toEqual(["FAKE_TEST_SHOP_ZETA Tokyo Japan", "FAKE_TEST_SHOP_ZETA Japan"]);
   });
 });
