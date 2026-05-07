@@ -2,23 +2,23 @@
 
 - Project display name: 탐닉 일본 맛집 지도
 - Operator identity: `dr.lowb`
-- Current task: `M2.5 location resolution batch 2`
+- Current task: `M3 GitHub Pages free deployment`
 - Repo name: `my-yt-japan-restaurant`
 - Repo URL: `https://github.com/lowbyyj/my-yt-japan-restaurant`
 - Branch: `main`
 - Starting commit before M2: `bf0112e7b3a3357fd5235ed7cca2a9f231e78dd7`
-- M2.4 starting commit: `bcf6dda19686d2a996cb904d1f28a8f6b4392440`
 - M2.5 starting commit: `53f972db9ab08419c572daab926d7c67aa79341f`
+- M3 starting commit: `084fbd5309f969f2ff7f8ed0473bbce648881d54`
 - Vite base path: `/my-yt-japan-restaurant/`
-- Future project URL: `https://lowbyyj.github.io/my-yt-japan-restaurant/`
+- Public project URL: `https://lowbyyj.github.io/my-yt-japan-restaurant/`
+- GitHub Pages hosting: free, `gh-pages` branch deployment from this repo.
+- Separate personal homepage repo `lowbyyj.github.io`: not modified in M3.
 
 ## Data State
 
 - Manual curation: forbidden.
 - Real data source: automated `@space_tamnik` Shorts owner comment candidate extraction only.
 - Agent-assisted resolutions: allowed only when tied to an automated candidate and backed by public/free evidence in `data/location_resolutions.json`.
-- `YOUTUBE_API_KEY` available on Linux during M2.5: yes, value not printed.
-- `data:all` ran during M2.5: yes.
 - Public published count: `19`.
 - Raw API dumps committed: no.
 - Cache/raw paths committed: no.
@@ -42,45 +42,57 @@
   - `google_maps_search_query_only`: `77`
   - `maps_short_url_unresolved`: `1`
 
-## M2.4 Resolved Places
+## M3 Deployment State
 
-- `ピノキオ` — Mapion public phonebook coordinates, OSM cross-check.
-- `きつねや` — Mapion public phonebook coordinates, OSM/Tabelog cross-check.
-- `ヘッケルン` — Mapion public phonebook coordinates, Tabelog cross-check.
-- `めん馬鹿一代` — Mapion public phonebook coordinates, OSM/Tabelog cross-check.
-- `とんかつ 成蔵` — Mapion public phonebook coordinates, Tabelog map cross-check.
-- `丸亀製麺 京都市役所前店` — Mapion public phonebook coordinates.
-- `先斗町焼肉 きらく` — generated bracket match plus Mapion public phonebook coordinates and Tabelog map cross-check.
+- Repository visibility: changed from private to public for free GitHub Pages deployment.
+- Pages source: `gh-pages` branch `/`.
+- Deployment workflow: branch-source fallback. A GitHub Actions workflow was attempted but not pushed because the current OAuth token lacks `workflow` scope.
+- Deployment trigger: manual local build pushed to `gh-pages` branch. Future Actions deployment needs a GitHub token with `workflow` scope.
+- Deployment checks used: `npm ci`, `npm run validate:data`, `npm run test`, `npm run build`, then push static `dist/` output to `gh-pages`.
+- Public URL: `https://lowbyyj.github.io/my-yt-japan-restaurant/`.
+- Hosting/API constraints: no paid hosting, no Google Places API, no Google Maps JavaScript API.
 
-## M2.5 Batch 2 Resolved Places
+## Resolved Places
 
-- `CORDUROY cafe` — Tabelog public coordinates, OSM/Nominatim cross-check.
-- `まほろば囲炉裏 心斎橋` — official site address, Tabelog public coordinates.
-- `MENSHO District` — Tabelog public coordinates.
-- `とんかつ 丸七 銀座店` — Tabelog public map/detail coordinates.
-- `中華そば 辻` — Tabelog public coordinates, OSM/Nominatim cross-check.
-- `麺屋 さくら井` — Tabelog public coordinates, OSM/Nominatim cross-check.
-- `石村萬盛堂 本店` — generated main-store match, Tabelog public map/detail coordinates.
-- `2050 Coffee` — Tabelog public coordinates, OSM/Nominatim cross-check.
-- `おいしい氷屋 天神南店` — generated branch match, Tabelog public coordinates.
-- `まるもち家 伏見稲荷本店` — generated main-store match, Tabelog public coordinates.
-- `炭焼きうなぎの魚伊 本店` — Tabelog public coordinates, OSM/Nominatim cross-check.
+M2.4 resolved places:
+
+- `ピノキオ`
+- `きつねや`
+- `ヘッケルン`
+- `めん馬鹿一代`
+- `とんかつ 成蔵`
+- `丸亀製麺 京都市役所前店`
+- `先斗町焼肉 きらく`
+
+M2.5 batch 2 resolved places:
+
+- `CORDUROY cafe`
+- `まほろば囲炉裏 心斎橋`
+- `MENSHO District`
+- `とんかつ 丸七 銀座店`
+- `中華そば 辻`
+- `麺屋 さくら井`
+- `石村萬盛堂 本店`
+- `2050 Coffee`
+- `おいしい氷屋 天神南店`
+- `まるもち家 伏見稲荷本店`
+- `炭焼きうなぎの魚伊 本店`
 
 ## Verification
 
 - `npm ci`: passed.
 - `npm run data:doctor`: passed.
-- `npm run data:all`: passed, published `19`.
+- `npm run data:all`: last data refresh passed in M2.5, published `19`.
 - `npm run validate:data`: passed, published `19`.
 - `npm run test`: passed, 5 files / 36 tests.
 - `npm run build`: passed.
-- Local preview: passed, `200 OK`; preview public places count `19`, Hermes-resolved count `18`.
+- Local preview before M3: passed, `200 OK`; preview public places count `19`, Hermes-resolved count `18`.
 
 ## Current Blocker
 
-- Most remaining Japan candidates still only have generated Google Maps search URLs without embedded coordinates.
-- Ambiguous, chain/branch-unclear, or insufficiently evidenced candidates were skipped instead of being forced onto the map.
-- Future unlocks need either more reliable public source discovery or improved extraction from owner comments, without asking dr.lowb to manually curate restaurant rows.
+- Remaining Japan candidates still require public/free coordinate evidence before publication.
+- Ambiguous, chain/branch-unclear, or insufficiently evidenced candidates should remain held back.
+- M4 can add a link from the separate `lowbyyj.github.io` homepage repo, but M3 intentionally does not modify it.
 
 ## Hermes Next Task
 

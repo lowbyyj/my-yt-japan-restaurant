@@ -2,7 +2,7 @@
 
 Unofficial auto-generated Japan map of places from `@space_tamnik` Shorts owner comment candidates.
 
-This project is a static GitHub Pages-friendly React/Vite site. It builds a Leaflet map from generated JSON at `public/data/places.json`. There is no backend server, database, paid hosting, Google Maps JavaScript API, or Google Places API.
+This project is a static React/Vite site deployed for free on GitHub Pages at `https://lowbyyj.github.io/my-yt-japan-restaurant/`. It builds a Leaflet map from generated JSON at `public/data/places.json`. There is no backend server, database, paid hosting, Google Maps JavaScript API, or Google Places API.
 
 ## Principle
 
@@ -73,6 +73,16 @@ npm run data:dry-run
 npm run validate:data
 npm run build
 ```
+
+## Deployment
+
+The site is deployed from this repository to free GitHub Pages with GitHub Actions:
+
+```text
+https://lowbyyj.github.io/my-yt-japan-restaurant/
+```
+
+M3 uses the `gh-pages` branch as the Pages source because the current GitHub OAuth token lacks the `workflow` scope required to push workflow files. The local deployment flow still validates data, runs tests, builds `dist/`, and publishes only the static build output to `gh-pages`. M3 does not modify the separate `lowbyyj.github.io` personal homepage repository; M4 can add a homepage link later.
 
 ## Google Maps
 
