@@ -180,5 +180,355 @@
     "signatureKo": "IDATEN 와규 스테이크 덮밥",
     "whyKo": "Google URL 자동 좌표 대신 공개 Tabelog 좌표로 확정했습니다.",
     "displayDescriptionKo": "오사카의 와규 스테이크 덮밥 후보입니다. 자동 Google URL 좌표만으로 게시하지 않고, 공개 Tabelog 좌표를 확인해 안전한 신규 카드로 반영했습니다."
+  },
+  {
+    "id": "yt_saSGDJ9oU1o_UgxL2RtoBdjoTyHeIE14AaABAg",
+    "placeTypeKo": "카페·바",
+    "signatureKo": "카페·바로 소개된 신규 후보",
+    "whyKo": "영상 후보에 상호와 주소가 함께 있어 공개 GSI 주소 좌표로 위치를 확정했습니다.",
+    "displayDescriptionKo": "후쿠오카 여행 동선에 새로 넣기 좋은 카페·바 후보입니다. 영상의 상호·주소를 기준으로 GSI 공개 주소 좌표를 확인해 지도에 추가했습니다."
+  },
+  {
+    "id": "yt_z_cC2CfB7Tc_UgzKMobaWM6qy3Euw894AaABAg",
+    "placeTypeKo": "야키니쿠·와규",
+    "signatureKo": "고기 코스로 소개된 식사 후보",
+    "whyKo": "영상 후보에 상호와 주소가 함께 있어 공개 GSI 주소 좌표로 위치를 확정했습니다.",
+    "displayDescriptionKo": "후쿠오카에서 고기 코스로 보기 좋은 야키니쿠·와규 후보입니다. 영상의 상호와 주소가 명확해 공개 주소 좌표 기준으로 동선에 넣었습니다."
+  },
+  {
+    "id": "yt_GXltkb93Azs_UgxNz8dz-vIpXqInldh4AaABAg",
+    "placeTypeKo": "일식·맛집",
+    "signatureKo": "일식·맛집로 소개된 신규 후보",
+    "whyKo": "영상 후보에 상호와 주소가 함께 있어 공개 GSI 주소 좌표로 위치를 확정했습니다.",
+    "displayDescriptionKo": "도쿄 여행 동선에 새로 넣기 좋은 일식·맛집 후보입니다. 영상의 상호·주소를 기준으로 GSI 공개 주소 좌표를 확인해 지도에 추가했습니다."
+  },
+  {
+    "id": "yt_3GcgFBDrwV0_UgwIXwl-K_KjcvrI78x4AaABAg",
+    "placeTypeKo": "디저트·베이커리",
+    "signatureKo": "말차 메뉴로 소개된 스팟",
+    "whyKo": "영상 후보에 상호와 주소가 함께 있어 공개 GSI 주소 좌표로 위치를 확정했습니다.",
+    "displayDescriptionKo": "도쿄에서 말차 메뉴를 찾을 때 저장해둘 만한 디저트·베이커리 후보입니다. 영상 후보의 상호·주소와 GSI 공개 주소 좌표를 맞춰 지도에 추가했습니다."
+  },
+  {
+    "id": "yt_40B-zGrX7hc_Ugxgjxp8AL0j7fg_HfZ4AaABAg",
+    "placeTypeKo": "라멘·면요리",
+    "signatureKo": "면요리 일정에 넣기 좋은 한 그릇",
+    "whyKo": "영상 후보에 상호와 주소가 함께 있어 공개 GSI 주소 좌표로 위치를 확정했습니다.",
+    "displayDescriptionKo": "사이타마에서 면요리 일정을 짤 때 비교하기 좋은 후보입니다. 공개 주소 좌표를 확인해 라멘·우동 카드로 바로 볼 수 있게 정리했습니다."
+  },
+  {
+    "id": "yt_y4K7Tp7Gr78_UgwUmLqtxXl39Nizhud4AaABAg",
+    "placeTypeKo": "일식·맛집",
+    "signatureKo": "일식·맛집로 소개된 신규 후보",
+    "whyKo": "영상 후보에 상호와 주소가 함께 있어 공개 GSI 주소 좌표로 위치를 확정했습니다.",
+    "displayDescriptionKo": "요코하마 여행 동선에 새로 넣기 좋은 일식·맛집 후보입니다. 영상의 상호·주소를 기준으로 GSI 공개 주소 좌표를 확인해 지도에 추가했습니다."
+  },
+  {
+    "id": "yt_f_rbOE9MWco_UgwNlmZ51wUaT7vYbbV4AaABAg",
+    "placeTypeKo": "일식·맛집",
+    "signatureKo": "일식·맛집로 소개된 신규 후보",
+    "whyKo": "영상 후보에 상호와 주소가 함께 있어 공개 GSI 주소 좌표로 위치를 확정했습니다.",
+    "displayDescriptionKo": "도쿄 여행 동선에 새로 넣기 좋은 일식·맛집 후보입니다. 영상의 상호·주소를 기준으로 GSI 공개 주소 좌표를 확인해 지도에 추가했습니다."
+  },
+  {
+    "id": "yt_9sXKzf7jXjY_Ugw_O_jmZpIuqlFW33p4AaABAg",
+    "placeTypeKo": "디저트·베이커리",
+    "signatureKo": "디저트·베이커리로 소개된 신규 후보",
+    "whyKo": "영상 후보에 상호와 주소가 함께 있어 공개 GSI 주소 좌표로 위치를 확정했습니다.",
+    "displayDescriptionKo": "후쿠오카 여행 동선에 새로 넣기 좋은 디저트·베이커리 후보입니다. 영상의 상호·주소를 기준으로 GSI 공개 주소 좌표를 확인해 지도에 추가했습니다."
+  },
+  {
+    "id": "yt_KT8DaRZtevE_UgwU1cM7HbNCsZfVHZl4AaABAg",
+    "placeTypeKo": "라멘·면요리",
+    "signatureKo": "말차 메뉴로 소개된 스팟",
+    "whyKo": "영상 후보에 상호와 주소가 함께 있어 공개 GSI 주소 좌표로 위치를 확정했습니다.",
+    "displayDescriptionKo": "오사카에서 말차 메뉴를 찾을 때 저장해둘 만한 라멘·면요리 후보입니다. 영상 후보의 상호·주소와 GSI 공개 주소 좌표를 맞춰 지도에 추가했습니다."
+  },
+  {
+    "id": "yt_mhvwOGONNb0_UgzgNDbOPXcd1l5A-hd4AaABAg",
+    "placeTypeKo": "라멘·면요리",
+    "signatureKo": "면요리 일정에 넣기 좋은 한 그릇",
+    "whyKo": "영상 후보에 상호와 주소가 함께 있어 공개 GSI 주소 좌표로 위치를 확정했습니다.",
+    "displayDescriptionKo": "도쿄에서 면요리 일정을 짤 때 비교하기 좋은 후보입니다. 공개 주소 좌표를 확인해 라멘·우동 카드로 바로 볼 수 있게 정리했습니다."
+  },
+  {
+    "id": "yt_U8uLYB7GEi8_UgwpU8QDQVtPQVkxQtx4AaABAg",
+    "placeTypeKo": "일식·맛집",
+    "signatureKo": "일식·맛집로 소개된 신규 후보",
+    "whyKo": "영상 후보에 상호와 주소가 함께 있어 공개 GSI 주소 좌표로 위치를 확정했습니다.",
+    "displayDescriptionKo": "도쿄 여행 동선에 새로 넣기 좋은 일식·맛집 후보입니다. 영상의 상호·주소를 기준으로 GSI 공개 주소 좌표를 확인해 지도에 추가했습니다."
+  },
+  {
+    "id": "yt_kxx_DIJRyTo_Ugzh4ptk8A9paTlXi4t4AaABAg",
+    "placeTypeKo": "디저트·베이커리",
+    "signatureKo": "디저트 코스로 보기 좋은 메뉴",
+    "whyKo": "영상 후보에 상호와 주소가 함께 있어 공개 GSI 주소 좌표로 위치를 확정했습니다.",
+    "displayDescriptionKo": "도쿄 여행 동선에 새로 넣기 좋은 디저트·베이커리 후보입니다. 영상의 상호·주소를 기준으로 GSI 공개 주소 좌표를 확인해 지도에 추가했습니다."
+  },
+  {
+    "id": "yt_t5obyTHJpr4_UgzSTPc8WtR0YgXFMYd4AaABAg",
+    "placeTypeKo": "카페·바",
+    "signatureKo": "카페·바로 소개된 신규 후보",
+    "whyKo": "영상 후보에 상호와 주소가 함께 있어 공개 GSI 주소 좌표로 위치를 확정했습니다.",
+    "displayDescriptionKo": "오사카 여행 동선에 새로 넣기 좋은 카페·바 후보입니다. 영상의 상호·주소를 기준으로 GSI 공개 주소 좌표를 확인해 지도에 추가했습니다."
+  },
+  {
+    "id": "yt_qxVtnUWvVMM_Ugz5P80q4ANFluf0DNl4AaABAg",
+    "placeTypeKo": "라멘·면요리",
+    "signatureKo": "라멘·면요리로 소개된 신규 후보",
+    "whyKo": "영상 후보에 상호와 주소가 함께 있어 공개 GSI 주소 좌표로 위치를 확정했습니다.",
+    "displayDescriptionKo": "도쿄에서 면요리 일정을 짤 때 비교하기 좋은 후보입니다. 공개 주소 좌표를 확인해 라멘·우동 카드로 바로 볼 수 있게 정리했습니다."
+  },
+  {
+    "id": "yt_t5EXAX8213A_Ugz_qQXY__K73COAMtt4AaABAg",
+    "placeTypeKo": "디저트·베이커리",
+    "signatureKo": "말차 메뉴로 소개된 스팟",
+    "whyKo": "영상 후보에 상호와 주소가 함께 있어 공개 GSI 주소 좌표로 위치를 확정했습니다.",
+    "displayDescriptionKo": "도쿄에서 말차 메뉴를 찾을 때 저장해둘 만한 디저트·베이커리 후보입니다. 영상 후보의 상호·주소와 GSI 공개 주소 좌표를 맞춰 지도에 추가했습니다."
+  },
+  {
+    "id": "yt_US1mMuzxag4_UgyMtfi2Jmz16KOqr7F4AaABAg",
+    "placeTypeKo": "스시·해산물",
+    "signatureKo": "스시·해산물 코스 후보",
+    "whyKo": "영상 후보에 상호와 주소가 함께 있어 공개 GSI 주소 좌표로 위치를 확정했습니다.",
+    "displayDescriptionKo": "도쿄에서 스시·해산물 코스를 볼 때 참고할 만한 후보입니다. 영상 후보와 공개 주소 좌표를 연결해 위치를 확정했습니다."
+  },
+  {
+    "id": "yt_9-t3L6POxwE_UgzaJREh4kaaPt_PRgB4AaABAg",
+    "placeTypeKo": "디저트·베이커리",
+    "signatureKo": "디저트·베이커리로 소개된 신규 후보",
+    "whyKo": "영상 후보에 상호와 주소가 함께 있어 공개 GSI 주소 좌표로 위치를 확정했습니다.",
+    "displayDescriptionKo": "도쿄 여행 동선에 새로 넣기 좋은 디저트·베이커리 후보입니다. 영상의 상호·주소를 기준으로 GSI 공개 주소 좌표를 확인해 지도에 추가했습니다."
+  },
+  {
+    "id": "yt_8V7qzHMjXzc_UgyOVNaSUuGp_EQ5_QF4AaABAg",
+    "placeTypeKo": "스시·해산물",
+    "signatureKo": "스시·해산물 코스 후보",
+    "whyKo": "영상 후보에 상호와 주소가 함께 있어 공개 GSI 주소 좌표로 위치를 확정했습니다.",
+    "displayDescriptionKo": "도쿄에서 스시·해산물 코스를 볼 때 참고할 만한 후보입니다. 영상 후보와 공개 주소 좌표를 연결해 위치를 확정했습니다."
+  },
+  {
+    "id": "yt_KCO6CiHS91Q_UgzK76IWu4lJJ0EJr-l4AaABAg",
+    "placeTypeKo": "스시·해산물",
+    "signatureKo": "스시·해산물 코스 후보",
+    "whyKo": "영상 후보에 상호와 주소가 함께 있어 공개 GSI 주소 좌표로 위치를 확정했습니다.",
+    "displayDescriptionKo": "오사카에서 스시·해산물 코스를 볼 때 참고할 만한 후보입니다. 영상 후보와 공개 주소 좌표를 연결해 위치를 확정했습니다."
+  },
+  {
+    "id": "yt_7jL6XjQZPAU_UgydeZt-J7ts65Wfu6B4AaABAg",
+    "placeTypeKo": "카페·바",
+    "signatureKo": "말차 메뉴로 소개된 스팟",
+    "whyKo": "영상 후보에 상호와 주소가 함께 있어 공개 GSI 주소 좌표로 위치를 확정했습니다.",
+    "displayDescriptionKo": "도쿄에서 말차 메뉴를 찾을 때 저장해둘 만한 카페·바 후보입니다. 영상 후보의 상호·주소와 GSI 공개 주소 좌표를 맞춰 지도에 추가했습니다."
+  },
+  {
+    "id": "yt_QXtnERSnRFQ_UgxtgW3ssoCVuWaQjcV4AaABAg",
+    "placeTypeKo": "야키니쿠·와규",
+    "signatureKo": "고기 코스로 소개된 식사 후보",
+    "whyKo": "영상 후보에 상호와 주소가 함께 있어 공개 GSI 주소 좌표로 위치를 확정했습니다.",
+    "displayDescriptionKo": "도쿄 여행 동선에 새로 넣기 좋은 야키니쿠·와규 후보입니다. 영상의 상호·주소를 기준으로 GSI 공개 주소 좌표를 확인해 지도에 추가했습니다."
+  },
+  {
+    "id": "yt_vRJFPFAMd0s_Ugx7MYHfU67YniBA-zV4AaABAg",
+    "placeTypeKo": "디저트·베이커리",
+    "signatureKo": "말차 메뉴로 소개된 스팟",
+    "whyKo": "영상 후보에 상호와 주소가 함께 있어 공개 GSI 주소 좌표로 위치를 확정했습니다.",
+    "displayDescriptionKo": "오사카에서 말차 메뉴를 찾을 때 저장해둘 만한 디저트·베이커리 후보입니다. 영상 후보의 상호·주소와 GSI 공개 주소 좌표를 맞춰 지도에 추가했습니다."
+  },
+  {
+    "id": "yt_JKrcW1IFpx8_Ugx_nx2AKX0BtUhnvfl4AaABAg",
+    "placeTypeKo": "일식·맛집",
+    "signatureKo": "일식·맛집로 소개된 신규 후보",
+    "whyKo": "영상 후보에 상호와 주소가 함께 있어 공개 GSI 주소 좌표로 위치를 확정했습니다.",
+    "displayDescriptionKo": "도쿄 여행 동선에 새로 넣기 좋은 일식·맛집 후보입니다. 영상의 상호·주소를 기준으로 GSI 공개 주소 좌표를 확인해 지도에 추가했습니다."
+  },
+  {
+    "id": "yt_7805GQmK68g_UgxuUbgpRS4FmcRHXUl4AaABAg",
+    "placeTypeKo": "일식·맛집",
+    "signatureKo": "일식·맛집로 소개된 신규 후보",
+    "whyKo": "영상 후보에 상호와 주소가 함께 있어 공개 GSI 주소 좌표로 위치를 확정했습니다.",
+    "displayDescriptionKo": "도쿄 여행 동선에 새로 넣기 좋은 일식·맛집 후보입니다. 영상의 상호·주소를 기준으로 GSI 공개 주소 좌표를 확인해 지도에 추가했습니다."
+  },
+  {
+    "id": "yt_UKYkI7Y-F2c_UgwyuGsGty10inLj6Lx4AaABAg",
+    "placeTypeKo": "라멘·면요리",
+    "signatureKo": "면요리 일정에 넣기 좋은 한 그릇",
+    "whyKo": "영상 후보에 상호와 주소가 함께 있어 공개 GSI 주소 좌표로 위치를 확정했습니다.",
+    "displayDescriptionKo": "도쿄에서 면요리 일정을 짤 때 비교하기 좋은 후보입니다. 공개 주소 좌표를 확인해 라멘·우동 카드로 바로 볼 수 있게 정리했습니다."
+  },
+  {
+    "id": "yt_dNLqAxV6Ycw_UgydE_GFkFbA4GgY8NR4AaABAg",
+    "placeTypeKo": "야키니쿠·와규",
+    "signatureKo": "고기 코스로 소개된 식사 후보",
+    "whyKo": "영상 후보에 상호와 주소가 함께 있어 공개 GSI 주소 좌표로 위치를 확정했습니다.",
+    "displayDescriptionKo": "오사카에서 고기 코스로 보기 좋은 야키니쿠·와규 후보입니다. 영상의 상호와 주소가 명확해 공개 주소 좌표 기준으로 동선에 넣었습니다."
+  },
+  {
+    "id": "yt_xy_ezh6eiZw_UgzFAhukoKJXjHF811d4AaABAg",
+    "placeTypeKo": "디저트·베이커리",
+    "signatureKo": "디저트 코스로 보기 좋은 메뉴",
+    "whyKo": "영상 후보에 상호와 주소가 함께 있어 공개 GSI 주소 좌표로 위치를 확정했습니다.",
+    "displayDescriptionKo": "도쿄 여행 동선에 새로 넣기 좋은 디저트·베이커리 후보입니다. 영상의 상호·주소를 기준으로 GSI 공개 주소 좌표를 확인해 지도에 추가했습니다."
+  },
+  {
+    "id": "yt_OeUTO7lM1LI_UgzL051bY1kCscg-BuN4AaABAg",
+    "placeTypeKo": "야키니쿠·와규",
+    "signatureKo": "야키니쿠·와규로 소개된 신규 후보",
+    "whyKo": "영상 후보에 상호와 주소가 함께 있어 공개 GSI 주소 좌표로 위치를 확정했습니다.",
+    "displayDescriptionKo": "가마쿠라 여행 동선에 새로 넣기 좋은 야키니쿠·와규 후보입니다. 영상의 상호·주소를 기준으로 GSI 공개 주소 좌표를 확인해 지도에 추가했습니다."
+  },
+  {
+    "id": "yt_3LAgocgvf3c_UgwloVIaPbaqKuP0q6Z4AaABAg",
+    "placeTypeKo": "일식·맛집",
+    "signatureKo": "일식·맛집로 소개된 신규 후보",
+    "whyKo": "영상 후보에 상호와 주소가 함께 있어 공개 GSI 주소 좌표로 위치를 확정했습니다.",
+    "displayDescriptionKo": "도쿄 여행 동선에 새로 넣기 좋은 일식·맛집 후보입니다. 영상의 상호·주소를 기준으로 GSI 공개 주소 좌표를 확인해 지도에 추가했습니다."
+  },
+  {
+    "id": "yt_uDvdv5g_AA0_UgzMtX2CHtoNGI8zSK14AaABAg",
+    "placeTypeKo": "디저트·베이커리",
+    "signatureKo": "디저트·베이커리로 소개된 신규 후보",
+    "whyKo": "영상 후보에 상호와 주소가 함께 있어 공개 GSI 주소 좌표로 위치를 확정했습니다.",
+    "displayDescriptionKo": "도쿄 여행 동선에 새로 넣기 좋은 디저트·베이커리 후보입니다. 영상의 상호·주소를 기준으로 GSI 공개 주소 좌표를 확인해 지도에 추가했습니다."
+  },
+  {
+    "id": "yt_clKOT2u29Ps_UgyDtd2M8kS8-nDMj_B4AaABAg",
+    "placeTypeKo": "만두·중식",
+    "signatureKo": "만두·중식로 소개된 신규 후보",
+    "whyKo": "영상 후보에 상호와 주소가 함께 있어 공개 GSI 주소 좌표로 위치를 확정했습니다.",
+    "displayDescriptionKo": "후쿠오카 여행 동선에 새로 넣기 좋은 만두·중식 후보입니다. 영상의 상호·주소를 기준으로 GSI 공개 주소 좌표를 확인해 지도에 추가했습니다."
+  },
+  {
+    "id": "yt_CXmKmDZLlGg_UgyqVvQfzEiXb-klGjN4AaABAg",
+    "placeTypeKo": "라멘·면요리",
+    "signatureKo": "라멘·면요리로 소개된 신규 후보",
+    "whyKo": "영상 후보에 상호와 주소가 함께 있어 공개 GSI 주소 좌표로 위치를 확정했습니다.",
+    "displayDescriptionKo": "교토에서 면요리 일정을 짤 때 비교하기 좋은 후보입니다. 공개 주소 좌표를 확인해 라멘·우동 카드로 바로 볼 수 있게 정리했습니다."
+  },
+  {
+    "id": "yt_ELI-1LHfWRE_Ugxg0mdSWVBjHTE6bsJ4AaABAg",
+    "placeTypeKo": "스시·해산물",
+    "signatureKo": "스시·해산물 코스 후보",
+    "whyKo": "영상 후보에 상호와 주소가 함께 있어 공개 GSI 주소 좌표로 위치를 확정했습니다.",
+    "displayDescriptionKo": "오사카에서 스시·해산물 코스를 볼 때 참고할 만한 후보입니다. 영상 후보와 공개 주소 좌표를 연결해 위치를 확정했습니다."
+  },
+  {
+    "id": "yt_uAFNlUBYl_0_UgyoJ0QaJ4grRf3Y0Ll4AaABAg",
+    "placeTypeKo": "일식·맛집",
+    "signatureKo": "일식·맛집로 소개된 신규 후보",
+    "whyKo": "영상 후보에 상호와 주소가 함께 있어 공개 GSI 주소 좌표로 위치를 확정했습니다.",
+    "displayDescriptionKo": "도쿄 여행 동선에 새로 넣기 좋은 일식·맛집 후보입니다. 영상의 상호·주소를 기준으로 GSI 공개 주소 좌표를 확인해 지도에 추가했습니다."
+  },
+  {
+    "id": "yt_MjImzfb9SA4_Ugz1IU1DuhgY9Q6rF_54AaABAg",
+    "placeTypeKo": "디저트·베이커리",
+    "signatureKo": "디저트 코스로 보기 좋은 메뉴",
+    "whyKo": "영상 후보에 상호와 주소가 함께 있어 공개 GSI 주소 좌표로 위치를 확정했습니다.",
+    "displayDescriptionKo": "후쿠오카 여행 동선에 새로 넣기 좋은 디저트·베이커리 후보입니다. 영상의 상호·주소를 기준으로 GSI 공개 주소 좌표를 확인해 지도에 추가했습니다."
+  },
+  {
+    "id": "yt_1Fe1l3rhet8_UgwZMZhnfKxthNZ-LaV4AaABAg",
+    "placeTypeKo": "스시·해산물",
+    "signatureKo": "스시·해산물 코스 후보",
+    "whyKo": "영상 후보에 상호와 주소가 함께 있어 공개 GSI 주소 좌표로 위치를 확정했습니다.",
+    "displayDescriptionKo": "도쿄에서 스시·해산물 코스를 볼 때 참고할 만한 후보입니다. 영상 후보와 공개 주소 좌표를 연결해 위치를 확정했습니다."
+  },
+  {
+    "id": "yt_cqw5hbhyGsQ_UgxxL2nN6CrLmnznr894AaABAg",
+    "placeTypeKo": "디저트·베이커리",
+    "signatureKo": "말차 메뉴로 소개된 스팟",
+    "whyKo": "영상 후보에 상호와 주소가 함께 있어 공개 GSI 주소 좌표로 위치를 확정했습니다.",
+    "displayDescriptionKo": "도쿄에서 말차 메뉴를 찾을 때 저장해둘 만한 디저트·베이커리 후보입니다. 영상 후보의 상호·주소와 GSI 공개 주소 좌표를 맞춰 지도에 추가했습니다."
+  },
+  {
+    "id": "yt_vbUezHDWtbI_UgyhfBlhtzowgOi7Rj94AaABAg",
+    "placeTypeKo": "일식·맛집",
+    "signatureKo": "일식·맛집로 소개된 신규 후보",
+    "whyKo": "영상 후보에 상호와 주소가 함께 있어 공개 GSI 주소 좌표로 위치를 확정했습니다.",
+    "displayDescriptionKo": "도쿄 여행 동선에 새로 넣기 좋은 일식·맛집 후보입니다. 영상의 상호·주소를 기준으로 GSI 공개 주소 좌표를 확인해 지도에 추가했습니다."
+  },
+  {
+    "id": "yt_sRKG6lj7sHI_UgwhUmdyJwsTmAkZIh94AaABAg",
+    "placeTypeKo": "스시·해산물",
+    "signatureKo": "스시·해산물 코스 후보",
+    "whyKo": "영상 후보에 상호와 주소가 함께 있어 공개 GSI 주소 좌표로 위치를 확정했습니다.",
+    "displayDescriptionKo": "후쿠오카에서 스시·해산물 코스를 볼 때 참고할 만한 후보입니다. 영상 후보와 공개 주소 좌표를 연결해 위치를 확정했습니다."
+  },
+  {
+    "id": "yt_kvaNsVoXP7w_UgygjxVFfrF_sH3u58J4AaABAg",
+    "placeTypeKo": "야키니쿠·와규",
+    "signatureKo": "고기 코스로 소개된 식사 후보",
+    "whyKo": "영상 후보에 상호와 주소가 함께 있어 공개 GSI 주소 좌표로 위치를 확정했습니다.",
+    "displayDescriptionKo": "도쿄 여행 동선에 새로 넣기 좋은 야키니쿠·와규 후보입니다. 영상의 상호·주소를 기준으로 GSI 공개 주소 좌표를 확인해 지도에 추가했습니다."
+  },
+  {
+    "id": "yt_JWg1IfIZysk_UgyuMxtbdqM_yd6ojN94AaABAg",
+    "placeTypeKo": "카페·바",
+    "signatureKo": "카페·바로 소개된 신규 후보",
+    "whyKo": "영상 후보에 상호와 주소가 함께 있어 공개 GSI 주소 좌표로 위치를 확정했습니다.",
+    "displayDescriptionKo": "후쿠오카 여행 동선에 새로 넣기 좋은 카페·바 후보입니다. 영상의 상호·주소를 기준으로 GSI 공개 주소 좌표를 확인해 지도에 추가했습니다."
+  },
+  {
+    "id": "yt_JudynWDUbaQ_UgyWVmb_GZ4PmTp0_SJ4AaABAg",
+    "placeTypeKo": "일식·맛집",
+    "signatureKo": "일식·맛집로 소개된 신규 후보",
+    "whyKo": "영상 후보에 상호와 주소가 함께 있어 공개 GSI 주소 좌표로 위치를 확정했습니다.",
+    "displayDescriptionKo": "도쿄 여행 동선에 새로 넣기 좋은 일식·맛집 후보입니다. 영상의 상호·주소를 기준으로 GSI 공개 주소 좌표를 확인해 지도에 추가했습니다."
+  },
+  {
+    "id": "yt_8RJ-SrqekSY_Ugy14F0MlBRG7QCoaJZ4AaABAg",
+    "placeTypeKo": "라멘·면요리",
+    "signatureKo": "면요리 일정에 넣기 좋은 한 그릇",
+    "whyKo": "영상 후보에 상호와 주소가 함께 있어 공개 GSI 주소 좌표로 위치를 확정했습니다.",
+    "displayDescriptionKo": "도쿄 여행 동선에 새로 넣기 좋은 라멘·면요리 후보입니다. 영상의 상호·주소를 기준으로 GSI 공개 주소 좌표를 확인해 지도에 추가했습니다."
+  },
+  {
+    "id": "yt_ok6phTn-ydw_UgyWmPOho7PgCqPFekR4AaABAg",
+    "placeTypeKo": "일식·맛집",
+    "signatureKo": "일식·맛집로 소개된 신규 후보",
+    "whyKo": "영상 후보에 상호와 주소가 함께 있어 공개 GSI 주소 좌표로 위치를 확정했습니다.",
+    "displayDescriptionKo": "후쿠오카 여행 동선에 새로 넣기 좋은 일식·맛집 후보입니다. 영상의 상호·주소를 기준으로 GSI 공개 주소 좌표를 확인해 지도에 추가했습니다."
+  },
+  {
+    "id": "yt_z1zlcLe9RMI_Ugy2s5c3snLGbR-sIkh4AaABAg",
+    "placeTypeKo": "라멘·면요리",
+    "signatureKo": "라멘·면요리로 소개된 신규 후보",
+    "whyKo": "영상 후보에 상호와 주소가 함께 있어 공개 GSI 주소 좌표로 위치를 확정했습니다.",
+    "displayDescriptionKo": "도쿄에서 면요리 일정을 짤 때 비교하기 좋은 후보입니다. 공개 주소 좌표를 확인해 라멘·우동 카드로 바로 볼 수 있게 정리했습니다."
+  },
+  {
+    "id": "yt_j_Jfwc5pm1w_UgxNHpCCZAjQk2wgLc94AaABAg",
+    "placeTypeKo": "카페·바",
+    "signatureKo": "말차 메뉴로 소개된 스팟",
+    "whyKo": "영상 후보에 상호와 주소가 함께 있어 공개 GSI 주소 좌표로 위치를 확정했습니다.",
+    "displayDescriptionKo": "후쿠오카에서 말차 메뉴를 찾을 때 저장해둘 만한 카페·바 후보입니다. 영상 후보의 상호·주소와 GSI 공개 주소 좌표를 맞춰 지도에 추가했습니다."
+  },
+  {
+    "id": "yt_6qEYu8ak1e8_UgwGGpdkJYj61DpvIsx4AaABAg",
+    "placeTypeKo": "카페·바",
+    "signatureKo": "카페·바로 소개된 신규 후보",
+    "whyKo": "영상 후보에 상호와 주소가 함께 있어 공개 GSI 주소 좌표로 위치를 확정했습니다.",
+    "displayDescriptionKo": "후쿠오카 여행 동선에 새로 넣기 좋은 카페·바 후보입니다. 영상의 상호·주소를 기준으로 GSI 공개 주소 좌표를 확인해 지도에 추가했습니다."
+  },
+  {
+    "id": "yt_q4_ZveeGxuc_UgyHuyQKmBBsBx_PRk14AaABAg",
+    "placeTypeKo": "야키니쿠·와규",
+    "signatureKo": "고기 코스로 소개된 식사 후보",
+    "whyKo": "영상 후보에 상호와 주소가 함께 있어 공개 GSI 주소 좌표로 위치를 확정했습니다.",
+    "displayDescriptionKo": "도쿄에서 고기 코스로 보기 좋은 야키니쿠·와규 후보입니다. 영상의 상호와 주소가 명확해 공개 주소 좌표 기준으로 동선에 넣었습니다."
+  },
+  {
+    "id": "yt_2cfpzfJIM9w_UgwsnekVUQiO0qt-U4N4AaABAg",
+    "placeTypeKo": "일식·맛집",
+    "signatureKo": "일식·맛집로 소개된 신규 후보",
+    "whyKo": "영상 후보에 상호와 주소가 함께 있어 공개 GSI 주소 좌표로 위치를 확정했습니다.",
+    "displayDescriptionKo": "후쿠오카 여행 동선에 새로 넣기 좋은 일식·맛집 후보입니다. 영상의 상호·주소를 기준으로 GSI 공개 주소 좌표를 확인해 지도에 추가했습니다."
+  },
+  {
+    "id": "yt_UuN3rH-Ebow_Ugyi3WTDQK_SqVuUsA54AaABAg",
+    "placeTypeKo": "디저트·카페",
+    "signatureKo": "말차·디저트 메뉴로 소개된 스팟",
+    "whyKo": "영상 후보에 상호와 주소가 함께 있어 공개 GSI 주소 좌표로 위치를 확정했습니다.",
+    "displayDescriptionKo": "교토 여행 동선에 새로 넣기 좋은 디저트·카페 후보입니다. 영상의 상호·주소를 기준으로 GSI 공개 주소 좌표를 확인해 지도에 추가했습니다."
   }
 ]

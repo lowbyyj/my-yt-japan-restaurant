@@ -38,6 +38,15 @@ Enrichment and map-list focus sync:
 - Expands scan scope to `MAX_VIDEOS=300` and adds 8 vetted batch-3 location resolutions.
 - Publishes 26 public-evidence-backed markers while holding back unsafe Google Maps URL-only and broad city-only geocode candidates.
 
+## M3.3
+
+Bulk marker expansion:
+
+- Reuses the `MAX_VIDEOS=300` candidate pool.
+- Screens address-bearing unresolved Japan owner-comment candidates in bulk.
+- Adds 50 GSI-backed public/free location resolutions and matching enrichments.
+- Publishes 75 total markers while keeping Google Maps search-only and ambiguous candidates held back.
+
 ## M4
 
 Optional next step: add link from the separate `lowbyyj.github.io` homepage repo, only when explicitly requested.

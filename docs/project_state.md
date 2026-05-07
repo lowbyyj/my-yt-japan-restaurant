@@ -2,7 +2,7 @@
 
 - Project display name: 탐닉 일본 맛집 지도
 - Operator identity: `dr.lowb`
-- Current task: `M3.2 enrichment and map-list focus sync`
+- Current task: `M3.3 bulk marker expansion`
 - Repo name: `my-yt-japan-restaurant`
 - Repo URL: `https://github.com/lowbyyj/my-yt-japan-restaurant`
 - Branch: `main`
@@ -11,6 +11,7 @@
 - M3 starting commit: `084fbd5309f969f2ff7f8ed0473bbce648881d54`
 - M3.1 starting commit: `cccb1a2286e0041487eb928e59047efbad8c95d3`
 - M3.2 starting commit: `a161024a2d6fa6ab4456c639b0654fc357b7c248`
+- M3.3 starting commit: `c224c202c7425d70a94e450537ecdba522c16d1d`
 - Vite base path: `/my-yt-japan-restaurant/`
 - Public project URL: `https://lowbyyj.github.io/my-yt-japan-restaurant/`
 - GitHub Pages hosting: free, `gh-pages` branch deployment from this repo.
@@ -22,10 +23,10 @@
 - Real data source: automated `@space_tamnik` Shorts owner comment candidate extraction only.
 - Agent-assisted resolutions: allowed only when tied to an automated candidate and backed by public/free evidence in `data/location_resolutions.json`.
 - Public enrichment: allowed only as public-safe Korean display copy in `data/place_enrichments.json`; never edit `public/data/places.json` directly to add real records.
-- Public published count after M3.2: `26`.
-- Published records resolved by public-safe Hermes evidence: `26`.
+- Public published count after M3.3: `75`.
+- Published records resolved by public-safe Hermes/GSI evidence: `75`.
 - Automatic geocode-only published records after M3.2: `0`.
-- Public enrichment records after M3.2: `26`.
+- Public enrichment records after M3.3: `76` tracked records; all `75` published places have enrichment.
 - Raw API dumps committed: no.
 - Cache/raw paths committed: no.
 
@@ -95,6 +96,21 @@
 - Current fallback structure: enrichment fields are optional; UI falls back to generated user-facing description logic when enrichment is missing.
 - Next recommended step: add more public/free evidence resolvers for held-back candidates, then add a homepage link from the separate `lowbyyj.github.io` repo only when explicitly requested.
 
+## M3.3 Bulk Marker Expansion
+
+- Current milestone: `M3.3 bulk expand map markers`.
+- Starting commit: `c224c202c7425d70a94e450537ecdba522c16d1d`.
+- Candidate pool: reused the existing `MAX_VIDEOS=300` generated data because it already contained enough unresolved Japan candidates.
+- Investigated unresolved Japan candidates with exact owner-comment addresses; `156` address-bearing unique Japan candidates were screened for bulk resolution.
+- Japan GSI public address search (`https://msearch.gsi.go.jp/address-search/AddressSearch`) was used as the public/free coordinate source for the bulk pass.
+- Added `50` new `data/location_resolutions.json` records tied to generated YouTube owner-comment candidates.
+- Added `50` matching `data/place_enrichments.json` records.
+- Published markers increased from `26` to `75`; all `75` published places are Hermes/public-evidence resolved and enriched.
+- City counts after M3.3: Tokyo `39`, Fukuoka `14`, Osaka `12`, Kyoto `7`, Saitama `1`, Yokohama `1`, Kamakura `1`.
+- The +50 resolution batch resulted in +49 published markers because one tracked resolution does not add an extra marker after current build matching/dedupe.
+- Skip/holdback policy remains unchanged: branch-unclear chains, product-only entries, broad city-only geocodes, Google Maps search-only candidates, and candidates without public/free coordinate evidence remain held back.
+- Next recommended step: M3.4 can add another GSI-backed or Tabelog/Mapion-backed batch, but should first improve duplicate/branch reporting so the number of new resolutions and newly published markers is easier to predict.
+
 ## Resolved Places
 
 M2.4 resolved places:
@@ -138,6 +154,7 @@ M3.2 batch 3 resolved places:
 - `MAX_VIDEOS=300 npm run data:all`: attempted; the full chained command timed out after ingestion/extraction/geocode work, so final public data was rebuilt with staged `build:data` and strict publish gates.
 - `npm run build:data && npm run validate:data`: passed, published `26`.
 - `npm run validate:data && npm run test && npm run build`: passed.
+- M3.3 `MAX_VIDEOS=300 npm run data:all`: passed, published `75`.
 - Local preview after M3.2: passed, `200 OK`; preview public places count `26`; marker count `26`; card count `26`; marker click moved `.cards.scrollTop` from `5` to over `6380`; desktop body scroll stayed `0`; selected card was visible.
 
 ## Current Blocker

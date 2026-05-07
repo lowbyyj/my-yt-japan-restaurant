@@ -46,3 +46,13 @@ This repo does not use binary asset packs for the restaurant map. M3.2's “asse
 - Google Maps links remain outbound coordinate-based links only.
 - Google Maps URL-parsed coordinates and broad city-only geocodes are not accepted as standalone publish evidence.
 - Raw API dumps, raw comments, cache files, secrets, `node_modules`, `dist`, and logs must not be committed.
+
+## M3.3 Bulk Expansion Addendum
+
+- `data/location_resolutions.json` now contains `76` tracked public-safe resolution records.
+- M3.3 added `50` new GSI-backed resolution records from generated YouTube owner-comment candidates.
+- `data/place_enrichments.json` now contains `76` tracked enrichment records.
+- `public/data/places.json` publishes `75` places after build; all published places have enrichment.
+- Coordinate source for the M3.3 bulk batch: Japan GSI public address search from exact owner-comment addresses.
+- External copyright assets: none.
+- Paid Google Places/Maps APIs and Google Maps scraping: not used.
