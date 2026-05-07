@@ -22,6 +22,10 @@ export const publicPlaceSchema = z.object({
   sourceCommentId: z.string().min(1),
   sourceKind: z.literal("owner_location_comment_candidate"),
   googleMapsUrl: z.string().url().optional(),
+  locationResolvedBy: z.literal("hermes").optional(),
+  locationConfidence: z.number().min(0).max(1).optional(),
+  evidenceUrls: z.array(z.string().url()).optional(),
+  coordinateSource: z.string().min(1).optional(),
   generatedAt: z.string().datetime(),
 });
 
@@ -88,6 +92,32 @@ export const placeCandidateSchema = locationCommentSourceSchema.extend({
 
 export const placeCandidatesSchema = z.array(placeCandidateSchema);
 export type PlaceCandidate = z.infer<typeof placeCandidateSchema>;
+
+export const locationResolutionSchema = z.object({
+  id: z.string().min(1),
+  sourceVideoId: z.string().min(1),
+  sourceCommentId: z.string().min(1).optional(),
+  candidateName: z.string().min(1),
+  resolvedName: z.string().min(1),
+  country: z.literal("JP"),
+  city: z.string().min(1),
+  area: z.string().min(1).optional(),
+  address: z.string().min(1).optional(),
+  lat: z.number().min(-90).max(90).optional(),
+  lng: z.number().min(-180).max(180).optional(),
+  googleMapsSearchUrl: z.string().url(),
+  sourceVideoUrl: z.string().url(),
+  evidenceUrls: z.array(z.string().url()),
+  evidenceNotes: z.string().min(1),
+  coordinateSource: z.string().min(1),
+  resolvedBy: z.literal("hermes"),
+  resolvedAt: z.string().datetime(),
+  confidence: z.number().min(0).max(1),
+  status: z.literal("resolved"),
+});
+
+export const locationResolutionsSchema = z.array(locationResolutionSchema);
+export type LocationResolution = z.infer<typeof locationResolutionSchema>;
 
 export const geocodedCandidateSchema = placeCandidateSchema.extend({
   lat: z.number().min(-90).max(90).optional(),

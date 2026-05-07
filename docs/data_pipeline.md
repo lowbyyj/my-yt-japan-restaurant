@@ -73,3 +73,18 @@ Writes `public/data/places.json` only for candidates that are:
 - above the confidence threshold
 
 `public/data/data_status.json` contains aggregate counts, not excluded place details.
+
+## 5. Agent-Assisted Location Resolutions
+
+`data/location_resolutions.json` stores public-safe M2.4 resolution records for automated candidates that clearly identify a place but could not be geocoded automatically. The file is not a manual restaurant list: every row must match a generated YouTube candidate by `sourceVideoId` and `sourceCommentId`.
+
+A resolution is publishable only when it:
+
+- matches an existing non-negative generated candidate;
+- keeps `country` as `JP`;
+- has finite `lat`/`lng`;
+- includes public evidence URLs and notes;
+- uses free/public coordinate sources such as Mapion public phonebook pages or OSM/Nominatim matches;
+- avoids paid Google Places data and does not use Google Maps scraping as the core coordinate source.
+
+`build:data` merges automated geocoded places and resolved places, then dedupes by source video and rounded place key. If a resolution is missing evidence or coordinates, the fallback is to leave the candidate held back.

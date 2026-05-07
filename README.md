@@ -53,7 +53,7 @@ The pipeline:
 1. `ingest:youtube` resolves the channel with YouTube Data API, scans recent uploads, filters likely Shorts, and retrieves top-level comments.
 2. `extract:places` ranks owner-authored comment candidates and extracts place/address/map signals.
 3. `geocode:places` first parses coordinates from Google Maps URLs, then uses respectful cached Nominatim fallback for unresolved candidates.
-4. `build:data` writes sanitized public records to `public/data/places.json`.
+4. `build:data` writes sanitized public records to `public/data/places.json`, and may merge vetted agent-assisted entries from `data/location_resolutions.json` when they match an automated YouTube candidate.
 5. `validate:data` validates the public JSON with Zod.
 
 If `YOUTUBE_API_KEY` is missing, the scripts do not fabricate data. They keep `public/data/places.json` as an empty array and write `public/data/data_status.json` with `dataGenerated: false`.
@@ -77,6 +77,10 @@ npm run build
 ## Google Maps
 
 Google Maps links are used only as outbound URLs. The site does not use the Google Maps JavaScript API or Google Places API. Coordinates are parsed from public Google Maps URL forms when present; otherwise Nominatim may be used as a small, cached, one-time geocoding fallback.
+
+## Agent-Assisted Location Resolutions
+
+`data/location_resolutions.json` is a public-safe M2.4 bridge for cases where the automated owner-comment candidate clearly names a Japan place but automated geocoding only produced a search URL. Each resolution must match an existing generated candidate by video/comment, include public evidence URLs, avoid paid Google Places data or Google Maps scraping as the coordinate source, and keep unresolved or ambiguous branches out of `places.json`.
 
 ## Unofficial Status
 

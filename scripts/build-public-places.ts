@@ -1,7 +1,9 @@
 import { readJsonFile, writeJsonFile } from "./utils/files.js";
+import { buildResolvedPublicPlaces, mergeAndDedupePublicPlaces } from "./utils/locationResolutions.js";
 import {
   dataStatusSchema,
   geocodedCandidatesSchema,
+  locationResolutionsSchema,
   publicPlacesSchema,
   type DataStatus,
   type PublicPlace,
@@ -11,6 +13,7 @@ const INPUT_PATH = "data/generated/geocoded_candidates.json";
 const INGEST_PATH = "data/generated/youtube_owner_comment_candidates.json";
 const PUBLIC_PLACES_PATH = "public/data/places.json";
 const PUBLIC_STATUS_PATH = "public/data/data_status.json";
+const LOCATION_RESOLUTIONS_PATH = "data/location_resolutions.json";
 const CONFIDENCE_THRESHOLD = Number(process.env.CONFIDENCE_THRESHOLD || 0.55);
 
 type IngestSummary = {
@@ -105,9 +108,18 @@ async function main() {
     ownerCommentCandidates: 0,
   });
   const candidates = geocodedCandidatesSchema.parse(await readJsonFile(INPUT_PATH, []));
-  const places = publicPlacesSchema.parse(
+  const locationResolutions = locationResolutionsSchema.parse(
+    await readJsonFile(LOCATION_RESOLUTIONS_PATH, []),
+  );
+  const generatedAt = new Date().toISOString();
+  const autoPlaces = publicPlacesSchema.parse(
     candidates.map(toPublicPlace).filter((place): place is PublicPlace => Boolean(place)),
   );
+  const resolvedPlaces = buildResolvedPublicPlaces(candidates, locationResolutions, {
+    generatedAt,
+    confidenceThreshold: CONFIDENCE_THRESHOLD,
+  });
+  const places = mergeAndDedupePublicPlaces(autoPlaces, resolvedPlaces);
 
   const excludedNegativeSignal = candidates.filter(
     (candidate) => candidate.verdict === "excluded_negative_signal",

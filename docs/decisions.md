@@ -27,3 +27,7 @@ Hermes should keep the same Telegram DM as the manager/director session and swit
 ## No-Key Readiness
 
 The project includes `npm run data:doctor` and `npm run data:dry-run` so agents can verify pipeline readiness without a YouTube API key, without network calls, and without fabricating public restaurant data.
+
+## Agent-Assisted Public Evidence Bridge
+
+For M2.4, Hermes may resolve a small number of already-generated Japan candidates using public/free evidence, recorded in `data/location_resolutions.json`. This is not manual production curation: rows must be anchored to automated YouTube owner-comment candidates and must include public evidence URLs, coordinate source notes, and a confidence value. Ambiguous branches or candidates with only Google Maps redirect coordinates remain held back.

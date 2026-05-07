@@ -26,6 +26,235 @@
     "sourceCommentId": "UgwRgpARPv1U5xkqXuJ4AaABAg",
     "sourceKind": "owner_location_comment_candidate",
     "googleMapsUrl": "https://www.google.co.kr/maps/place/THREE/@35.6423363,139.6664223,17z/data=!3m1!4b1!4m6!3m5!1s0x6018f5b982ffee73:0x914aae6a1ad381c7!8m2!3d35.642332!4d139.6689972!16s%2Fg%2F11v9kky8bc?entry=tts&g_ep=EgoyMDI2MDQwOC4wIPu8ASoASAFQAw%3D%3D&skid=518ccbdb-0860-4c65-91e9-a0024f7a490e",
-    "generatedAt": "2026-05-07T01:49:48.744Z"
+    "generatedAt": "2026-05-07T03:02:10.401Z"
+  },
+  {
+    "id": "yt_YXWKzFPr5mE_UgyZWzKvsgBmTDZjX-F4AaABAg",
+    "status": "published",
+    "country": "JP",
+    "nameKoOrOriginal": "ピノキオ",
+    "city": "Tokyo",
+    "area": "Itabashi",
+    "lat": 35.7447003,
+    "lng": 139.70697789,
+    "categoryTags": [
+      "카페"
+    ],
+    "commentKoAuto": "YouTube owner comment candidate에서 자동 추출한 장소입니다. Hermes가 공개 웹 근거로 위치를 확인했습니다.",
+    "verdict": "auto_recommended",
+    "confidence": 0.86,
+    "negativeSignalHits": [],
+    "sourceVideoId": "YXWKzFPr5mE",
+    "sourceVideoTitle": "도쿄 할아버지 핫케이크",
+    "sourceVideoUrl": "https://www.youtube.com/watch?v=YXWKzFPr5mE",
+    "thumbnailUrl": "https://i.ytimg.com/vi/YXWKzFPr5mE/maxresdefault.jpg",
+    "sourceCommentId": "UgyZWzKvsgBmTDZjX-F4AaABAg",
+    "sourceKind": "owner_location_comment_candidate",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=50%EB%85%84%20%EB%84%98%EC%9D%80%20%EB%8F%84%EC%BF%84%EC%9D%98%20%EC%BB%A4%ED%94%BC%EC%88%8D%20%ED%94%BC%EB%85%B8%ED%82%A4%EC%98%A4%EC%9E%85%EB%8B%88%EB%8B%A4.%20Tokyo%20Japan",
+    "locationResolvedBy": "hermes",
+    "locationConfidence": 0.86,
+    "evidenceUrls": [
+      "https://www.mapion.co.jp/phonebook/M01012/13119/G5855754-001/",
+      "https://www.openstreetmap.org/node/11411613669"
+    ],
+    "coordinateSource": "Mapion public phonebook coordinates; cross-checked against OSM/Nominatim node 11411613669 nearby",
+    "generatedAt": "2026-05-07T03:02:10.400Z"
+  },
+  {
+    "id": "yt_5ve6DmveFqM_UgwkduBbhW2XxFssM-x4AaABAg",
+    "status": "published",
+    "country": "JP",
+    "nameKoOrOriginal": "きつねや",
+    "city": "Tokyo",
+    "area": "Tsukiji",
+    "lat": 35.66569269,
+    "lng": 139.76990236,
+    "categoryTags": [
+      "덮밥",
+      "시장"
+    ],
+    "commentKoAuto": "YouTube owner comment candidate에서 자동 추출한 장소입니다. Hermes가 공개 웹 근거로 위치를 확인했습니다.",
+    "verdict": "auto_recommended",
+    "confidence": 0.9191666666666666,
+    "negativeSignalHits": [],
+    "sourceVideoId": "5ve6DmveFqM",
+    "sourceVideoTitle": "도쿄에서 내장덮밥을 주문하면 생기는 일",
+    "sourceVideoUrl": "https://www.youtube.com/watch?v=5ve6DmveFqM",
+    "thumbnailUrl": "https://i.ytimg.com/vi/5ve6DmveFqM/maxresdefault.jpg",
+    "sourceCommentId": "UgwkduBbhW2XxFssM-x4AaABAg",
+    "sourceKind": "owner_location_comment_candidate",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=77%EB%85%84%20%EB%90%9C%20%EB%8F%84%EC%BF%84%20%EC%8B%9C%EC%9E%A5%20%EB%A7%9B%EC%A7%91%2C%20%ED%82%A4%EC%B8%A0%EB%84%A4%EC%95%BC%EC%9E%85%EB%8B%88%EB%8B%A4.%20Tokyo%20Japan",
+    "locationResolvedBy": "hermes",
+    "locationConfidence": 0.9191666666666666,
+    "evidenceUrls": [
+      "https://www.mapion.co.jp/phonebook/M01018/13102/GJ000231477-001/",
+      "https://www.openstreetmap.org/node/10811562505",
+      "https://tabelog.com/tokyo/A1313/A131301/13007656/"
+    ],
+    "coordinateSource": "Mapion public phonebook coordinates; cross-checked against OSM/Nominatim node 10811562505 nearby",
+    "generatedAt": "2026-05-07T03:02:10.400Z"
+  },
+  {
+    "id": "yt_gSiiwNnDwqI_UgyiB9SqoKb4Xyl62eJ4AaABAg",
+    "status": "published",
+    "country": "JP",
+    "nameKoOrOriginal": "ヘッケルン",
+    "city": "Tokyo",
+    "area": "Nishi-Shimbashi",
+    "lat": 35.66781946,
+    "lng": 139.75216845,
+    "categoryTags": [
+      "카페"
+    ],
+    "commentKoAuto": "YouTube owner comment candidate에서 자동 추출한 장소입니다. Hermes가 공개 웹 근거로 위치를 확인했습니다.",
+    "verdict": "auto_recommended",
+    "confidence": 0.9066666666666666,
+    "negativeSignalHits": [],
+    "sourceVideoId": "gSiiwNnDwqI",
+    "sourceVideoTitle": "50년 도쿄 푸딩 할아버지",
+    "sourceVideoUrl": "https://www.youtube.com/watch?v=gSiiwNnDwqI",
+    "thumbnailUrl": "https://i.ytimg.com/vi/gSiiwNnDwqI/maxresdefault.jpg",
+    "sourceCommentId": "UgyiB9SqoKb4Xyl62eJ4AaABAg",
+    "sourceKind": "owner_location_comment_candidate",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%EB%8F%84%EC%BF%84%EC%9D%98%20%ED%91%B8%EB%94%A9%20%EB%85%B8%ED%8F%AC%2C%20%ED%97%B7%EC%BC%80%EB%A3%AC%20%EC%BB%A4%ED%94%BC%20%26%20%ED%91%B8%EB%94%A9%EC%9E%85%EB%8B%88%EB%8B%A4.%20Tokyo%20Japan",
+    "locationResolvedBy": "hermes",
+    "locationConfidence": 0.9066666666666666,
+    "evidenceUrls": [
+      "https://www.mapion.co.jp/phonebook/M01012/13103/G5107574-001/",
+      "https://tabelog.com/tokyo/A1308/A130802/13057178/"
+    ],
+    "coordinateSource": "Mapion public phonebook coordinates",
+    "generatedAt": "2026-05-07T03:02:10.400Z"
+  },
+  {
+    "id": "yt_3mk3yXZR6nY_UgzvD3trMBR8D8m8ARd4AaABAg",
+    "status": "published",
+    "country": "JP",
+    "nameKoOrOriginal": "めん馬鹿一代",
+    "city": "Kyoto",
+    "area": "Kamigyo",
+    "lat": 35.01769603,
+    "lng": 135.74757134,
+    "categoryTags": [
+      "라멘"
+    ],
+    "commentKoAuto": "YouTube owner comment candidate에서 자동 추출한 장소입니다. Hermes가 공개 웹 근거로 위치를 확인했습니다.",
+    "verdict": "auto_recommended",
+    "confidence": 0.86,
+    "negativeSignalHits": [],
+    "sourceVideoId": "3mk3yXZR6nY",
+    "sourceVideoTitle": "교토에서 라멘을 주문하면 생기는 일",
+    "sourceVideoUrl": "https://www.youtube.com/watch?v=3mk3yXZR6nY",
+    "thumbnailUrl": "https://i.ytimg.com/vi/3mk3yXZR6nY/maxresdefault.jpg",
+    "sourceCommentId": "UgzvD3trMBR8D8m8ARd4AaABAg",
+    "sourceKind": "owner_location_comment_candidate",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=40%EB%85%84%20%EB%84%98%EC%9D%80%20%EA%B5%90%ED%86%A0%EC%9D%98%20%EB%A9%98%EB%B0%94%EC%B9%B4%20%ED%8C%8C%EC%9D%B4%EC%96%B4%20%EB%9D%BC%EB%A9%98%EC%9E%85%EB%8B%88%EB%8B%A4.%20Kyoto%20Japan",
+    "locationResolvedBy": "hermes",
+    "locationConfidence": 0.86,
+    "evidenceUrls": [
+      "https://www.mapion.co.jp/phonebook/M01002/26102/G5506505-001/",
+      "https://www.openstreetmap.org/node/4421738444",
+      "https://tabelog.com/kyoto/A2601/A260203/26001112/"
+    ],
+    "coordinateSource": "Mapion public phonebook coordinates; cross-checked against OSM/Nominatim node 4421738444 nearby",
+    "generatedAt": "2026-05-07T03:02:10.400Z"
+  },
+  {
+    "id": "yt_QURFZU6jn_U_UgwrpKAZKlpxDRhamJV4AaABAg",
+    "status": "published",
+    "country": "JP",
+    "nameKoOrOriginal": "先斗町焼肉 きらく",
+    "city": "Kyoto",
+    "area": "Pontocho",
+    "lat": 35.00718104,
+    "lng": 135.77116331,
+    "categoryTags": [
+      "덮밥",
+      "디저트"
+    ],
+    "commentKoAuto": "YouTube owner comment candidate에서 자동 추출한 장소입니다. Hermes가 공개 웹 근거로 위치를 확인했습니다.",
+    "verdict": "auto_recommended",
+    "confidence": 0.98,
+    "negativeSignalHits": [],
+    "sourceVideoId": "QURFZU6jn_U",
+    "sourceVideoTitle": "교토에서 와규덮밥을 주문하면 생기는 일",
+    "sourceVideoUrl": "https://www.youtube.com/watch?v=QURFZU6jn_U",
+    "thumbnailUrl": "https://i.ytimg.com/vi/QURFZU6jn_U/maxresdefault.jpg",
+    "sourceCommentId": "UgwrpKAZKlpxDRhamJV4AaABAg",
+    "sourceKind": "owner_location_comment_candidate",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%EA%B5%90%ED%86%A0%EC%9D%98%20%EC%99%80%EA%B7%9C%20%EC%8A%A4%ED%85%8C%EC%9D%B4%ED%81%AC%20%EB%8D%AE%EB%B0%A5%EC%9E%85%EB%8B%88%EB%8B%A4.%20%5BPontocho%20Yakiniku%20Kiraku%20%E5%85%88%E6%96%97%E7%94%BA%E7%84%BC%E8%82%89%E3%81%8D%E3%82%89%E3%81%8F%5D%20Kyoto%20Japan",
+    "locationResolvedBy": "hermes",
+    "locationConfidence": 0.98,
+    "evidenceUrls": [
+      "https://www.mapion.co.jp/phonebook/M01005/26104/Gken3000-001/",
+      "https://tabelog.com/kyoto/A2601/A260301/26041041/dtlmap/"
+    ],
+    "coordinateSource": "Mapion public phonebook coordinates",
+    "generatedAt": "2026-05-07T03:02:10.400Z"
+  },
+  {
+    "id": "yt_-v91_owz1k0_UgwybzhtAh7AfxPC_lJ4AaABAg",
+    "status": "published",
+    "country": "JP",
+    "nameKoOrOriginal": "丸亀製麺 京都市役所前店",
+    "city": "Kyoto",
+    "area": "Nakagyo",
+    "lat": 35.01061987,
+    "lng": 135.76831571,
+    "categoryTags": [
+      "우동",
+      "덮밥"
+    ],
+    "commentKoAuto": "YouTube owner comment candidate에서 자동 추출한 장소입니다. Hermes가 공개 웹 근거로 위치를 확인했습니다.",
+    "verdict": "auto_recommended",
+    "confidence": 0.98,
+    "negativeSignalHits": [],
+    "sourceVideoId": "-v91_owz1k0",
+    "sourceVideoTitle": "교토에서 말차 우동을 주문하면 생기는 일",
+    "sourceVideoUrl": "https://www.youtube.com/watch?v=-v91_owz1k0",
+    "thumbnailUrl": "https://i.ytimg.com/vi/-v91_owz1k0/maxresdefault.jpg",
+    "sourceCommentId": "UgwybzhtAh7AfxPC_lJ4AaABAg",
+    "sourceKind": "owner_location_comment_candidate",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%EA%B5%90%ED%86%A0%EC%9D%98%20%EB%A7%90%EC%B0%A8%20%EC%B9%B4%EB%A5%B4%EB%B3%B4%EB%82%98%EB%9D%BC%20%EC%9A%B0%EB%8F%99%EC%9E%85%EB%8B%88%EB%8B%A4.%20%5B%EB%A7%88%EB%A3%A8%EA%B0%80%EB%A9%94%20%EC%84%B8%EC%9D%B4%EB%A9%98%20%E4%B8%B8%E4%BA%80%E8%A3%BD%E9%BA%BA%E4%BA%AC%E9%83%BD%E5%B8%82%E5%BD%B9%E6%89%80%E5%89%8D%5D%20Kyoto%20Japan",
+    "locationResolvedBy": "hermes",
+    "locationConfidence": 0.98,
+    "evidenceUrls": [
+      "https://www.mapion.co.jp/phonebook/M01003/26104/Gkcjm116-001/"
+    ],
+    "coordinateSource": "Mapion public phonebook coordinates",
+    "generatedAt": "2026-05-07T03:02:10.400Z"
+  },
+  {
+    "id": "yt_fivSo_d3x_c_UgzAaoG40JJtbdUdfI54AaABAg",
+    "status": "published",
+    "country": "JP",
+    "nameKoOrOriginal": "とんかつ 成蔵",
+    "city": "Tokyo",
+    "area": "Suginami",
+    "lat": 35.69773561,
+    "lng": 139.6386806,
+    "categoryTags": [
+      "돈카츠",
+      "덮밥"
+    ],
+    "commentKoAuto": "YouTube owner comment candidate에서 자동 추출한 장소입니다. Hermes가 공개 웹 근거로 위치를 확인했습니다.",
+    "verdict": "auto_recommended",
+    "confidence": 0.9274999999999999,
+    "negativeSignalHits": [],
+    "sourceVideoId": "fivSo_d3x_c",
+    "sourceVideoTitle": "도쿄 랭킹 1위 돈카츠를 주문하면 생기는 일",
+    "sourceVideoUrl": "https://www.youtube.com/watch?v=fivSo_d3x_c",
+    "thumbnailUrl": "https://i.ytimg.com/vi/fivSo_d3x_c/maxresdefault.jpg",
+    "sourceCommentId": "UgzAaoG40JJtbdUdfI54AaABAg",
+    "sourceKind": "owner_location_comment_candidate",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%EC%9D%BC%EB%B3%B8%EC%97%90%EC%84%9C%20%EA%B0%80%EC%9E%A5%20%EB%A7%9B%EC%9E%88%EB%8B%A4%EA%B3%A0%20%ED%8F%89%EA%B0%80%EB%B0%9B%EB%8A%94%20%EB%8F%88%EC%B9%B4%EC%B8%A0%20%EC%A0%84%EB%AC%B8%EC%A0%90%2C%20%EB%82%98%EB%A6%AC%EC%BF%A0%EB%9D%BC%EC%9E%85%EB%8B%88%EB%8B%A4.%20Tokyo%20Japan",
+    "locationResolvedBy": "hermes",
+    "locationConfidence": 0.9274999999999999,
+    "evidenceUrls": [
+      "https://www.mapion.co.jp/phonebook/M01001/13115/Ggfr3800-001/",
+      "https://tabelog.com/tokyo/A1319/A131905/13236380/dtlmap/"
+    ],
+    "coordinateSource": "Mapion public phonebook coordinates",
+    "generatedAt": "2026-05-07T03:02:10.400Z"
   }
 ]
