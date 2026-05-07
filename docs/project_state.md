@@ -2,13 +2,14 @@
 
 - Project display name: 탐닉 일본 맛집 지도
 - Operator identity: `dr.lowb`
-- Current task: `M3 GitHub Pages free deployment`
+- Current task: `M3.1 public UX hotfix`
 - Repo name: `my-yt-japan-restaurant`
 - Repo URL: `https://github.com/lowbyyj/my-yt-japan-restaurant`
 - Branch: `main`
 - Starting commit before M2: `bf0112e7b3a3357fd5235ed7cca2a9f231e78dd7`
 - M2.5 starting commit: `53f972db9ab08419c572daab926d7c67aa79341f`
 - M3 starting commit: `084fbd5309f969f2ff7f8ed0473bbce648881d54`
+- M3.1 starting commit: `cccb1a2286e0041487eb928e59047efbad8c95d3`
 - Vite base path: `/my-yt-japan-restaurant/`
 - Public project URL: `https://lowbyyj.github.io/my-yt-japan-restaurant/`
 - GitHub Pages hosting: free, `gh-pages` branch deployment from this repo.
@@ -52,6 +53,15 @@
 - Public URL: `https://lowbyyj.github.io/my-yt-japan-restaurant/`.
 - Hosting/API constraints: no paid hosting, no Google Places API, no Google Maps JavaScript API.
 
+## M3.1 Public UX Hotfix
+
+- Main cards now show user-facing one-line descriptions instead of internal extraction/provenance wording.
+- Primary Google Maps links are coordinate-based from published `lat`/`lng`; directions links use coordinate destinations.
+- Left place list uses internal scrolling on desktop so the page does not become a very long document.
+- Map basemap defaults to CARTO Voyager, with Positron and OSM style selector fallback options.
+- Card layout now emphasizes thumbnail, shop name, city/area, tags, description, and clear actions: `영상 보기`, `Google Maps에서 보기`, `길찾기`.
+- Published marker count remains `19`; no new real places were added in M3.1.
+
 ## Resolved Places
 
 M2.4 resolved places:
@@ -84,9 +94,9 @@ M2.5 batch 2 resolved places:
 - `npm run data:doctor`: passed.
 - `npm run data:all`: last data refresh passed in M2.5, published `19`.
 - `npm run validate:data`: passed, published `19`.
-- `npm run test`: passed, 5 files / 36 tests.
+- `npm run test`: passed, 6 files / 41 tests.
 - `npm run build`: passed.
-- Local preview before M3: passed, `200 OK`; preview public places count `19`, Hermes-resolved count `18`.
+- Local preview after M3.1: passed, `200 OK`; preview public places count `19`; desktop body scroll `0`; left cards list scrolls internally; main card text does not expose internal extraction/provenance wording.
 
 ## Current Blocker
 

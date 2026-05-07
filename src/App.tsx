@@ -1,6 +1,11 @@
 import { useEffect, useMemo, useState } from "react";
 import { Icon, type LatLngExpression } from "leaflet";
 import { MapContainer, Marker, Popup, TileLayer, useMap } from "react-leaflet";
+import {
+  buildDisplayDescription,
+  buildGoogleMapsDirectionsUrl,
+  buildGoogleMapsViewUrl,
+} from "./placeDisplay";
 import type { DataStatus, PublicPlace } from "./types";
 
 const DEFAULT_CENTER: LatLngExpression = [36.2048, 138.2529];
@@ -19,6 +24,28 @@ const DEFAULT_STATUS: DataStatus = {
   needsGeocode: 0,
   heldBack: 0,
 };
+
+const TILE_LAYERS = {
+  voyager: {
+    label: "Voyager",
+    url: "https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png",
+    attribution:
+      '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
+  },
+  positron: {
+    label: "Positron",
+    url: "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+    attribution:
+      '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
+  },
+  osm: {
+    label: "OSM",
+    url: "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+  },
+} as const;
+
+type TileLayerKey = keyof typeof TILE_LAYERS;
 
 const markerIcon = new Icon({
   iconUrl:
@@ -44,20 +71,12 @@ function SelectedMapFocus({ place }: { place?: PublicPlace }) {
   return null;
 }
 
-function formatConfidence(confidence: number) {
-  return `${Math.round(confidence * 100)}%`;
-}
-
 function normalizeForSearch(value: string) {
   return value.trim().toLowerCase();
 }
 
-function mapSearchUrl(place: PublicPlace) {
-  if (place.googleMapsUrl) return place.googleMapsUrl;
-  const query = [place.nameLocal, place.nameKoOrOriginal, place.city, "Japan"]
-    .filter(Boolean)
-    .join(" ");
-  return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(query)}`;
+function locationLabel(place: PublicPlace) {
+  return [place.city, place.area].filter(Boolean).join(" / ");
 }
 
 export function App() {
@@ -67,6 +86,7 @@ export function App() {
   const [search, setSearch] = useState("");
   const [city, setCity] = useState("all");
   const [category, setCategory] = useState("all");
+  const [tileLayer, setTileLayer] = useState<TileLayerKey>("voyager");
   const [loadError, setLoadError] = useState<string | null>(null);
 
   useEffect(() => {
@@ -139,77 +159,79 @@ export function App() {
   const center = selectedPlace
     ? ([selectedPlace.lat, selectedPlace.lng] as LatLngExpression)
     : DEFAULT_CENTER;
+  const activeTileLayer = TILE_LAYERS[tileLayer];
 
   return (
     <main className="app-shell">
       <header className="topbar">
         <div>
           <h1>탐닉 일본 맛집 지도</h1>
-          <p>공간탐닉 Shorts 고정댓글 후보를 바탕으로 자동 생성한 비공식 일본 가게 지도</p>
+          <p>공간탐닉 Shorts에서 소개된 일본 맛집을 한눈에 보는 비공식 지도</p>
         </div>
         <div className="status-pill">
           <span>{status.published}</span>
-          published
+          places
         </div>
       </header>
 
       <section className="notice">
-        Unofficial fan-curated/auto-generated map. Not affiliated with the channel.
-        Data is generated from public YouTube metadata/comments and may need verification.
+        영상과 공개 위치 근거를 바탕으로 만든 비공식 지도입니다. 방문 전 영업시간과 휴무는 한 번 더 확인해 주세요.
       </section>
 
       <section className="workspace">
         <aside className="panel" aria-label="place list and filters">
-          <div className="filters">
-            <label>
-              <span>검색</span>
-              <input
-                value={search}
-                onChange={(event) => setSearch(event.target.value)}
-                placeholder="가게명, 도시, 영상 제목"
-              />
-            </label>
-            <div className="filter-grid">
+          <div className="panel-top">
+            <div className="filters">
               <label>
-                <span>도시</span>
-                <select value={city} onChange={(event) => setCity(event.target.value)}>
-                  <option value="all">전체</option>
-                  {cityOptions.map((option) => (
-                    <option key={option} value={option}>
-                      {option}
-                    </option>
-                  ))}
-                </select>
+                <span>검색</span>
+                <input
+                  value={search}
+                  onChange={(event) => setSearch(event.target.value)}
+                  placeholder="가게명, 도시, 메뉴"
+                />
               </label>
-              <label>
-                <span>카테고리</span>
-                <select
-                  value={category}
-                  onChange={(event) => setCategory(event.target.value)}
-                >
-                  <option value="all">전체</option>
-                  {categoryOptions.map((option) => (
-                    <option key={option} value={option}>
-                      {option}
-                    </option>
-                  ))}
-                </select>
-              </label>
+              <div className="filter-grid">
+                <label>
+                  <span>도시</span>
+                  <select value={city} onChange={(event) => setCity(event.target.value)}>
+                    <option value="all">전체</option>
+                    {cityOptions.map((option) => (
+                      <option key={option} value={option}>
+                        {option}
+                      </option>
+                    ))}
+                  </select>
+                </label>
+                <label>
+                  <span>카테고리</span>
+                  <select
+                    value={category}
+                    onChange={(event) => setCategory(event.target.value)}
+                  >
+                    <option value="all">전체</option>
+                    {categoryOptions.map((option) => (
+                      <option key={option} value={option}>
+                        {option}
+                      </option>
+                    ))}
+                  </select>
+                </label>
+              </div>
             </div>
-          </div>
 
-          <div className="data-status" aria-label="data generation status">
-            <div>
-              <strong>{status.generatedAt ?? "not generated"}</strong>
-              <span>generatedAt</span>
-            </div>
-            <div>
-              <strong>{status.excludedNegativeSignal}</strong>
-              <span>negative excluded</span>
-            </div>
-            <div>
-              <strong>{status.needsGeocode}</strong>
-              <span>needs geocode</span>
+            <div className="data-status" aria-label="map summary">
+              <div>
+                <strong>{status.published}</strong>
+                <span>지도 표시</span>
+              </div>
+              <div>
+                <strong>{filteredPlaces.length}</strong>
+                <span>현재 목록</span>
+              </div>
+              <div>
+                <strong>{cityOptions.length}</strong>
+                <span>도시</span>
+              </div>
             </div>
           </div>
 
@@ -220,35 +242,38 @@ export function App() {
             </div>
           ) : filteredPlaces.length === 0 ? (
             <div className="empty-state">
-              <h2>아직 공개된 장소가 없습니다</h2>
-              <p>
-                수동 입력 없이 YouTube owner comment candidate 파이프라인으로 생성됩니다.
-                개발 환경에서 <code>npm run data:all</code>을
-                <code>YOUTUBE_API_KEY</code>와 함께 실행하세요.
-              </p>
-              {status.reason ? <small>{status.reason}</small> : null}
+              <h2>조건에 맞는 장소가 없습니다</h2>
+              <p>검색어 또는 필터를 바꿔서 다시 확인해 주세요.</p>
             </div>
           ) : (
-            <div className="cards">
+            <div className="cards" aria-label="places">
               {filteredPlaces.map((place) => (
-                <button
-                  className={`place-card ${selectedId === place.id ? "selected" : ""}`}
+                <article
+                  className={`place-card ${selectedPlace?.id === place.id ? "selected" : ""}`}
                   key={place.id}
                   onClick={() => setSelectedId(place.id)}
-                  type="button"
+                  onKeyDown={(event) => {
+                    if (event.key === "Enter" || event.key === " ") {
+                      event.preventDefault();
+                      setSelectedId(place.id);
+                    }
+                  }}
+                  role="button"
+                  tabIndex={0}
                 >
                   <img src={place.thumbnailUrl} alt="" loading="lazy" />
-                  <span className="card-main">
-                    <strong>{place.nameLocal ?? place.nameKoOrOriginal}</strong>
-                    <span className="muted">
-                      {[place.city, place.area].filter(Boolean).join(" / ")}
-                    </span>
+                  <div className="card-main">
+                    <div>
+                      <strong>{place.nameLocal ?? place.nameKoOrOriginal}</strong>
+                      <span className="muted">{locationLabel(place)}</span>
+                    </div>
                     <span className="tags">
-                      {place.categoryTags.map((tag) => (
+                      {place.categoryTags.slice(0, 4).map((tag) => (
                         <span key={tag}>{tag}</span>
                       ))}
+                      <span className="verified">위치 확인됨</span>
                     </span>
-                    <span>{place.commentKoAuto}</span>
+                    <p className="description">{buildDisplayDescription(place)}</p>
                     <span className="links">
                       <a
                         href={place.sourceVideoUrl}
@@ -256,30 +281,62 @@ export function App() {
                         rel="noreferrer"
                         target="_blank"
                       >
-                        YouTube
+                        영상 보기
                       </a>
                       <a
-                        href={mapSearchUrl(place)}
+                        href={buildGoogleMapsViewUrl(place)}
                         onClick={(event) => event.stopPropagation()}
                         rel="noreferrer"
                         target="_blank"
                       >
-                        Google Maps
+                        Google Maps에서 보기
                       </a>
-                      <span>{formatConfidence(place.confidence)}</span>
+                      <a
+                        href={buildGoogleMapsDirectionsUrl(place)}
+                        onClick={(event) => event.stopPropagation()}
+                        rel="noreferrer"
+                        target="_blank"
+                      >
+                        길찾기
+                      </a>
                     </span>
-                  </span>
-                </button>
+                    <details className="provenance" onClick={(event) => event.stopPropagation()}>
+                      <summary>데이터 출처 보기</summary>
+                      <p>영상과 공개 위치 근거를 바탕으로 지도에 표시했습니다.</p>
+                      <a href={place.sourceVideoUrl} rel="noreferrer" target="_blank">
+                        원본 영상 열기
+                      </a>
+                    </details>
+                  </div>
+                </article>
               ))}
             </div>
           )}
         </aside>
 
         <section className="map-wrap" aria-label="Japan restaurant map">
+          <div className="map-toolbar" aria-label="map style selector">
+            <span>지도 스타일</span>
+            <div>
+              {(Object.entries(TILE_LAYERS) as [TileLayerKey, (typeof TILE_LAYERS)[TileLayerKey]][]).map(
+                ([key, layer]) => (
+                  <button
+                    className={tileLayer === key ? "active" : ""}
+                    key={key}
+                    onClick={() => setTileLayer(key)}
+                    type="button"
+                  >
+                    {layer.label}
+                  </button>
+                ),
+              )}
+            </div>
+          </div>
           <MapContainer center={center} zoom={selectedPlace ? 13 : 5} className="map">
             <TileLayer
-              attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-              url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+              attribution={activeTileLayer.attribution}
+              key={tileLayer}
+              url={activeTileLayer.url}
             />
             <SelectedMapFocus place={selectedPlace} />
             {filteredPlaces.map((place) => (
@@ -294,10 +351,10 @@ export function App() {
                 <Popup>
                   <strong>{place.nameLocal ?? place.nameKoOrOriginal}</strong>
                   <br />
-                  {place.city}
+                  {locationLabel(place)}
                   <br />
-                  <a href={place.sourceVideoUrl} rel="noreferrer" target="_blank">
-                    source video
+                  <a href={buildGoogleMapsViewUrl(place)} rel="noreferrer" target="_blank">
+                    Google Maps에서 보기
                   </a>
                 </Popup>
               </Marker>
