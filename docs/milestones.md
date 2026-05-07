@@ -12,17 +12,39 @@ Automated YouTube owner-comment candidate ingestion.
 
 Automated extraction, negative-signal filtering, geocoding, and public places build.
 
+## M2.4
+
+Agent-assisted public/free evidence resolution bridge through `data/location_resolutions.json`.
+
+## M2.5
+
+Second public-safe location resolution batch, raising published markers to 19.
+
 ## M3
 
-First real generated dataset from `@space_tamnik` with `YOUTUBE_API_KEY`.
+First public GitHub Pages deployment at `https://lowbyyj.github.io/my-yt-japan-restaurant/` using the `gh-pages` branch fallback.
+
+## M3.1
+
+Public UX hotfix: coordinate-based Google Maps links, user-facing card copy, internal desktop list scroll, and improved basemap.
+
+## M3.2
+
+Enrichment and map-list focus sync:
+
+- Adds `data/place_enrichments.json` for public-safe Korean display copy.
+- Adds optional enrichment schema/type/UI fields: `placeTypeKo`, `signatureKo`, `whyKo`, `displayDescriptionKo`.
+- Syncs marker selection to the left card list with internal auto-scroll/focus.
+- Expands scan scope to `MAX_VIDEOS=300` and adds 8 vetted batch-3 location resolutions.
+- Publishes 26 public-evidence-backed markers while holding back unsafe Google Maps URL-only and broad city-only geocode candidates.
 
 ## M4
 
-GitHub Pages deployment after repo visibility/deployment settings are finalized.
+Optional next step: add link from the separate `lowbyyj.github.io` homepage repo, only when explicitly requested.
 
 ## M5
 
-Add link from `lowbyyj.github.io`.
+Further data discovery: add more public/free evidence resolvers for held-back candidates without paid APIs or manual production records.
 
 ## M6
 

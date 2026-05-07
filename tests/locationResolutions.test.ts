@@ -1,5 +1,8 @@
 import { describe, expect, it } from "vitest";
-import { buildResolvedPublicPlaces } from "../scripts/utils/locationResolutions.js";
+import {
+  buildResolvedPublicPlaces,
+  mergeAndDedupePublicPlaces,
+} from "../scripts/utils/locationResolutions.js";
 import { locationResolutionSchema } from "../scripts/utils/schema.js";
 
 const baseCandidate = {
@@ -120,5 +123,29 @@ describe("agent-assisted location resolutions", () => {
     );
 
     expect(places).toHaveLength(1);
+  });
+
+  it("prefers public-evidence resolved places over automatic geocode duplicates", () => {
+    const resolvedPlace = buildResolvedPublicPlaces([baseCandidate], [baseResolution], {
+      generatedAt: "2026-05-07T00:00:00.000Z",
+      confidenceThreshold: 0.55,
+    })[0];
+    const automaticPlace = {
+      ...resolvedPlace,
+      nameKoOrOriginal: baseCandidate.nameKoOrOriginal,
+      locationResolvedBy: undefined,
+      locationConfidence: undefined,
+      coordinateSource: undefined,
+      evidenceUrls: undefined,
+    };
+
+    const places = mergeAndDedupePublicPlaces([automaticPlace], [resolvedPlace]);
+
+    expect(places).toHaveLength(1);
+    expect(places[0]).toMatchObject({
+      nameKoOrOriginal: baseResolution.resolvedName,
+      locationResolvedBy: "hermes",
+      coordinateSource: baseResolution.coordinateSource,
+    });
   });
 });

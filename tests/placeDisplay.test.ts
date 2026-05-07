@@ -3,6 +3,7 @@ import {
   buildDisplayDescription,
   buildGoogleMapsDirectionsUrl,
   buildGoogleMapsViewUrl,
+  friendlyCategoryTag,
 } from "../src/placeDisplay.js";
 import type { PublicPlace } from "../src/types.js";
 
@@ -57,7 +58,7 @@ describe("place display helpers", () => {
   it("generates a user-facing description without internal provenance wording", () => {
     const description = buildDisplayDescription(place());
 
-    expect(description).toBe("도쿄에서 소개된 라멘 가게.");
+    expect(description).toBe("도쿄에서 소개된 라멘집.");
     expect(description).not.toMatch(/Hermes|자동 추출|owner comment|confidence|coordinateSource/i);
   });
 
@@ -67,5 +68,23 @@ describe("place display helpers", () => {
         place({ sourceVideoTitle: "2026년 4월 4일", city: "Fukuoka", area: "Tenjin" }),
       ),
     ).toBe("Fukuoka / Tenjin에서 소개된 가게.");
+  });
+
+  it("prefers curated public-safe enrichment text when available", () => {
+    expect(
+      buildDisplayDescription(
+        place({
+          placeTypeKo: "카페",
+          signatureKo: "말차 프렌치토스트",
+          displayDescriptionKo: "후쿠오카 텐진에서 말차 프렌치토스트로 소개된 카페.",
+        }),
+      ),
+    ).toBe("후쿠오카 텐진에서 말차 프렌치토스트로 소개된 카페.");
+  });
+
+  it("normalizes English category tags for Korean card chips", () => {
+    expect(friendlyCategoryTag("ramen")).toBe("라멘");
+    expect(friendlyCategoryTag("yakiniku")).toBe("야키니쿠");
+    expect(friendlyCategoryTag("unknown-tag")).toBe("unknown-tag");
   });
 });

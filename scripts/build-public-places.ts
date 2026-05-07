@@ -4,8 +4,10 @@ import {
   dataStatusSchema,
   geocodedCandidatesSchema,
   locationResolutionsSchema,
+  placeEnrichmentsSchema,
   publicPlacesSchema,
   type DataStatus,
+  type PlaceEnrichment,
   type PublicPlace,
 } from "./utils/schema.js";
 
@@ -14,6 +16,7 @@ const INGEST_PATH = "data/generated/youtube_owner_comment_candidates.json";
 const PUBLIC_PLACES_PATH = "public/data/places.json";
 const PUBLIC_STATUS_PATH = "public/data/data_status.json";
 const LOCATION_RESOLUTIONS_PATH = "data/location_resolutions.json";
+const PLACE_ENRICHMENTS_PATH = "data/place_enrichments.json";
 const CONFIDENCE_THRESHOLD = Number(process.env.CONFIDENCE_THRESHOLD || 0.55);
 
 type IngestSummary = {
@@ -26,6 +29,14 @@ type IngestSummary = {
   ownerCommentCandidates: number;
 };
 
+function isSafeAutomaticGeocode(candidate: (typeof geocodedCandidatesSchema._output)[number]) {
+  if (candidate.geocodeProvider?.startsWith("google_maps_url")) return false;
+  const query = candidate.geocodeQuery?.trim().toLowerCase();
+  if (!query) return false;
+  if (["tokyo japan", "osaka japan", "kyoto japan", "japan"].includes(query)) return false;
+  return candidate.geocodeProvider === "nominatim";
+}
+
 function toPublicPlace(candidate: (typeof geocodedCandidatesSchema._output)[number]) {
   if (
     candidate.country !== "JP" ||
@@ -37,7 +48,8 @@ function toPublicPlace(candidate: (typeof geocodedCandidatesSchema._output)[numb
     !candidate.sourceCommentId ||
     !candidate.videoId ||
     !candidate.videoUrl ||
-    !candidate.thumbnailUrl
+    !candidate.thumbnailUrl ||
+    !isSafeAutomaticGeocode(candidate)
   ) {
     return undefined;
   }
@@ -97,6 +109,23 @@ function buildHoldbackBreakdown(candidates: Array<(typeof geocodedCandidatesSche
   return breakdown;
 }
 
+function applyPlaceEnrichments(places: PublicPlace[], enrichments: PlaceEnrichment[]) {
+  const enrichmentById = new Map(enrichments.map((enrichment) => [enrichment.id, enrichment]));
+  return publicPlacesSchema.parse(
+    places.map((place) => {
+      const enrichment = enrichmentById.get(place.id);
+      if (!enrichment) return place;
+      return {
+        ...place,
+        placeTypeKo: enrichment.placeTypeKo ?? place.placeTypeKo,
+        signatureKo: enrichment.signatureKo ?? place.signatureKo,
+        whyKo: enrichment.whyKo ?? place.whyKo,
+        displayDescriptionKo: enrichment.displayDescriptionKo ?? place.displayDescriptionKo,
+      };
+    }),
+  );
+}
+
 async function main() {
   const ingest = await readJsonFile<IngestSummary>(INGEST_PATH, {
     dataGenerated: false,
@@ -111,6 +140,9 @@ async function main() {
   const locationResolutions = locationResolutionsSchema.parse(
     await readJsonFile(LOCATION_RESOLUTIONS_PATH, []),
   );
+  const placeEnrichments = placeEnrichmentsSchema.parse(
+    await readJsonFile(PLACE_ENRICHMENTS_PATH, []),
+  );
   const generatedAt = new Date().toISOString();
   const autoPlaces = publicPlacesSchema.parse(
     candidates.map(toPublicPlace).filter((place): place is PublicPlace => Boolean(place)),
@@ -119,7 +151,10 @@ async function main() {
     generatedAt,
     confidenceThreshold: CONFIDENCE_THRESHOLD,
   });
-  const places = mergeAndDedupePublicPlaces(autoPlaces, resolvedPlaces);
+  const places = applyPlaceEnrichments(
+    mergeAndDedupePublicPlaces(autoPlaces, resolvedPlaces),
+    placeEnrichments,
+  );
 
   const excludedNegativeSignal = candidates.filter(
     (candidate) => candidate.verdict === "excluded_negative_signal",

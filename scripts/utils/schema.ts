@@ -26,6 +26,10 @@ export const publicPlaceSchema = z.object({
   locationConfidence: z.number().min(0).max(1).optional(),
   evidenceUrls: z.array(z.string().url()).optional(),
   coordinateSource: z.string().min(1).optional(),
+  placeTypeKo: z.string().min(1).optional(),
+  signatureKo: z.string().min(1).optional(),
+  whyKo: z.string().min(1).optional(),
+  displayDescriptionKo: z.string().min(1).optional(),
   generatedAt: z.string().datetime(),
 });
 
@@ -110,6 +114,10 @@ export const locationResolutionSchema = z.object({
   evidenceUrls: z.array(z.string().url()),
   evidenceNotes: z.string().min(1),
   coordinateSource: z.string().min(1),
+  placeTypeKo: z.string().min(1).optional(),
+  signatureKo: z.string().min(1).optional(),
+  whyKo: z.string().min(1).optional(),
+  displayDescriptionKo: z.string().min(1).optional(),
   resolvedBy: z.literal("hermes"),
   resolvedAt: z.string().datetime(),
   confidence: z.number().min(0).max(1),
@@ -118,6 +126,17 @@ export const locationResolutionSchema = z.object({
 
 export const locationResolutionsSchema = z.array(locationResolutionSchema);
 export type LocationResolution = z.infer<typeof locationResolutionSchema>;
+
+export const placeEnrichmentSchema = z.object({
+  id: z.string().min(1),
+  placeTypeKo: z.string().min(1).optional(),
+  signatureKo: z.string().min(1).optional(),
+  whyKo: z.string().min(1).optional(),
+  displayDescriptionKo: z.string().min(1).optional(),
+});
+
+export const placeEnrichmentsSchema = z.array(placeEnrichmentSchema);
+export type PlaceEnrichment = z.infer<typeof placeEnrichmentSchema>;
 
 export const geocodedCandidateSchema = placeCandidateSchema.extend({
   lat: z.number().min(-90).max(90).optional(),

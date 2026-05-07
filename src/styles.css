@@ -233,7 +233,8 @@ select:focus,
 
 .place-card.selected {
   border-color: #d94841;
-  box-shadow: 0 0 0 2px rgba(217, 72, 65, 0.16), 0 10px 24px rgba(63, 45, 32, 0.1);
+  background: linear-gradient(180deg, #fff, #fff8f3);
+  box-shadow: 0 0 0 3px rgba(217, 72, 65, 0.26), 0 12px 28px rgba(63, 45, 32, 0.14);
 }
 
 .place-card img {
@@ -295,6 +296,37 @@ select:focus,
 .tags .verified {
   background: #fff0e8;
   color: #a24129;
+}
+
+.quick-facts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 0;
+}
+
+.quick-facts div {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  max-width: 100%;
+  padding: 4px 7px;
+  border-radius: 8px;
+  background: #f7f1eb;
+  color: #5b4f46;
+  font-size: 0.74rem;
+}
+
+.quick-facts dt {
+  color: #8a7462;
+  font-weight: 800;
+}
+
+.quick-facts dd {
+  margin: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .links {

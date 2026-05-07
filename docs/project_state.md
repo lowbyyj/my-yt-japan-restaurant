@@ -2,7 +2,7 @@
 
 - Project display name: 탐닉 일본 맛집 지도
 - Operator identity: `dr.lowb`
-- Current task: `M3.1 public UX hotfix`
+- Current task: `M3.2 enrichment and map-list focus sync`
 - Repo name: `my-yt-japan-restaurant`
 - Repo URL: `https://github.com/lowbyyj/my-yt-japan-restaurant`
 - Branch: `main`
@@ -10,17 +10,22 @@
 - M2.5 starting commit: `53f972db9ab08419c572daab926d7c67aa79341f`
 - M3 starting commit: `084fbd5309f969f2ff7f8ed0473bbce648881d54`
 - M3.1 starting commit: `cccb1a2286e0041487eb928e59047efbad8c95d3`
+- M3.2 starting commit: `a161024a2d6fa6ab4456c639b0654fc357b7c248`
 - Vite base path: `/my-yt-japan-restaurant/`
 - Public project URL: `https://lowbyyj.github.io/my-yt-japan-restaurant/`
 - GitHub Pages hosting: free, `gh-pages` branch deployment from this repo.
-- Separate personal homepage repo `lowbyyj.github.io`: not modified in M3.
+- Separate personal homepage repo `lowbyyj.github.io`: not modified in M3/M3.2.
 
 ## Data State
 
 - Manual curation: forbidden.
 - Real data source: automated `@space_tamnik` Shorts owner comment candidate extraction only.
 - Agent-assisted resolutions: allowed only when tied to an automated candidate and backed by public/free evidence in `data/location_resolutions.json`.
-- Public published count: `19`.
+- Public enrichment: allowed only as public-safe Korean display copy in `data/place_enrichments.json`; never edit `public/data/places.json` directly to add real records.
+- Public published count after M3.2: `26`.
+- Published records resolved by public-safe Hermes evidence: `26`.
+- Automatic geocode-only published records after M3.2: `0`.
+- Public enrichment records after M3.2: `26`.
 - Raw API dumps committed: no.
 - Cache/raw paths committed: no.
 
@@ -59,8 +64,36 @@
 - Primary Google Maps links are coordinate-based from published `lat`/`lng`; directions links use coordinate destinations.
 - Left place list uses internal scrolling on desktop so the page does not become a very long document.
 - Map basemap defaults to CARTO Voyager, with Positron and OSM style selector fallback options.
-- Card layout now emphasizes thumbnail, shop name, city/area, tags, description, and clear actions: `영상 보기`, `Google Maps에서 보기`, `길찾기`.
-- Published marker count remains `19`; no new real places were added in M3.1.
+- Card layout emphasizes thumbnail, shop name, city/area, tags, description, and actions: `영상 보기`, `Google Maps에서 보기`, `길찾기`.
+- Published marker count remained `19`; no new real places were added in M3.1.
+
+## M3.2 Enrichment and Map-List Focus Sync
+
+- Current milestone: `M3.2 enrich places and sync map list focus`.
+- Marker click now syncs the selected place with the left card list and scrolls the internal `.cards` container to the selected card.
+- Desktop viewport-fit behavior remains intact: preview smoke kept `document.scrollingElement.scrollTop` at `0` while `.cards.scrollTop` changed.
+- `data/place_enrichments.json` adds public-safe Korean copy for all 26 published places using:
+  - `placeTypeKo`
+  - `signatureKo`
+  - `whyKo`
+  - `displayDescriptionKo`
+- `scripts/build-public-places.ts` applies enrichment at build time and preserves fallback generated descriptions when enrichment is absent.
+- `scripts/utils/schema.ts`, `src/types.ts`, `src/placeDisplay.ts`, and tests were updated for the enrichment fields.
+- Build-time publish gates now avoid unsafe automatic records when the only coordinate source is Google Maps URL parsing or broad city-only Nominatim style queries.
+- Agent-assisted/public-evidence resolutions override unsafe auto-geocode/base candidates during merge/dedupe.
+- `MAX_VIDEOS=300` scan produced `298` owner-comment candidates and `237` Japan candidates; only vetted public-evidence records were published.
+- Batch 3 added 8 newly resolved places:
+  - `銀座はるちゃんラーメン`
+  - `#Hirokiya Roppongi`
+  - `うなぎ 串料理 いづも ルクア`
+  - `ramen hisui`
+  - `喫茶サテラ`
+  - `Shinjuku Ushimitsu`
+  - `肉匠なか田 本店`
+  - `IDATEN`
+- Published marker count increased from `19` to `26` because one prior automatic-only record is now held back unless backed by public evidence, while 8 vetted batch-3 records were added.
+- Current fallback structure: enrichment fields are optional; UI falls back to generated user-facing description logic when enrichment is missing.
+- Next recommended step: add more public/free evidence resolvers for held-back candidates, then add a homepage link from the separate `lowbyyj.github.io` repo only when explicitly requested.
 
 ## Resolved Places
 
@@ -88,22 +121,31 @@ M2.5 batch 2 resolved places:
 - `まるもち家 伏見稲荷本店`
 - `炭焼きうなぎの魚伊 本店`
 
+M3.2 batch 3 resolved places:
+
+- `銀座はるちゃんラーメン`
+- `#Hirokiya Roppongi`
+- `うなぎ 串料理 いづも ルクア`
+- `ramen hisui`
+- `喫茶サテラ`
+- `Shinjuku Ushimitsu`
+- `肉匠なか田 本店`
+- `IDATEN`
+
 ## Verification
 
-- `npm ci`: passed.
-- `npm run data:doctor`: passed.
-- `npm run data:all`: last data refresh passed in M2.5, published `19`.
-- `npm run validate:data`: passed, published `19`.
-- `npm run test`: passed, 6 files / 41 tests.
-- `npm run build`: passed.
-- Local preview after M3.1: passed, `200 OK`; preview public places count `19`; desktop body scroll `0`; left cards list scrolls internally; main card text does not expose internal extraction/provenance wording.
+- `npm ci`: passed at M3.2 start.
+- `MAX_VIDEOS=300 npm run data:all`: attempted; the full chained command timed out after ingestion/extraction/geocode work, so final public data was rebuilt with staged `build:data` and strict publish gates.
+- `npm run build:data && npm run validate:data`: passed, published `26`.
+- `npm run validate:data && npm run test && npm run build`: passed.
+- Local preview after M3.2: passed, `200 OK`; preview public places count `26`; marker count `26`; card count `26`; marker click moved `.cards.scrollTop` from `5` to over `6380`; desktop body scroll stayed `0`; selected card was visible.
 
 ## Current Blocker
 
 - Remaining Japan candidates still require public/free coordinate evidence before publication.
-- Ambiguous, chain/branch-unclear, or insufficiently evidenced candidates should remain held back.
-- M4 can add a link from the separate `lowbyyj.github.io` homepage repo, but M3 intentionally does not modify it.
+- Ambiguous, chain/branch-unclear, broad city-only geocode, Google Maps URL-only, or insufficiently evidenced candidates should remain held back.
+- GitHub Actions Pages workflow still needs a GitHub token with `workflow` scope; branch-source `gh-pages` deployment remains the working fallback.
 
 ## Hermes Next Task
 
-Hermes should continue in the same Telegram manager session, not `/new`, and switch with `[작업 전환: my-yt-japan-restaurant]`. First pull and verify. Keep `data/location_resolutions.json` public-safe and do not commit raw/cache/secret files.
+Hermes should continue in the same Telegram manager session, not `/new`, and switch with `[작업 전환: my-yt-japan-restaurant]`. First pull and verify. Keep `data/location_resolutions.json` and `data/place_enrichments.json` public-safe and do not commit raw/cache/secret files.

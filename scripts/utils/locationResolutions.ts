@@ -64,6 +64,10 @@ function toResolvedPublicPlace(
     locationConfidence: resolution.confidence,
     evidenceUrls: resolution.evidenceUrls,
     coordinateSource: resolution.coordinateSource,
+    placeTypeKo: resolution.placeTypeKo,
+    signatureKo: resolution.signatureKo,
+    whyKo: resolution.whyKo,
+    displayDescriptionKo: resolution.displayDescriptionKo,
     generatedAt,
   };
 }
@@ -101,7 +105,7 @@ export function mergeAndDedupePublicPlaces(
   const seenSourceVideos = new Set<string>();
   const seenPlaceKeys = new Set<string>();
 
-  for (const place of [...basePlaces, ...resolvedPlaces]) {
+  for (const place of [...resolvedPlaces, ...basePlaces]) {
     const placeKey = `${place.nameKoOrOriginal.toLowerCase()}|${place.city.toLowerCase()}|${place.lat.toFixed(5)}|${place.lng.toFixed(5)}`;
     if (seenSourceVideos.has(place.sourceVideoId) || seenPlaceKeys.has(placeKey)) continue;
     merged.push(place);

@@ -1,10 +1,11 @@
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { Icon, type LatLngExpression } from "leaflet";
 import { MapContainer, Marker, Popup, TileLayer, useMap } from "react-leaflet";
 import {
   buildDisplayDescription,
   buildGoogleMapsDirectionsUrl,
   buildGoogleMapsViewUrl,
+  friendlyCategoryTag,
 } from "./placeDisplay";
 import type { DataStatus, PublicPlace } from "./types";
 
@@ -88,6 +89,7 @@ export function App() {
   const [category, setCategory] = useState("all");
   const [tileLayer, setTileLayer] = useState<TileLayerKey>("voyager");
   const [loadError, setLoadError] = useState<string | null>(null);
+  const cardRefs = useRef(new Map<string, HTMLElement>());
 
   useEffect(() => {
     async function loadData() {
@@ -155,6 +157,12 @@ export function App() {
     () => filteredPlaces.find((place) => place.id === selectedId) ?? filteredPlaces[0],
     [filteredPlaces, selectedId],
   );
+
+  useEffect(() => {
+    if (!selectedPlace) return;
+    const card = cardRefs.current.get(selectedPlace.id);
+    card?.scrollIntoView({ block: "center", behavior: "smooth" });
+  }, [selectedPlace?.id]);
 
   const center = selectedPlace
     ? ([selectedPlace.lat, selectedPlace.lng] as LatLngExpression)
@@ -250,7 +258,12 @@ export function App() {
               {filteredPlaces.map((place) => (
                 <article
                   className={`place-card ${selectedPlace?.id === place.id ? "selected" : ""}`}
+                  data-place-id={place.id}
                   key={place.id}
+                  ref={(element) => {
+                    if (element) cardRefs.current.set(place.id, element);
+                    else cardRefs.current.delete(place.id);
+                  }}
                   onClick={() => setSelectedId(place.id)}
                   onKeyDown={(event) => {
                     if (event.key === "Enter" || event.key === " ") {
@@ -269,11 +282,25 @@ export function App() {
                     </div>
                     <span className="tags">
                       {place.categoryTags.slice(0, 4).map((tag) => (
-                        <span key={tag}>{tag}</span>
+                        <span key={tag}>{friendlyCategoryTag(tag)}</span>
                       ))}
                       <span className="verified">위치 확인됨</span>
                     </span>
                     <p className="description">{buildDisplayDescription(place)}</p>
+                    <dl className="quick-facts">
+                      {place.placeTypeKo ? (
+                        <div>
+                          <dt>종류</dt>
+                          <dd>{place.placeTypeKo}</dd>
+                        </div>
+                      ) : null}
+                      {place.signatureKo ? (
+                        <div>
+                          <dt>대표</dt>
+                          <dd>{place.signatureKo}</dd>
+                        </div>
+                      ) : null}
+                    </dl>
                     <span className="links">
                       <a
                         href={place.sourceVideoUrl}

@@ -20,6 +20,10 @@ export type PublicPlace = {
   sourceCommentId: string;
   sourceKind: "owner_location_comment_candidate";
   googleMapsUrl?: string;
+  placeTypeKo?: string;
+  signatureKo?: string;
+  whyKo?: string;
+  displayDescriptionKo?: string;
   generatedAt: string;
 };
 
