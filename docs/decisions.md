@@ -30,4 +30,6 @@ The project includes `npm run data:doctor` and `npm run data:dry-run` so agents 
 
 ## Agent-Assisted Public Evidence Bridge
 
-For M2.4, Hermes may resolve a small number of already-generated Japan candidates using public/free evidence, recorded in `data/location_resolutions.json`. This is not manual production curation: rows must be anchored to automated YouTube owner-comment candidates and must include public evidence URLs, coordinate source notes, and a confidence value. Ambiguous branches or candidates with only Google Maps redirect coordinates remain held back.
+For M2.4 and later batches, Hermes may resolve a small number of already-generated Japan candidates using public/free evidence, recorded in `data/location_resolutions.json`. This is not manual production curation: rows must be anchored to automated YouTube owner-comment candidates and must include public evidence URLs, coordinate source notes, and a confidence value. Ambiguous branches or candidates with only Google Maps redirect coordinates remain held back.
+
+M2.5 batch 2 used Tabelog public detail/map pages, OSM/Nominatim exact-name matches, and one official site address cross-check to add 11 more resolved candidate records. Google Places API and Google Maps scraping remained out of scope.

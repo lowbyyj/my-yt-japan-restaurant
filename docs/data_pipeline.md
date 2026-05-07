@@ -84,7 +84,7 @@ A resolution is publishable only when it:
 - keeps `country` as `JP`;
 - has finite `lat`/`lng`;
 - includes public evidence URLs and notes;
-- uses free/public coordinate sources such as Mapion public phonebook pages or OSM/Nominatim matches;
+- uses free/public coordinate sources such as Mapion public phonebook pages, OSM/Nominatim matches, official site address cross-checks, or Tabelog public detail/map coordinates;
 - avoids paid Google Places data and does not use Google Maps scraping as the core coordinate source.
 
 `build:data` merges automated geocoded places and resolved places, then dedupes by source video and rounded place key. If a resolution is missing evidence or coordinates, the fallback is to leave the candidate held back.

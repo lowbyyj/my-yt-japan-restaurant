@@ -26,7 +26,101 @@
     "sourceCommentId": "UgwRgpARPv1U5xkqXuJ4AaABAg",
     "sourceKind": "owner_location_comment_candidate",
     "googleMapsUrl": "https://www.google.co.kr/maps/place/THREE/@35.6423363,139.6664223,17z/data=!3m1!4b1!4m6!3m5!1s0x6018f5b982ffee73:0x914aae6a1ad381c7!8m2!3d35.642332!4d139.6689972!16s%2Fg%2F11v9kky8bc?entry=tts&g_ep=EgoyMDI2MDQwOC4wIPu8ASoASAFQAw%3D%3D&skid=518ccbdb-0860-4c65-91e9-a0024f7a490e",
-    "generatedAt": "2026-05-07T03:02:10.401Z"
+    "generatedAt": "2026-05-07T04:20:29.879Z"
+  },
+  {
+    "id": "yt_MjbBhC6TUfE_UgzUXiYWMvjQmw9rneV4AaABAg",
+    "status": "published",
+    "country": "JP",
+    "nameKoOrOriginal": "まほろば囲炉裏 心斎橋",
+    "city": "Osaka",
+    "area": "Shinsaibashi",
+    "lat": 34.67260945747415,
+    "lng": 135.50324341328806,
+    "categoryTags": [],
+    "commentKoAuto": "YouTube owner comment candidate에서 자동 추출한 장소입니다. Hermes가 공개 웹 근거로 위치를 확인했습니다.",
+    "verdict": "auto_recommended",
+    "confidence": 0.94,
+    "negativeSignalHits": [],
+    "sourceVideoId": "MjbBhC6TUfE",
+    "sourceVideoTitle": "오사카에서 와규 오마카세를 주문하면 생기는 일",
+    "sourceVideoUrl": "https://www.youtube.com/watch?v=MjbBhC6TUfE",
+    "thumbnailUrl": "https://i.ytimg.com/vi/MjbBhC6TUfE/maxresdefault.jpg",
+    "sourceCommentId": "UgzUXiYWMvjQmw9rneV4AaABAg",
+    "sourceKind": "owner_location_comment_candidate",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%EC%9D%B4%EB%A1%9C%EB%A6%AC%20%EC%99%80%EA%B7%9C%20%EC%8A%A4%ED%85%8C%EC%9D%B4%ED%81%AC%F0%9F%A5%A9%20Osaka%20Japan",
+    "locationResolvedBy": "hermes",
+    "locationConfidence": 0.94,
+    "evidenceUrls": [
+      "https://osaka.mahoroba-irori.com/",
+      "https://tabelog.com/osaka/A2701/A270201/27120260/"
+    ],
+    "coordinateSource": "Tabelog public detail coordinates, matched to the official site address",
+    "generatedAt": "2026-05-07T04:20:29.879Z"
+  },
+  {
+    "id": "yt_asZkEXEID4s_UgzP_Cl-sEYeZa8_eVB4AaABAg",
+    "status": "published",
+    "country": "JP",
+    "nameKoOrOriginal": "MENSHO District",
+    "city": "Tokyo",
+    "area": "Yoyogi-Uehara",
+    "lat": 35.66962333869614,
+    "lng": 139.68084818432717,
+    "categoryTags": [
+      "라멘"
+    ],
+    "commentKoAuto": "YouTube owner comment candidate에서 자동 추출한 장소입니다. Hermes가 공개 웹 근거로 위치를 확인했습니다.",
+    "verdict": "auto_recommended",
+    "confidence": 0.88,
+    "negativeSignalHits": [],
+    "sourceVideoId": "asZkEXEID4s",
+    "sourceVideoTitle": "도쿄에서 한정판 라멘을 주문하면 생기는 일",
+    "sourceVideoUrl": "https://www.youtube.com/watch?v=asZkEXEID4s",
+    "thumbnailUrl": "https://i.ytimg.com/vi/asZkEXEID4s/maxresdefault.jpg",
+    "sourceCommentId": "UgzP_Cl-sEYeZa8_eVB4AaABAg",
+    "sourceKind": "owner_location_comment_candidate",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%EB%8F%84%EC%BF%84%EC%97%90%EC%84%9C%20%EB%A7%9B%EB%B3%BC%20%EC%88%98%20%EC%9E%88%EB%8A%94%20%ED%8A%B9%EB%B3%84%ED%95%9C%20%EB%9D%BC%EB%A9%98%EC%9E%85%EB%8B%88%EB%8B%A4.%20Tokyo%20Japan",
+    "locationResolvedBy": "hermes",
+    "locationConfidence": 0.88,
+    "evidenceUrls": [
+      "https://tabelog.com/tokyo/A1318/A131811/13310413/"
+    ],
+    "coordinateSource": "Tabelog public detail coordinates",
+    "generatedAt": "2026-05-07T04:20:29.879Z"
+  },
+  {
+    "id": "yt_wOdRzWWGdZM_Ugy3kVvLSVm2HQD4iMZ4AaABAg",
+    "status": "published",
+    "country": "JP",
+    "nameKoOrOriginal": "CORDUROY cafe",
+    "city": "Fukuoka",
+    "area": "Tenjin/Da名",
+    "lat": 33.58719533625658,
+    "lng": 130.39643106863906,
+    "categoryTags": [
+      "카페",
+      "디저트"
+    ],
+    "commentKoAuto": "YouTube owner comment candidate에서 자동 추출한 장소입니다. Hermes가 공개 웹 근거로 위치를 확인했습니다.",
+    "verdict": "auto_recommended",
+    "confidence": 0.98,
+    "negativeSignalHits": [],
+    "sourceVideoId": "wOdRzWWGdZM",
+    "sourceVideoTitle": "후쿠오카에서 말차 프렌치토스트를 주문하면 생기는 일",
+    "sourceVideoUrl": "https://www.youtube.com/watch?v=wOdRzWWGdZM",
+    "thumbnailUrl": "https://i.ytimg.com/vi/wOdRzWWGdZM/maxresdefault.jpg",
+    "sourceCommentId": "Ugy3kVvLSVm2HQD4iMZ4AaABAg",
+    "sourceKind": "owner_location_comment_candidate",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%ED%9B%84%EC%BF%A0%EC%98%A4%EC%B9%B4%20%EB%A7%90%EC%B0%A8%20%ED%94%84%EB%A0%8C%EC%B9%98%ED%86%A0%EC%8A%A4%ED%8A%B8%F0%9F%8D%B5%20Fukuoka%20Japan",
+    "locationResolvedBy": "hermes",
+    "locationConfidence": 0.93,
+    "evidenceUrls": [
+      "https://tabelog.com/fukuoka/A4001/A400103/40004300/",
+      "https://www.openstreetmap.org/node/7211182087"
+    ],
+    "coordinateSource": "Tabelog public detail coordinates; cross-checked against OSM/Nominatim node 7211182087 nearby",
+    "generatedAt": "2026-05-07T04:20:29.879Z"
   },
   {
     "id": "yt_YXWKzFPr5mE_UgyZWzKvsgBmTDZjX-F4AaABAg",
@@ -58,7 +152,135 @@
       "https://www.openstreetmap.org/node/11411613669"
     ],
     "coordinateSource": "Mapion public phonebook coordinates; cross-checked against OSM/Nominatim node 11411613669 nearby",
-    "generatedAt": "2026-05-07T03:02:10.400Z"
+    "generatedAt": "2026-05-07T04:20:29.879Z"
+  },
+  {
+    "id": "yt_nwa4cH-4JOA_UgxRyQVBsI-uvuBIfQx4AaABAg",
+    "status": "published",
+    "country": "JP",
+    "nameKoOrOriginal": "とんかつ 丸七 銀座店",
+    "city": "Tokyo",
+    "area": "Ginza",
+    "lat": 35.66964757872423,
+    "lng": 139.76910353426555,
+    "categoryTags": [
+      "돈카츠",
+      "덮밥"
+    ],
+    "commentKoAuto": "YouTube owner comment candidate에서 자동 추출한 장소입니다. Hermes가 공개 웹 근거로 위치를 확인했습니다.",
+    "verdict": "auto_recommended",
+    "confidence": 0.92,
+    "negativeSignalHits": [],
+    "sourceVideoId": "nwa4cH-4JOA",
+    "sourceVideoTitle": "도쿄에서 돈카츠를 주문하면 생기는 일",
+    "sourceVideoUrl": "https://www.youtube.com/watch?v=nwa4cH-4JOA",
+    "thumbnailUrl": "https://i.ytimg.com/vi/nwa4cH-4JOA/maxresdefault.jpg",
+    "sourceCommentId": "UgxRyQVBsI-uvuBIfQx4AaABAg",
+    "sourceKind": "owner_location_comment_candidate",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%EC%9D%BC%EB%B3%B8%EC%97%90%EC%84%9C%20%EC%A0%9C%EC%9D%BC%20%EB%91%90%EA%BA%BC%EC%9A%B4%20%EB%8F%88%EC%B9%B4%EC%B8%A0%20%EB%8D%AE%EB%B0%A5%EC%9E%85%EB%8B%88%EB%8B%A4.%20Tokyo%20Japan",
+    "locationResolvedBy": "hermes",
+    "locationConfidence": 0.92,
+    "evidenceUrls": [
+      "https://tabelog.com/tokyo/A1301/A130101/13297660/dtlmap/"
+    ],
+    "coordinateSource": "Tabelog public map/detail coordinates",
+    "generatedAt": "2026-05-07T04:20:29.879Z"
+  },
+  {
+    "id": "yt_BA2fQYxlicE_Ugw_9rJOHW-Edn9L0PR4AaABAg",
+    "status": "published",
+    "country": "JP",
+    "nameKoOrOriginal": "中華そば 辻",
+    "city": "Osaka",
+    "area": "Tenmabashi",
+    "lat": 34.687966682016004,
+    "lng": 135.51684414196873,
+    "categoryTags": [
+      "라멘",
+      "소바"
+    ],
+    "commentKoAuto": "YouTube owner comment candidate에서 자동 추출한 장소입니다. Hermes가 공개 웹 근거로 위치를 확인했습니다.",
+    "verdict": "auto_recommended",
+    "confidence": 0.91,
+    "negativeSignalHits": [],
+    "sourceVideoId": "BA2fQYxlicE",
+    "sourceVideoTitle": "오사카에서 냉라멘을 주문하면 생기는 일",
+    "sourceVideoUrl": "https://www.youtube.com/watch?v=BA2fQYxlicE",
+    "thumbnailUrl": "https://i.ytimg.com/vi/BA2fQYxlicE/maxresdefault.jpg",
+    "sourceCommentId": "Ugw_9rJOHW-Edn9L0PR4AaABAg",
+    "sourceKind": "owner_location_comment_candidate",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%EC%98%A4%EC%82%AC%EC%B9%B4%20%EB%9D%BC%EB%A9%98%20%EC%A0%84%EB%AC%B8%EC%A0%90%EC%9E%85%EB%8B%88%EB%8B%A4.%20Osaka%20Japan",
+    "locationResolvedBy": "hermes",
+    "locationConfidence": 0.91,
+    "evidenceUrls": [
+      "https://tabelog.com/osaka/A2701/A270104/27135527/",
+      "https://www.openstreetmap.org/node/5251882222"
+    ],
+    "coordinateSource": "Tabelog public detail coordinates; cross-checked against OSM/Nominatim node 5251882222 nearby",
+    "generatedAt": "2026-05-07T04:20:29.879Z"
+  },
+  {
+    "id": "yt_J08on2yxJ10_UgxlNgHTy-R_pYZ2MDF4AaABAg",
+    "status": "published",
+    "country": "JP",
+    "nameKoOrOriginal": "麺屋 さくら井",
+    "city": "Tokyo",
+    "area": "Musashino/Mitaka",
+    "lat": 35.708345038631826,
+    "lng": 139.55613588480574,
+    "categoryTags": [
+      "라멘"
+    ],
+    "commentKoAuto": "YouTube owner comment candidate에서 자동 추출한 장소입니다. Hermes가 공개 웹 근거로 위치를 확인했습니다.",
+    "verdict": "auto_recommended",
+    "confidence": 0.98,
+    "negativeSignalHits": [],
+    "sourceVideoId": "J08on2yxJ10",
+    "sourceVideoTitle": "본토 쇼유라멘을 주문하면 생기는 일",
+    "sourceVideoUrl": "https://www.youtube.com/watch?v=J08on2yxJ10",
+    "thumbnailUrl": "https://i.ytimg.com/vi/J08on2yxJ10/maxresdefault.jpg",
+    "sourceCommentId": "UgxlNgHTy-R_pYZ2MDF4AaABAg",
+    "sourceKind": "owner_location_comment_candidate",
+    "googleMapsUrl": "https://maps.app.goo.gl/yJbJVzbhnW2WicfQ6?g_st=ic",
+    "locationResolvedBy": "hermes",
+    "locationConfidence": 0.9,
+    "evidenceUrls": [
+      "https://tabelog.com/tokyo/A1320/A132002/13313947/",
+      "https://www.openstreetmap.org/node/10196474641"
+    ],
+    "coordinateSource": "Tabelog public detail coordinates; cross-checked against OSM/Nominatim node 10196474641 nearby",
+    "generatedAt": "2026-05-07T04:20:29.879Z"
+  },
+  {
+    "id": "yt_CACe5nfPE6Y_UgyPMeWmmUXqkuIA4Lx4AaABAg",
+    "status": "published",
+    "country": "JP",
+    "nameKoOrOriginal": "石村萬盛堂 本店",
+    "city": "Fukuoka",
+    "area": "Hakata/Susaki",
+    "lat": 33.59593399705893,
+    "lng": 130.40435748988355,
+    "categoryTags": [
+      "디저트"
+    ],
+    "commentKoAuto": "YouTube owner comment candidate에서 자동 추출한 장소입니다. Hermes가 공개 웹 근거로 위치를 확인했습니다.",
+    "verdict": "auto_recommended",
+    "confidence": 0.94,
+    "negativeSignalHits": [],
+    "sourceVideoId": "CACe5nfPE6Y",
+    "sourceVideoTitle": "후쿠오카에서 아이스크림을 주문하면 생기는 일",
+    "sourceVideoUrl": "https://www.youtube.com/watch?v=CACe5nfPE6Y",
+    "thumbnailUrl": "https://i.ytimg.com/vi/CACe5nfPE6Y/maxresdefault.jpg",
+    "sourceCommentId": "UgyPMeWmmUXqkuIA4Lx4AaABAg",
+    "sourceKind": "owner_location_comment_candidate",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=100%EB%85%84%20%EB%84%98%EC%9D%80%20%ED%9B%84%EC%BF%A0%EC%98%A4%EC%B9%B4%EC%9D%98%20%EC%A0%9C%EA%B3%BC%EC%A0%90%2C%20%EC%9D%B4%EC%8B%9C%EB%AC%B4%EB%9D%BC%20%EB%A7%8C%EC%84%B8%EC%9D%B4%EB%8F%84%EC%9E%85%EB%8B%88%EB%8B%A4.%20%ED%99%94%EC%9D%B4%ED%8A%B8%EB%8D%B0%EC%9D%B4%EB%A5%BC%20%EC%B2%98%EC%9D%8C%20%EB%A7%8C%EB%93%A0%20%EA%B3%B3%EC%9D%B4%EA%B8%B0%EB%8F%84%20%ED%95%9C%EB%8D%B0%EC%9A%94.%20Fukuoka%20Japan",
+    "locationResolvedBy": "hermes",
+    "locationConfidence": 0.9,
+    "evidenceUrls": [
+      "https://tabelog.com/fukuoka/A4001/A400102/40023243/dtlmap/"
+    ],
+    "coordinateSource": "Tabelog public map/detail coordinates",
+    "generatedAt": "2026-05-07T04:20:29.879Z"
   },
   {
     "id": "yt_5ve6DmveFqM_UgwkduBbhW2XxFssM-x4AaABAg",
@@ -92,7 +314,7 @@
       "https://tabelog.com/tokyo/A1313/A131301/13007656/"
     ],
     "coordinateSource": "Mapion public phonebook coordinates; cross-checked against OSM/Nominatim node 10811562505 nearby",
-    "generatedAt": "2026-05-07T03:02:10.400Z"
+    "generatedAt": "2026-05-07T04:20:29.879Z"
   },
   {
     "id": "yt_gSiiwNnDwqI_UgyiB9SqoKb4Xyl62eJ4AaABAg",
@@ -124,7 +346,7 @@
       "https://tabelog.com/tokyo/A1308/A130802/13057178/"
     ],
     "coordinateSource": "Mapion public phonebook coordinates",
-    "generatedAt": "2026-05-07T03:02:10.400Z"
+    "generatedAt": "2026-05-07T04:20:29.879Z"
   },
   {
     "id": "yt_3mk3yXZR6nY_UgzvD3trMBR8D8m8ARd4AaABAg",
@@ -157,7 +379,38 @@
       "https://tabelog.com/kyoto/A2601/A260203/26001112/"
     ],
     "coordinateSource": "Mapion public phonebook coordinates; cross-checked against OSM/Nominatim node 4421738444 nearby",
-    "generatedAt": "2026-05-07T03:02:10.400Z"
+    "generatedAt": "2026-05-07T04:20:29.879Z"
+  },
+  {
+    "id": "yt_gNSEYWgfXYg_UgwkeacwrX7Vk5Xvuyh4AaABAg",
+    "status": "published",
+    "country": "JP",
+    "nameKoOrOriginal": "おいしい氷屋 天神南店",
+    "city": "Fukuoka",
+    "area": "Tenjin-Minami",
+    "lat": 33.58640343625919,
+    "lng": 130.40303376862647,
+    "categoryTags": [
+      "디저트"
+    ],
+    "commentKoAuto": "YouTube owner comment candidate에서 자동 추출한 장소입니다. Hermes가 공개 웹 근거로 위치를 확인했습니다.",
+    "verdict": "auto_recommended",
+    "confidence": 0.94,
+    "negativeSignalHits": [],
+    "sourceVideoId": "gNSEYWgfXYg",
+    "sourceVideoTitle": "후쿠오카에서 두바이 초코 빙수를 주문하면 생기는 일",
+    "sourceVideoUrl": "https://www.youtube.com/watch?v=gNSEYWgfXYg",
+    "thumbnailUrl": "https://i.ytimg.com/vi/gNSEYWgfXYg/maxresdefault.jpg",
+    "sourceCommentId": "UgwkeacwrX7Vk5Xvuyh4AaABAg",
+    "sourceKind": "owner_location_comment_candidate",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%ED%9B%84%EC%BF%A0%EC%98%A4%EC%B9%B4%EC%9D%98%20%EB%91%90%EB%B0%94%EC%9D%B4%20%EC%B4%88%EC%BD%94%20%EB%B9%99%EC%88%98%EC%9E%85%EB%8B%88%EB%8B%A4.%20Fukuoka%20Japan",
+    "locationResolvedBy": "hermes",
+    "locationConfidence": 0.91,
+    "evidenceUrls": [
+      "https://tabelog.com/fukuoka/A4001/A400103/40047257/"
+    ],
+    "coordinateSource": "Tabelog public detail coordinates",
+    "generatedAt": "2026-05-07T04:20:29.879Z"
   },
   {
     "id": "yt_QURFZU6jn_U_UgwrpKAZKlpxDRhamJV4AaABAg",
@@ -190,7 +443,37 @@
       "https://tabelog.com/kyoto/A2601/A260301/26041041/dtlmap/"
     ],
     "coordinateSource": "Mapion public phonebook coordinates",
-    "generatedAt": "2026-05-07T03:02:10.400Z"
+    "generatedAt": "2026-05-07T04:20:29.879Z"
+  },
+  {
+    "id": "yt_6JMoBINVMVQ_Ugy3rwMwocb9I-TXaWB4AaABAg",
+    "status": "published",
+    "country": "JP",
+    "nameKoOrOriginal": "2050 Coffee",
+    "city": "Kyoto",
+    "area": "Nakagyo",
+    "lat": 35.00830760848874,
+    "lng": 135.76733991283493,
+    "categoryTags": [],
+    "commentKoAuto": "YouTube owner comment candidate에서 자동 추출한 장소입니다. Hermes가 공개 웹 근거로 위치를 확인했습니다.",
+    "verdict": "auto_recommended",
+    "confidence": 0.92,
+    "negativeSignalHits": [],
+    "sourceVideoId": "6JMoBINVMVQ",
+    "sourceVideoTitle": "교토에서 말차 라테를 주문하면 생기는 일",
+    "sourceVideoUrl": "https://www.youtube.com/watch?v=6JMoBINVMVQ",
+    "thumbnailUrl": "https://i.ytimg.com/vi/6JMoBINVMVQ/maxresdefault.jpg",
+    "sourceCommentId": "Ugy3rwMwocb9I-TXaWB4AaABAg",
+    "sourceKind": "owner_location_comment_candidate",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%ED%83%AD%EC%9D%84%20%EB%88%84%EB%A5%B4%EB%A9%B4%20%EB%82%98%EC%98%A4%EB%8A%94%20%EA%B5%90%ED%86%A0%20%EB%A7%90%EC%B0%A8%20%EB%9D%BC%ED%85%8C%EC%9E%85%EB%8B%88%EB%8B%A4.%20Kyoto%20Japan",
+    "locationResolvedBy": "hermes",
+    "locationConfidence": 0.92,
+    "evidenceUrls": [
+      "https://tabelog.com/kyoto/A2601/A260201/26040479/",
+      "https://www.openstreetmap.org/node/12768082398"
+    ],
+    "coordinateSource": "Tabelog public detail coordinates; cross-checked against OSM/Nominatim node 12768082398 nearby",
+    "generatedAt": "2026-05-07T04:20:29.879Z"
   },
   {
     "id": "yt_-v91_owz1k0_UgwybzhtAh7AfxPC_lJ4AaABAg",
@@ -222,7 +505,68 @@
       "https://www.mapion.co.jp/phonebook/M01003/26104/Gkcjm116-001/"
     ],
     "coordinateSource": "Mapion public phonebook coordinates",
-    "generatedAt": "2026-05-07T03:02:10.400Z"
+    "generatedAt": "2026-05-07T04:20:29.879Z"
+  },
+  {
+    "id": "yt_pYZIGDfiBWk_UgzFXRO0v5FSX8CM7g14AaABAg",
+    "status": "published",
+    "country": "JP",
+    "nameKoOrOriginal": "まるもち家 伏見稲荷本店",
+    "city": "Kyoto",
+    "area": "Fushimi Inari",
+    "lat": 34.96806023789611,
+    "lng": 135.76958269998244,
+    "categoryTags": [],
+    "commentKoAuto": "YouTube owner comment candidate에서 자동 추출한 장소입니다. Hermes가 공개 웹 근거로 위치를 확인했습니다.",
+    "verdict": "auto_recommended",
+    "confidence": 0.9274999999999999,
+    "negativeSignalHits": [],
+    "sourceVideoId": "pYZIGDfiBWk",
+    "sourceVideoTitle": "교토에서 모찌를 주문하면 생기는 일",
+    "sourceVideoUrl": "https://www.youtube.com/watch?v=pYZIGDfiBWk",
+    "thumbnailUrl": "https://i.ytimg.com/vi/pYZIGDfiBWk/maxresdefault.jpg",
+    "sourceCommentId": "UgzFXRO0v5FSX8CM7g14AaABAg",
+    "sourceKind": "owner_location_comment_candidate",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%EB%B0%94%EC%82%AD%ED%95%98%EA%B2%8C%20%EA%B5%AC%EC%9B%8C%EB%82%B8%20%EA%B5%90%ED%86%A0%EC%9D%98%203%EC%83%89%20%EB%AA%A8%EC%B0%8C%EC%9E%85%EB%8B%88%EB%8B%A4.%20Kyoto%20Japan",
+    "locationResolvedBy": "hermes",
+    "locationConfidence": 0.92,
+    "evidenceUrls": [
+      "https://tabelog.com/kyoto/A2601/A260601/26037965/"
+    ],
+    "coordinateSource": "Tabelog public detail coordinates",
+    "generatedAt": "2026-05-07T04:20:29.879Z"
+  },
+  {
+    "id": "yt_s1bYbbtXUvw_Ugwg9_VCMG-etH6cEsd4AaABAg",
+    "status": "published",
+    "country": "JP",
+    "nameKoOrOriginal": "炭焼きうなぎの魚伊 本店",
+    "city": "Osaka",
+    "area": "Asahi",
+    "lat": 34.71468463717934,
+    "lng": 135.5424988764205,
+    "categoryTags": [
+      "덮밥"
+    ],
+    "commentKoAuto": "YouTube owner comment candidate에서 자동 추출한 장소입니다. Hermes가 공개 웹 근거로 위치를 확인했습니다.",
+    "verdict": "auto_recommended",
+    "confidence": 0.93,
+    "negativeSignalHits": [],
+    "sourceVideoId": "s1bYbbtXUvw",
+    "sourceVideoTitle": "오사카에서 장어덮밥을 주문하면 생기는 일",
+    "sourceVideoUrl": "https://www.youtube.com/watch?v=s1bYbbtXUvw",
+    "thumbnailUrl": "https://i.ytimg.com/vi/s1bYbbtXUvw/maxresdefault.jpg",
+    "sourceCommentId": "Ugwg9_VCMG-etH6cEsd4AaABAg",
+    "sourceKind": "owner_location_comment_candidate",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=159%EB%85%84%20%EC%98%A4%EC%82%AC%EC%B9%B4%20%EB%85%B8%ED%8F%AC%20%EC%9E%A5%EC%96%B4%20%EB%8D%AE%EB%B0%A5%EC%9E%85%EB%8B%88%EB%8B%A4.%20Osaka%20Japan",
+    "locationResolvedBy": "hermes",
+    "locationConfidence": 0.93,
+    "evidenceUrls": [
+      "https://tabelog.com/osaka/A2701/A270304/27003671/",
+      "https://www.openstreetmap.org/node/7295887135"
+    ],
+    "coordinateSource": "Tabelog public detail coordinates; cross-checked against OSM/Nominatim node 7295887135 nearby",
+    "generatedAt": "2026-05-07T04:20:29.879Z"
   },
   {
     "id": "yt_fivSo_d3x_c_UgzAaoG40JJtbdUdfI54AaABAg",
@@ -255,6 +599,6 @@
       "https://tabelog.com/tokyo/A1319/A131905/13236380/dtlmap/"
     ],
     "coordinateSource": "Mapion public phonebook coordinates",
-    "generatedAt": "2026-05-07T03:02:10.400Z"
+    "generatedAt": "2026-05-07T04:20:29.879Z"
   }
 ]
