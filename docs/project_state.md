@@ -2,7 +2,7 @@
 
 - Project display name: 탐닉 일본 맛집 지도
 - Operator identity: `dr.lowb`
-- Current task: `M3.4 content cleanup and bulk marker expansion`
+- Current task: `M3.5 source-channel marker completion`
 - Repo name: `my-yt-japan-restaurant`
 - Repo URL: `https://github.com/lowbyyj/my-yt-japan-restaurant`
 - Branch: `main`
@@ -13,6 +13,7 @@
 - M3.2 starting commit: `a161024a2d6fa6ab4456c639b0654fc357b7c248`
 - M3.3 starting commit: `c224c202c7425d70a94e450537ecdba522c16d1d`
 - M3.4 starting commit: `47b3458a26b61e7202fb28e67b0e2422b4a12aae`
+- M3.5 starting commit: `cd283c59a20635ddf2c71aa3af6a5325afb7286c`
 - Vite base path: `/my-yt-japan-restaurant/`
 - Public project URL: `https://lowbyyj.github.io/my-yt-japan-restaurant/`
 - GitHub Pages hosting: free, `gh-pages` branch deployment from this repo.
@@ -24,10 +25,10 @@
 - Real data source: automated `@space_tamnik` Shorts owner comment candidate extraction only.
 - Agent-assisted resolutions: allowed only when tied to an automated candidate and backed by public/free evidence in `data/location_resolutions.json`.
 - Public enrichment: allowed only as public-safe Korean display copy in `data/place_enrichments.json`; never edit `public/data/places.json` directly to add real records.
-- Public published count after M3.4: `158`.
-- Published records resolved by public-safe Hermes/GSI evidence: `158`.
+- Public published count after M3.5: `250`.
+- Published records resolved by public-safe evidence: `250`.
 - Automatic geocode-only published records after M3.2: `0`.
-- Public enrichment records after M3.4: `166` tracked records; all `158` published places have enrichment and `broadCategoryKo`.
+- Public enrichment records after M3.5: `277` tracked records; all `250` published places have enrichment and `broadCategoryKo`.
 - Raw API dumps committed: no.
 - Cache/raw paths committed: no.
 
@@ -129,6 +130,22 @@
 - Description scan after build: `158/158` descriptions present, forbidden wording count `0`.
 - Data status after `MAX_VIDEOS=300 npm run data:all`: `ownerCommentCandidates=298`, `japanCandidates=237`, `published=158`, `heldBack=134`.
 - Next recommended step: if more markers are needed, add a reusable candidate-to-GSI address conversion helper and duplicate/net-new report before the next bulk pass.
+
+## M3.5 Source-Channel Marker Completion
+
+- Current milestone: `M3.5 source-channel marker completion`.
+- Starting commit: `cd283c59a20635ddf2c71aa3af6a5325afb7286c`.
+- Scope stayed limited to existing `@space_tamnik` owner-comment candidates; no other YouTubers, no paid Google/Places APIs, no unrelated homepage repo changes, and no UI restructure.
+- Candidate scan was expanded from `MAX_VIDEOS=300` to `MAX_VIDEOS=700`; the channel currently yielded `557` likely Shorts and `550` owner-comment candidates.
+- `MAX_VIDEOS=500 npm run data:all` timed out at geocoding, so the final pass used `MAX_VIDEOS=700 npm run data:all` after cache/candidate expansion.
+- Final data status: `videosScanned=557`, `ownerCommentCandidates=550`, `japanCandidates=471`, `geocoded=17`, `published=250`, `excludedNegativeSignal=20`, `heldBack=280`.
+- Added `111` new public/free Tabelog-backed location resolutions/enrichment records tied to automated candidates; total tracked location resolutions/enrichments are `277`/`277`.
+- Published markers increased from `158` to `250` (`+92` net published markers).
+- Broad category counts after M3.5: `밥 117`, `디저트 108`, `술 25`.
+- City counts after M3.5: Tokyo 125, Osaka 48, Fukuoka 35, Kyoto 22, Kamakura 4, Nagoya 4, Kawasaki 3, Yokohama 3, Nara 2, Chiba 1, Saitama 1, Shizuoka 1, Zushi 1.
+- Description scan after build/local preview: `250/250` descriptions present, forbidden public wording count `0`.
+- Local preview smoke passed: site/data/status HTTP `200`, marker count `250`, Google Maps card links are coordinate-based, genre filter remains exactly `전체`, `밥`, `디저트`, `술`, marker click scrolls the internal `.cards` list while body scroll remains `0`.
+- Remaining candidates are held back when branch/name matching is ambiguous, the search result points to a different region/shop, or no public/free coordinate evidence is available.
 
 ## Resolved Places
 

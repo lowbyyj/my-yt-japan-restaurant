@@ -57,6 +57,14 @@ Content cleanup and bulk marker expansion:
 - Adds a 90-record GSI-backed resolution/enrichment batch from existing `@space_tamnik` candidates.
 - Publishes 158 enriched markers.
 
+## M3.5
+
+Source-channel marker completion:
+
+- Expands the `@space_tamnik` scan to `MAX_VIDEOS=700` (`557` likely Shorts available).
+- Adds a Tabelog public/free evidence-backed bulk resolution batch tied to automated owner-comment candidates.
+- Publishes 250 enriched markers while preserving Tokyo start view, `전체/밥/디저트/술` filter, coordinate-based Google Maps buttons, and existing UI structure.
+
 ## M4
 
 Optional next step: add link from the separate `lowbyyj.github.io` homepage repo, only when explicitly requested.

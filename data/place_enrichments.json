@@ -1326,5 +1326,893 @@
     "signatureKo": "우동·소바",
     "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
     "displayDescriptionKo": "도쿄 여행 동선에 넣기 좋은 식당."
+  },
+  {
+    "id": "yt_NxPvVVYXnxY_Ugz4ZZS1I2zlwAK5LFZ4AaABAg",
+    "broadCategoryKo": "밥",
+    "placeTypeKo": "식사·일식",
+    "signatureKo": "식사·일식",
+    "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
+    "displayDescriptionKo": "도쿄 여행 동선에 넣기 좋은 식당."
+  },
+  {
+    "id": "yt_PYYb-RKrVVY_UgxwSrTumhc1oA93ZHt4AaABAg",
+    "broadCategoryKo": "디저트",
+    "placeTypeKo": "카페·디저트",
+    "signatureKo": "달달한 디저트 메뉴",
+    "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
+    "displayDescriptionKo": "도쿄에서 들르기 좋은 카페·디저트 스팟."
+  },
+  {
+    "id": "yt_Yi6CC_GMo-Y_UgzpPNjVSzSdWDrMvSl4AaABAg",
+    "broadCategoryKo": "밥",
+    "placeTypeKo": "식사·일식",
+    "signatureKo": "식사·일식",
+    "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
+    "displayDescriptionKo": "도쿄 여행 동선에 넣기 좋은 식당."
+  },
+  {
+    "id": "yt_8RUVXLYPyKc_UgymfD8hC-gcOa89xSh4AaABAg",
+    "broadCategoryKo": "밥",
+    "placeTypeKo": "식사·일식",
+    "signatureKo": "식사·일식",
+    "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
+    "displayDescriptionKo": "후쿠오카 여행 동선에 넣기 좋은 식당."
+  },
+  {
+    "id": "yt_RZooNPf1Rng_Ugx9FIgHriQ28sr4O8x4AaABAg",
+    "broadCategoryKo": "밥",
+    "placeTypeKo": "라멘·면요리",
+    "signatureKo": "면요리 한 그릇",
+    "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
+    "displayDescriptionKo": "도쿄에서 면요리 일정을 짤 때 넣기 좋은 식당."
+  },
+  {
+    "id": "yt_FAWuXEM4C-U_UgxRcyQUTYEz-IzgLOt4AaABAg",
+    "broadCategoryKo": "디저트",
+    "placeTypeKo": "카페·디저트",
+    "signatureKo": "달달한 디저트 메뉴",
+    "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
+    "displayDescriptionKo": "교토에서 들르기 좋은 카페·디저트 스팟."
+  },
+  {
+    "id": "yt_ylFNeYWgqug_Ugzn4fQLnnEuGSC7hkZ4AaABAg",
+    "broadCategoryKo": "디저트",
+    "placeTypeKo": "카페·디저트",
+    "signatureKo": "달달한 디저트 메뉴",
+    "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
+    "displayDescriptionKo": "교토에서 들르기 좋은 카페·디저트 스팟."
+  },
+  {
+    "id": "yt_SQErbgYCJRs_UgzI2ULdGlJnu4-QdbN4AaABAg",
+    "broadCategoryKo": "디저트",
+    "placeTypeKo": "카페·디저트",
+    "signatureKo": "달달한 디저트 메뉴",
+    "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
+    "displayDescriptionKo": "도쿄에서 들르기 좋은 카페·디저트 스팟."
+  },
+  {
+    "id": "yt_SyA1B831e58_Ugyj3Xw-AhULWLWFlP94AaABAg",
+    "broadCategoryKo": "디저트",
+    "placeTypeKo": "카페·디저트",
+    "signatureKo": "달달한 디저트 메뉴",
+    "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
+    "displayDescriptionKo": "가마쿠라에서 들르기 좋은 카페·디저트 스팟."
+  },
+  {
+    "id": "yt_fhLa4xT3SBk_Ugz67eMhSUc9sXKoWmh4AaABAg",
+    "broadCategoryKo": "디저트",
+    "placeTypeKo": "카페·디저트",
+    "signatureKo": "달달한 디저트 메뉴",
+    "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
+    "displayDescriptionKo": "도쿄에서 들르기 좋은 카페·디저트 스팟."
+  },
+  {
+    "id": "yt_uSlvtw8oZAI_UgxqUl19d0u7DTLhE8Z4AaABAg",
+    "broadCategoryKo": "밥",
+    "placeTypeKo": "식사·일식",
+    "signatureKo": "식사·일식",
+    "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
+    "displayDescriptionKo": "오사카 여행 동선에 넣기 좋은 식당."
+  },
+  {
+    "id": "yt_p7egxMTGGf0_UgzyHaX8_cvpY6ZopKV4AaABAg",
+    "broadCategoryKo": "디저트",
+    "placeTypeKo": "카페·디저트",
+    "signatureKo": "달달한 디저트 메뉴",
+    "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
+    "displayDescriptionKo": "즈시에서 들르기 좋은 카페·디저트 스팟."
+  },
+  {
+    "id": "yt_YQJjVXyCqrU_UgwWlslRO9Q9WhNGcCp4AaABAg",
+    "broadCategoryKo": "밥",
+    "placeTypeKo": "고기·야키니쿠",
+    "signatureKo": "고기 메뉴",
+    "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
+    "displayDescriptionKo": "도쿄에서 고기 메뉴로 보기 좋은 식당."
+  },
+  {
+    "id": "yt_mQHHHj6a9wM_Ugw3UwASg_yqT7YvwVl4AaABAg",
+    "broadCategoryKo": "디저트",
+    "placeTypeKo": "카페·디저트",
+    "signatureKo": "달달한 디저트 메뉴",
+    "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
+    "displayDescriptionKo": "가와사키에서 들르기 좋은 카페·디저트 스팟."
+  },
+  {
+    "id": "yt_X1_gbZnVmvM_UgyrFjoLvZ_8tDX42_54AaABAg",
+    "broadCategoryKo": "술",
+    "placeTypeKo": "바·이자카야",
+    "signatureKo": "술과 안주",
+    "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
+    "displayDescriptionKo": "치바에서 술과 안주 코스로 보기 좋은 가게."
+  },
+  {
+    "id": "yt_ySPnEInJI6I_UgwNIbbeZuVFsppkT7N4AaABAg",
+    "broadCategoryKo": "디저트",
+    "placeTypeKo": "카페·디저트",
+    "signatureKo": "달달한 디저트 메뉴",
+    "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
+    "displayDescriptionKo": "가와사키에서 들르기 좋은 카페·디저트 스팟."
+  },
+  {
+    "id": "yt_xVZe7tdqXDk_UgyXqRipQNiQQ85GPJh4AaABAg",
+    "broadCategoryKo": "술",
+    "placeTypeKo": "바·이자카야",
+    "signatureKo": "술과 안주",
+    "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
+    "displayDescriptionKo": "도쿄에서 술과 안주 코스로 보기 좋은 가게."
+  },
+  {
+    "id": "yt_Vy8JGariCjE_Ugx4s49myxT46LkrnjF4AaABAg",
+    "broadCategoryKo": "디저트",
+    "placeTypeKo": "카페·디저트",
+    "signatureKo": "달달한 디저트 메뉴",
+    "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
+    "displayDescriptionKo": "오사카에서 들르기 좋은 카페·디저트 스팟."
+  },
+  {
+    "id": "yt_AcNokW6R58g_Ugx-lNV2GyX9YW0SMmB4AaABAg",
+    "broadCategoryKo": "술",
+    "placeTypeKo": "바·이자카야",
+    "signatureKo": "술과 안주",
+    "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
+    "displayDescriptionKo": "도쿄에서 술과 안주 코스로 보기 좋은 가게."
+  },
+  {
+    "id": "yt_q4G0V9lSW1s_UgzLyI-AfcEpGuxsOLJ4AaABAg",
+    "broadCategoryKo": "디저트",
+    "placeTypeKo": "카페·디저트",
+    "signatureKo": "달달한 디저트 메뉴",
+    "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
+    "displayDescriptionKo": "도쿄에서 들르기 좋은 카페·디저트 스팟."
+  },
+  {
+    "id": "yt_42ORQ43LiQE_Ugw34UJ0YE7iSIZAaC14AaABAg",
+    "broadCategoryKo": "디저트",
+    "placeTypeKo": "카페·디저트",
+    "signatureKo": "달달한 디저트 메뉴",
+    "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
+    "displayDescriptionKo": "오사카에서 들르기 좋은 카페·디저트 스팟."
+  },
+  {
+    "id": "yt_ZoFXZCw3Rtw_UgwOX_xBEbJjgt-NvQB4AaABAg",
+    "broadCategoryKo": "밥",
+    "placeTypeKo": "식사·일식",
+    "signatureKo": "식사·일식",
+    "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
+    "displayDescriptionKo": "오사카 여행 동선에 넣기 좋은 식당."
+  },
+  {
+    "id": "yt_H5JFUkDMmM8_UgzM4RJ1TWc4lTtqcAN4AaABAg",
+    "broadCategoryKo": "술",
+    "placeTypeKo": "바·이자카야",
+    "signatureKo": "술과 안주",
+    "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
+    "displayDescriptionKo": "교토에서 술과 안주 코스로 보기 좋은 가게."
+  },
+  {
+    "id": "yt_eosu6mqIphU_UgyO-hJzNpZw7MxdI5l4AaABAg",
+    "broadCategoryKo": "디저트",
+    "placeTypeKo": "카페·디저트",
+    "signatureKo": "달달한 디저트 메뉴",
+    "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
+    "displayDescriptionKo": "오사카에서 들르기 좋은 카페·디저트 스팟."
+  },
+  {
+    "id": "yt__QNeBtodQHc_UgzN-dyDQzASPD0HHjJ4AaABAg",
+    "broadCategoryKo": "디저트",
+    "placeTypeKo": "카페·디저트",
+    "signatureKo": "달달한 디저트 메뉴",
+    "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
+    "displayDescriptionKo": "교토에서 들르기 좋은 카페·디저트 스팟."
+  },
+  {
+    "id": "yt_kA_aTH6tiJU_Ugwz8OfiMv5ad5SFAHV4AaABAg",
+    "broadCategoryKo": "술",
+    "placeTypeKo": "바·이자카야",
+    "signatureKo": "술과 안주",
+    "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
+    "displayDescriptionKo": "후쿠오카에서 술과 안주 코스로 보기 좋은 가게."
+  },
+  {
+    "id": "yt_4Ni7lhRMK6c_UgxL_ZQ42whRuPWFWA14AaABAg",
+    "broadCategoryKo": "디저트",
+    "placeTypeKo": "카페·디저트",
+    "signatureKo": "달달한 디저트 메뉴",
+    "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
+    "displayDescriptionKo": "오사카에서 들르기 좋은 카페·디저트 스팟."
+  },
+  {
+    "id": "yt_J2FrrF7g26g_Ugx_HqrBapqC3VX-ePh4AaABAg",
+    "broadCategoryKo": "밥",
+    "placeTypeKo": "라멘·면요리",
+    "signatureKo": "면요리 한 그릇",
+    "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
+    "displayDescriptionKo": "오사카에서 면요리 일정을 짤 때 넣기 좋은 식당."
+  },
+  {
+    "id": "yt_UnF_1gWxwOk_UgxdgoByj5B31vnKSsJ4AaABAg",
+    "broadCategoryKo": "밥",
+    "placeTypeKo": "식사·일식",
+    "signatureKo": "식사·일식",
+    "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
+    "displayDescriptionKo": "도쿄 여행 동선에 넣기 좋은 식당."
+  },
+  {
+    "id": "yt_0MXxFq6T2rc_UgysOTIEJ3blgq4cMZl4AaABAg",
+    "broadCategoryKo": "술",
+    "placeTypeKo": "바·이자카야",
+    "signatureKo": "술과 안주",
+    "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
+    "displayDescriptionKo": "오사카에서 술과 안주 코스로 보기 좋은 가게."
+  },
+  {
+    "id": "yt_dN0_54Ppvuw_UgxIAB2Bx2JXHMKXtoV4AaABAg",
+    "broadCategoryKo": "디저트",
+    "placeTypeKo": "카페·디저트",
+    "signatureKo": "달달한 디저트 메뉴",
+    "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
+    "displayDescriptionKo": "교토에서 들르기 좋은 카페·디저트 스팟."
+  },
+  {
+    "id": "yt_9PElJTHPa3s_UgwPmgV_7WxPhFM1oOl4AaABAg",
+    "broadCategoryKo": "디저트",
+    "placeTypeKo": "카페·디저트",
+    "signatureKo": "달달한 디저트 메뉴",
+    "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
+    "displayDescriptionKo": "교토에서 들르기 좋은 카페·디저트 스팟."
+  },
+  {
+    "id": "yt_HS-w-wEGLYc_Ugy7wrMILg-MuKOhtRl4AaABAg",
+    "broadCategoryKo": "디저트",
+    "placeTypeKo": "카페·디저트",
+    "signatureKo": "달달한 디저트 메뉴",
+    "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
+    "displayDescriptionKo": "나고야에서 들르기 좋은 카페·디저트 스팟."
+  },
+  {
+    "id": "yt_B7oj8GRI8eY_Ugzi7COHfJrMxBe_4nh4AaABAg",
+    "broadCategoryKo": "밥",
+    "placeTypeKo": "라멘·면요리",
+    "signatureKo": "면요리 한 그릇",
+    "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
+    "displayDescriptionKo": "도쿄에서 면요리 일정을 짤 때 넣기 좋은 식당."
+  },
+  {
+    "id": "yt_8lNtuntDK68_UgxMxH2JEe-AAgQlCl94AaABAg",
+    "broadCategoryKo": "밥",
+    "placeTypeKo": "고기·야키니쿠",
+    "signatureKo": "고기 메뉴",
+    "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
+    "displayDescriptionKo": "도쿄에서 고기 메뉴로 보기 좋은 식당."
+  },
+  {
+    "id": "yt_PxGEjxo-gdU_UgwPBzAl-SDdvtmNmjt4AaABAg",
+    "broadCategoryKo": "디저트",
+    "placeTypeKo": "카페·디저트",
+    "signatureKo": "달달한 디저트 메뉴",
+    "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
+    "displayDescriptionKo": "도쿄에서 들르기 좋은 카페·디저트 스팟."
+  },
+  {
+    "id": "yt_Tg5z8eDJMUg_UgyS8uuZyYZdhYQZ7kl4AaABAg",
+    "broadCategoryKo": "디저트",
+    "placeTypeKo": "카페·디저트",
+    "signatureKo": "달달한 디저트 메뉴",
+    "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
+    "displayDescriptionKo": "오사카에서 들르기 좋은 카페·디저트 스팟."
+  },
+  {
+    "id": "yt_uuOaT0-s0js_UgxjrboLV79dxglkd-R4AaABAg",
+    "broadCategoryKo": "술",
+    "placeTypeKo": "바·이자카야",
+    "signatureKo": "술과 안주",
+    "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
+    "displayDescriptionKo": "후쿠오카에서 술과 안주 코스로 보기 좋은 가게."
+  },
+  {
+    "id": "yt_Zyc8BukvOdQ_UgwU4NYv_zHCenoGZY94AaABAg",
+    "broadCategoryKo": "밥",
+    "placeTypeKo": "식사·일식",
+    "signatureKo": "식사·일식",
+    "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
+    "displayDescriptionKo": "도쿄 여행 동선에 넣기 좋은 식당."
+  },
+  {
+    "id": "yt_v0q2HBiQAoo_Ugxu1fk7pcpoRHEf43R4AaABAg",
+    "broadCategoryKo": "밥",
+    "placeTypeKo": "식사·일식",
+    "signatureKo": "식사·일식",
+    "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
+    "displayDescriptionKo": "오사카 여행 동선에 넣기 좋은 식당."
+  },
+  {
+    "id": "yt_OYrjE6a5MYo_UgwH9HRgcFaERL7AX-d4AaABAg",
+    "broadCategoryKo": "디저트",
+    "placeTypeKo": "카페·디저트",
+    "signatureKo": "달달한 디저트 메뉴",
+    "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
+    "displayDescriptionKo": "도쿄에서 들르기 좋은 카페·디저트 스팟."
+  },
+  {
+    "id": "yt_rwmxjvhi4nw_UgwKRqlYtl124WFL2-B4AaABAg",
+    "broadCategoryKo": "밥",
+    "placeTypeKo": "식사·일식",
+    "signatureKo": "식사·일식",
+    "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
+    "displayDescriptionKo": "도쿄 여행 동선에 넣기 좋은 식당."
+  },
+  {
+    "id": "yt_wwEYHSxmQsA_Ugx6v_TgJol3eavt3yx4AaABAg",
+    "broadCategoryKo": "밥",
+    "placeTypeKo": "식사·일식",
+    "signatureKo": "식사·일식",
+    "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
+    "displayDescriptionKo": "도쿄 여행 동선에 넣기 좋은 식당."
+  },
+  {
+    "id": "yt_NiEjECxsUjE_Ugxfpn5RvVJk5IQsO7p4AaABAg",
+    "broadCategoryKo": "디저트",
+    "placeTypeKo": "카페·디저트",
+    "signatureKo": "달달한 디저트 메뉴",
+    "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
+    "displayDescriptionKo": "오사카에서 들르기 좋은 카페·디저트 스팟."
+  },
+  {
+    "id": "yt__1WBgKK_8J0_Ugw4o-Lxh62m1i1wj9Z4AaABAg",
+    "broadCategoryKo": "디저트",
+    "placeTypeKo": "카페·디저트",
+    "signatureKo": "달달한 디저트 메뉴",
+    "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
+    "displayDescriptionKo": "후쿠오카에서 들르기 좋은 카페·디저트 스팟."
+  },
+  {
+    "id": "yt_21WU4exviyM_UgxKjG7VcFI-GrGhrjd4AaABAg",
+    "broadCategoryKo": "밥",
+    "placeTypeKo": "라멘·면요리",
+    "signatureKo": "면요리 한 그릇",
+    "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
+    "displayDescriptionKo": "후쿠오카에서 면요리 일정을 짤 때 넣기 좋은 식당."
+  },
+  {
+    "id": "yt_O-5e-L8_QH4_UgwWWY_f2YV87b1elH54AaABAg",
+    "broadCategoryKo": "디저트",
+    "placeTypeKo": "카페·디저트",
+    "signatureKo": "달달한 디저트 메뉴",
+    "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
+    "displayDescriptionKo": "후쿠오카에서 들르기 좋은 카페·디저트 스팟."
+  },
+  {
+    "id": "yt_LJdWxZGjtl8_UgzapYqz4BoNJScQyjd4AaABAg",
+    "broadCategoryKo": "디저트",
+    "placeTypeKo": "카페·디저트",
+    "signatureKo": "달달한 디저트 메뉴",
+    "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
+    "displayDescriptionKo": "오사카에서 들르기 좋은 카페·디저트 스팟."
+  },
+  {
+    "id": "yt_eiPhqWYWUKo_Ugy0n1oPhHX8BCGvKAl4AaABAg",
+    "broadCategoryKo": "밥",
+    "placeTypeKo": "고기·야키니쿠",
+    "signatureKo": "고기 메뉴",
+    "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
+    "displayDescriptionKo": "오사카에서 고기 메뉴로 보기 좋은 식당."
+  },
+  {
+    "id": "yt_cMtDMi-_wwI_UgzU1zj8XBkTHMms2Sx4AaABAg",
+    "broadCategoryKo": "밥",
+    "placeTypeKo": "고기·야키니쿠",
+    "signatureKo": "고기 메뉴",
+    "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
+    "displayDescriptionKo": "도쿄에서 고기 메뉴로 보기 좋은 식당."
+  },
+  {
+    "id": "yt_-x_NkAJ82J4_Ugw7LJIi9PnZPvwZKwh4AaABAg",
+    "broadCategoryKo": "밥",
+    "placeTypeKo": "식사·일식",
+    "signatureKo": "식사·일식",
+    "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
+    "displayDescriptionKo": "가마쿠라 여행 동선에 넣기 좋은 식당."
+  },
+  {
+    "id": "yt_zoLYqZb9olU_Ugzu6oz3v_5lgDSCNdd4AaABAg",
+    "broadCategoryKo": "밥",
+    "placeTypeKo": "라멘·면요리",
+    "signatureKo": "면요리 한 그릇",
+    "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
+    "displayDescriptionKo": "도쿄에서 면요리 일정을 짤 때 넣기 좋은 식당."
+  },
+  {
+    "id": "yt_qRuIpTLLv3s_UgzKjd2MLCvQZnIJptx4AaABAg",
+    "broadCategoryKo": "밥",
+    "placeTypeKo": "고기·야키니쿠",
+    "signatureKo": "고기 메뉴",
+    "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
+    "displayDescriptionKo": "도쿄에서 고기 메뉴로 보기 좋은 식당."
+  },
+  {
+    "id": "yt_nDk-9RGHfaY_Ugz3P-gg7g45u1db2JF4AaABAg",
+    "broadCategoryKo": "밥",
+    "placeTypeKo": "식사·일식",
+    "signatureKo": "식사·일식",
+    "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
+    "displayDescriptionKo": "도쿄 여행 동선에 넣기 좋은 식당."
+  },
+  {
+    "id": "yt_vIFZ29Yi5tM_UgxCTwpEKny7SREZAEJ4AaABAg",
+    "broadCategoryKo": "디저트",
+    "placeTypeKo": "카페·디저트",
+    "signatureKo": "달달한 디저트 메뉴",
+    "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
+    "displayDescriptionKo": "나고야에서 들르기 좋은 카페·디저트 스팟."
+  },
+  {
+    "id": "yt_haT1ijDuvvg_UgyuFBPAtPH8IQi9JW14AaABAg",
+    "broadCategoryKo": "디저트",
+    "placeTypeKo": "카페·디저트",
+    "signatureKo": "달달한 디저트 메뉴",
+    "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
+    "displayDescriptionKo": "도쿄에서 들르기 좋은 카페·디저트 스팟."
+  },
+  {
+    "id": "yt_fCW_VUi0Aqc_Ugxde3vD_1_raP58meJ4AaABAg",
+    "broadCategoryKo": "디저트",
+    "placeTypeKo": "카페·디저트",
+    "signatureKo": "달달한 디저트 메뉴",
+    "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
+    "displayDescriptionKo": "도쿄에서 들르기 좋은 카페·디저트 스팟."
+  },
+  {
+    "id": "yt_DBlCu-YcKb8_Ugx5uztht5QdcHHi_ud4AaABAg",
+    "broadCategoryKo": "디저트",
+    "placeTypeKo": "카페·디저트",
+    "signatureKo": "달달한 디저트 메뉴",
+    "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
+    "displayDescriptionKo": "오사카에서 들르기 좋은 카페·디저트 스팟."
+  },
+  {
+    "id": "yt_7NvjCS8o_D4_Ugx3C-bqZEx_L6PfLuJ4AaABAg",
+    "broadCategoryKo": "밥",
+    "placeTypeKo": "식사·일식",
+    "signatureKo": "식사·일식",
+    "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
+    "displayDescriptionKo": "도쿄 여행 동선에 넣기 좋은 식당."
+  },
+  {
+    "id": "yt_M0gzD5fiB-E_UgxxsX8J9YZ4qc3HhpV4AaABAg",
+    "broadCategoryKo": "디저트",
+    "placeTypeKo": "카페·디저트",
+    "signatureKo": "달달한 디저트 메뉴",
+    "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
+    "displayDescriptionKo": "도쿄에서 들르기 좋은 카페·디저트 스팟."
+  },
+  {
+    "id": "yt_NGmlVHERvOA_UgwayKCHLC0yieGklGV4AaABAg",
+    "broadCategoryKo": "술",
+    "placeTypeKo": "바·이자카야",
+    "signatureKo": "술과 안주",
+    "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
+    "displayDescriptionKo": "도쿄에서 술과 안주 코스로 보기 좋은 가게."
+  },
+  {
+    "id": "yt_AazQ2tctT1Y_UgxR5efxdmiMIiSzFBx4AaABAg",
+    "broadCategoryKo": "디저트",
+    "placeTypeKo": "카페·디저트",
+    "signatureKo": "달달한 디저트 메뉴",
+    "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
+    "displayDescriptionKo": "도쿄에서 들르기 좋은 카페·디저트 스팟."
+  },
+  {
+    "id": "yt_GQees5Er66w_UgzyjDU82nrgjh9v2At4AaABAg",
+    "broadCategoryKo": "디저트",
+    "placeTypeKo": "카페·디저트",
+    "signatureKo": "달달한 디저트 메뉴",
+    "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
+    "displayDescriptionKo": "교토에서 들르기 좋은 카페·디저트 스팟."
+  },
+  {
+    "id": "yt_JI4PhFOu9jQ_Ugz3B0SEyzUj0Re41GF4AaABAg",
+    "broadCategoryKo": "디저트",
+    "placeTypeKo": "카페·디저트",
+    "signatureKo": "달달한 디저트 메뉴",
+    "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
+    "displayDescriptionKo": "교토에서 들르기 좋은 카페·디저트 스팟."
+  },
+  {
+    "id": "yt_fpSRXZ0Let8_UgwI2xhcQqU8AdNR4ll4AaABAg",
+    "broadCategoryKo": "밥",
+    "placeTypeKo": "식사·일식",
+    "signatureKo": "식사·일식",
+    "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
+    "displayDescriptionKo": "오사카 여행 동선에 넣기 좋은 식당."
+  },
+  {
+    "id": "yt_P73BqT9avAw_UgyHgFiABeacwW-umep4AaABAg",
+    "broadCategoryKo": "디저트",
+    "placeTypeKo": "카페·디저트",
+    "signatureKo": "달달한 디저트 메뉴",
+    "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
+    "displayDescriptionKo": "도쿄에서 들르기 좋은 카페·디저트 스팟."
+  },
+  {
+    "id": "yt_D34Jp4mG2-A_UgzfE12gTMGzEi-pDMR4AaABAg",
+    "broadCategoryKo": "디저트",
+    "placeTypeKo": "카페·디저트",
+    "signatureKo": "달달한 디저트 메뉴",
+    "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
+    "displayDescriptionKo": "도쿄에서 들르기 좋은 카페·디저트 스팟."
+  },
+  {
+    "id": "yt_cM6uwr6j9wI_Ugw1CT5pT9j0FD7V5gF4AaABAg",
+    "broadCategoryKo": "밥",
+    "placeTypeKo": "라멘·면요리",
+    "signatureKo": "면요리 한 그릇",
+    "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
+    "displayDescriptionKo": "도쿄에서 면요리 일정을 짤 때 넣기 좋은 식당."
+  },
+  {
+    "id": "yt_lXLV3kBmljY_UgwYSPFRHK7KSY-a_5B4AaABAg",
+    "broadCategoryKo": "밥",
+    "placeTypeKo": "식사·일식",
+    "signatureKo": "식사·일식",
+    "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
+    "displayDescriptionKo": "도쿄 여행 동선에 넣기 좋은 식당."
+  },
+  {
+    "id": "yt_3ezYgvw4rTI_UgyJ3ZJI4Y5gTKm5n9h4AaABAg",
+    "broadCategoryKo": "디저트",
+    "placeTypeKo": "카페·디저트",
+    "signatureKo": "달달한 디저트 메뉴",
+    "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
+    "displayDescriptionKo": "교토에서 들르기 좋은 카페·디저트 스팟."
+  },
+  {
+    "id": "yt_JzlOY5l_P8o_UgyZ5Tr056OGb5c3XvJ4AaABAg",
+    "broadCategoryKo": "디저트",
+    "placeTypeKo": "카페·디저트",
+    "signatureKo": "달달한 디저트 메뉴",
+    "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
+    "displayDescriptionKo": "도쿄에서 들르기 좋은 카페·디저트 스팟."
+  },
+  {
+    "id": "yt_lGfrTarbG3c_UgwBegv3Wt0ltSNjD9x4AaABAg",
+    "broadCategoryKo": "밥",
+    "placeTypeKo": "식사·일식",
+    "signatureKo": "식사·일식",
+    "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
+    "displayDescriptionKo": "오사카 여행 동선에 넣기 좋은 식당."
+  },
+  {
+    "id": "yt_SFgUdOLQtlM_Ugz48IsP9vj8UBDMclF4AaABAg",
+    "broadCategoryKo": "밥",
+    "placeTypeKo": "고기·야키니쿠",
+    "signatureKo": "고기 메뉴",
+    "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
+    "displayDescriptionKo": "오사카에서 고기 메뉴로 보기 좋은 식당."
+  },
+  {
+    "id": "yt_GemWMhc7kXI_UgxOQiCpUxSeALh5IoR4AaABAg",
+    "broadCategoryKo": "밥",
+    "placeTypeKo": "식사·일식",
+    "signatureKo": "식사·일식",
+    "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
+    "displayDescriptionKo": "후쿠오카 여행 동선에 넣기 좋은 식당."
+  },
+  {
+    "id": "yt_M3CEAzLqzGU_Ugyueon4OX6z7Vi-kS54AaABAg",
+    "broadCategoryKo": "디저트",
+    "placeTypeKo": "카페·디저트",
+    "signatureKo": "달달한 디저트 메뉴",
+    "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
+    "displayDescriptionKo": "도쿄에서 들르기 좋은 카페·디저트 스팟."
+  },
+  {
+    "id": "yt_1BIsnxpsIOw_UgxyhOMlIifQ0f4GevF4AaABAg",
+    "broadCategoryKo": "디저트",
+    "placeTypeKo": "카페·디저트",
+    "signatureKo": "달달한 디저트 메뉴",
+    "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
+    "displayDescriptionKo": "교토에서 들르기 좋은 카페·디저트 스팟."
+  },
+  {
+    "id": "yt_dSCo6hYOD5g_Ugx4OeQxs7W6AbNRvXJ4AaABAg",
+    "broadCategoryKo": "밥",
+    "placeTypeKo": "식사·일식",
+    "signatureKo": "식사·일식",
+    "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
+    "displayDescriptionKo": "오사카 여행 동선에 넣기 좋은 식당."
+  },
+  {
+    "id": "yt_abm0TRr877g_UgzPgIgIdvF3d6TOW3h4AaABAg",
+    "broadCategoryKo": "디저트",
+    "placeTypeKo": "카페·디저트",
+    "signatureKo": "달달한 디저트 메뉴",
+    "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
+    "displayDescriptionKo": "가와사키에서 들르기 좋은 카페·디저트 스팟."
+  },
+  {
+    "id": "yt_T3IDSk72S0I_UgzZGQ4VgHUUDqbuZdd4AaABAg",
+    "broadCategoryKo": "술",
+    "placeTypeKo": "바·이자카야",
+    "signatureKo": "술과 안주",
+    "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
+    "displayDescriptionKo": "후쿠오카에서 술과 안주 코스로 보기 좋은 가게."
+  },
+  {
+    "id": "yt_5ucTWDfrNao_UgzGdNsqoILtTDUTmkV4AaABAg",
+    "broadCategoryKo": "디저트",
+    "placeTypeKo": "카페·디저트",
+    "signatureKo": "달달한 디저트 메뉴",
+    "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
+    "displayDescriptionKo": "후쿠오카에서 들르기 좋은 카페·디저트 스팟."
+  },
+  {
+    "id": "yt_Z5MVK34Dalg_Ugz8DCj6bNQqsOJOWiV4AaABAg",
+    "broadCategoryKo": "술",
+    "placeTypeKo": "바·이자카야",
+    "signatureKo": "술과 안주",
+    "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
+    "displayDescriptionKo": "후쿠오카에서 술과 안주 코스로 보기 좋은 가게."
+  },
+  {
+    "id": "yt_i7k7P4temeM_UgzR4reBMbe6fwi6xFV4AaABAg",
+    "broadCategoryKo": "밥",
+    "placeTypeKo": "식사·일식",
+    "signatureKo": "식사·일식",
+    "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
+    "displayDescriptionKo": "오사카 여행 동선에 넣기 좋은 식당."
+  },
+  {
+    "id": "yt_VQ9RPlsCXdg_UgxWNcAfe9DmzSCkGll4AaABAg",
+    "broadCategoryKo": "디저트",
+    "placeTypeKo": "카페·디저트",
+    "signatureKo": "달달한 디저트 메뉴",
+    "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
+    "displayDescriptionKo": "도쿄에서 들르기 좋은 카페·디저트 스팟."
+  },
+  {
+    "id": "yt_RuNrkdgf5Ic_UgyIodbcADPufrJKO9p4AaABAg",
+    "broadCategoryKo": "밥",
+    "placeTypeKo": "라멘·면요리",
+    "signatureKo": "면요리 한 그릇",
+    "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
+    "displayDescriptionKo": "도쿄에서 면요리 일정을 짤 때 넣기 좋은 식당."
+  },
+  {
+    "id": "yt_JisQ4AKRl4g_UgzlX_LQco-N2A3Buqt4AaABAg",
+    "broadCategoryKo": "밥",
+    "placeTypeKo": "라멘·면요리",
+    "signatureKo": "면요리 한 그릇",
+    "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
+    "displayDescriptionKo": "도쿄에서 면요리 일정을 짤 때 넣기 좋은 식당."
+  },
+  {
+    "id": "yt_4gxDYBN70H0_Ugww2eWNwvlQzg2pVKR4AaABAg",
+    "broadCategoryKo": "밥",
+    "placeTypeKo": "식사·일식",
+    "signatureKo": "식사·일식",
+    "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
+    "displayDescriptionKo": "도쿄 여행 동선에 넣기 좋은 식당."
+  },
+  {
+    "id": "yt_SDxsJftC8vs_Ugw6opzPU05VEIidRb54AaABAg",
+    "broadCategoryKo": "디저트",
+    "placeTypeKo": "카페·디저트",
+    "signatureKo": "달달한 디저트 메뉴",
+    "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
+    "displayDescriptionKo": "도쿄에서 들르기 좋은 카페·디저트 스팟."
+  },
+  {
+    "id": "yt__nE7gddW5po_UgwPPRoCUegsCSaYNcV4AaABAg",
+    "broadCategoryKo": "디저트",
+    "placeTypeKo": "카페·디저트",
+    "signatureKo": "달달한 디저트 메뉴",
+    "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
+    "displayDescriptionKo": "도쿄에서 들르기 좋은 카페·디저트 스팟."
+  },
+  {
+    "id": "yt_DgIWj2vfJzw_UgyjhfVO61nZ81k555R4AaABAg",
+    "broadCategoryKo": "술",
+    "placeTypeKo": "바·이자카야",
+    "signatureKo": "술과 안주",
+    "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
+    "displayDescriptionKo": "후쿠오카에서 술과 안주 코스로 보기 좋은 가게."
+  },
+  {
+    "id": "yt_x6_e5xPJSxw_Ugx6VYCPTjoG3F6Jwhp4AaABAg",
+    "broadCategoryKo": "술",
+    "placeTypeKo": "바·이자카야",
+    "signatureKo": "술과 안주",
+    "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
+    "displayDescriptionKo": "오사카에서 술과 안주 코스로 보기 좋은 가게."
+  },
+  {
+    "id": "yt_bklEhi1ufLg_Ugy8BnK6l9DNocuwhLZ4AaABAg",
+    "broadCategoryKo": "디저트",
+    "placeTypeKo": "카페·디저트",
+    "signatureKo": "달달한 디저트 메뉴",
+    "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
+    "displayDescriptionKo": "도쿄에서 들르기 좋은 카페·디저트 스팟."
+  },
+  {
+    "id": "yt_-Yh7moW0hyU_Ugz-Bjzczraqx_b9w9t4AaABAg",
+    "broadCategoryKo": "술",
+    "placeTypeKo": "바·이자카야",
+    "signatureKo": "술과 안주",
+    "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
+    "displayDescriptionKo": "도쿄에서 술과 안주 코스로 보기 좋은 가게."
+  },
+  {
+    "id": "yt_YPaqZ9oEGPY_Ugx1xMi0svmR2HpzDsd4AaABAg",
+    "broadCategoryKo": "술",
+    "placeTypeKo": "바·이자카야",
+    "signatureKo": "술과 안주",
+    "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
+    "displayDescriptionKo": "도쿄에서 술과 안주 코스로 보기 좋은 가게."
+  },
+  {
+    "id": "yt_ujbFvI0QcDw_Ugxpe8nf7kWRlUgiHix4AaABAg",
+    "broadCategoryKo": "디저트",
+    "placeTypeKo": "카페·디저트",
+    "signatureKo": "달달한 디저트 메뉴",
+    "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
+    "displayDescriptionKo": "후쿠오카에서 들르기 좋은 카페·디저트 스팟."
+  },
+  {
+    "id": "yt_BiBQVoMShj0_UgynCL68lduZGwf1tyZ4AaABAg",
+    "broadCategoryKo": "디저트",
+    "placeTypeKo": "카페·디저트",
+    "signatureKo": "달달한 디저트 메뉴",
+    "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
+    "displayDescriptionKo": "후쿠오카에서 들르기 좋은 카페·디저트 스팟."
+  },
+  {
+    "id": "yt_soBEtr28o6w_UgyPr75uN38B2DRJ8Jp4AaABAg",
+    "broadCategoryKo": "밥",
+    "placeTypeKo": "라멘·면요리",
+    "signatureKo": "면요리 한 그릇",
+    "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
+    "displayDescriptionKo": "도쿄에서 면요리 일정을 짤 때 넣기 좋은 식당."
+  },
+  {
+    "id": "yt_Eiqj2yWNSRg_UgzC6_6FGqr3L0udh0p4AaABAg",
+    "broadCategoryKo": "디저트",
+    "placeTypeKo": "카페·디저트",
+    "signatureKo": "달달한 디저트 메뉴",
+    "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
+    "displayDescriptionKo": "도쿄에서 들르기 좋은 카페·디저트 스팟."
+  },
+  {
+    "id": "yt_gmucP0Kf2ZU_UgwelEKTf5wOIwfvWxp4AaABAg",
+    "broadCategoryKo": "디저트",
+    "placeTypeKo": "카페·디저트",
+    "signatureKo": "달달한 디저트 메뉴",
+    "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
+    "displayDescriptionKo": "도쿄에서 들르기 좋은 카페·디저트 스팟."
+  },
+  {
+    "id": "yt_-tUYDEPLt4Q_UgxofNWZguV9ZmHn3Bl4AaABAg",
+    "broadCategoryKo": "디저트",
+    "placeTypeKo": "카페·디저트",
+    "signatureKo": "달달한 디저트 메뉴",
+    "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
+    "displayDescriptionKo": "오사카에서 들르기 좋은 카페·디저트 스팟."
+  },
+  {
+    "id": "yt_Ou-iVYrsTTk_UgyDj1r9Q4HQbXS0WeR4AaABAg",
+    "broadCategoryKo": "술",
+    "placeTypeKo": "바·이자카야",
+    "signatureKo": "술과 안주",
+    "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
+    "displayDescriptionKo": "도쿄에서 술과 안주 코스로 보기 좋은 가게."
+  },
+  {
+    "id": "yt_1Nrq3QiaVxc_Ugz0gMtCx32CFhzb61x4AaABAg",
+    "broadCategoryKo": "디저트",
+    "placeTypeKo": "카페·디저트",
+    "signatureKo": "달달한 디저트 메뉴",
+    "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
+    "displayDescriptionKo": "가와사키에서 들르기 좋은 카페·디저트 스팟."
+  },
+  {
+    "id": "yt_JdO0PZzOVE8_Ugzz_3X28nL1W6cD8Zx4AaABAg",
+    "broadCategoryKo": "밥",
+    "placeTypeKo": "라멘·면요리",
+    "signatureKo": "면요리 한 그릇",
+    "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
+    "displayDescriptionKo": "교토에서 면요리 일정을 짤 때 넣기 좋은 식당."
+  },
+  {
+    "id": "yt_PtOHfmOxhyE_UgwroCkbtYiBeuF6aoB4AaABAg",
+    "broadCategoryKo": "디저트",
+    "placeTypeKo": "카페·디저트",
+    "signatureKo": "달달한 디저트 메뉴",
+    "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
+    "displayDescriptionKo": "후쿠오카에서 들르기 좋은 카페·디저트 스팟."
+  },
+  {
+    "id": "yt_2_ooj1bbQF8_UgzithskNBDYgsZgYkB4AaABAg",
+    "broadCategoryKo": "디저트",
+    "placeTypeKo": "카페·디저트",
+    "signatureKo": "달달한 디저트 메뉴",
+    "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
+    "displayDescriptionKo": "도쿄에서 들르기 좋은 카페·디저트 스팟."
+  },
+  {
+    "id": "yt_EEb_m37eoic_Ugx_gtMnQLKHQlNAHod4AaABAg",
+    "broadCategoryKo": "디저트",
+    "placeTypeKo": "카페·디저트",
+    "signatureKo": "달달한 디저트 메뉴",
+    "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
+    "displayDescriptionKo": "나고야에서 들르기 좋은 카페·디저트 스팟."
+  },
+  {
+    "id": "yt_94xTLY7OdHk_UgxvIF35JoHIxt9BuBB4AaABAg",
+    "broadCategoryKo": "밥",
+    "placeTypeKo": "라멘·면요리",
+    "signatureKo": "면요리 한 그릇",
+    "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
+    "displayDescriptionKo": "도쿄에서 면요리 일정을 짤 때 넣기 좋은 식당."
+  },
+  {
+    "id": "yt_s_JLcMuQSIk_UgySartREtpuHYr7k5l4AaABAg",
+    "broadCategoryKo": "밥",
+    "placeTypeKo": "라멘·면요리",
+    "signatureKo": "면요리 한 그릇",
+    "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
+    "displayDescriptionKo": "도쿄에서 면요리 일정을 짤 때 넣기 좋은 식당."
+  },
+  {
+    "id": "yt_SeYg1jIb1vs_UgxCt_ojd1EeUgVzmNl4AaABAg",
+    "broadCategoryKo": "디저트",
+    "placeTypeKo": "카페·디저트",
+    "signatureKo": "달달한 디저트 메뉴",
+    "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
+    "displayDescriptionKo": "교토에서 들르기 좋은 카페·디저트 스팟."
+  },
+  {
+    "id": "yt_yY-mZmObNmw_UgylJ6qzNueQ-zKDAhd4AaABAg",
+    "broadCategoryKo": "밥",
+    "placeTypeKo": "식사·일식",
+    "signatureKo": "식사·일식",
+    "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
+    "displayDescriptionKo": "교토 여행 동선에 넣기 좋은 식당."
+  },
+  {
+    "id": "yt_M7rSu4eErTk_UgzpWvXlTF5awDSpifl4AaABAg",
+    "broadCategoryKo": "밥",
+    "placeTypeKo": "식사·일식",
+    "signatureKo": "식사·일식",
+    "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
+    "displayDescriptionKo": "오사카 여행 동선에 넣기 좋은 식당."
+  },
+  {
+    "id": "yt_qwKrVXVfJCM_UgxeaMxzel-9bTflj7t4AaABAg",
+    "broadCategoryKo": "밥",
+    "placeTypeKo": "식사·일식",
+    "signatureKo": "식사·일식",
+    "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
+    "displayDescriptionKo": "도쿄 여행 동선에 넣기 좋은 식당."
   }
 ]

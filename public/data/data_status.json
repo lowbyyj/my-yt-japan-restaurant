@@ -1,21 +1,21 @@
 {
   "dataGenerated": true,
-  "generatedAt": "2026-05-07T12:59:17.117Z",
+  "generatedAt": "2026-05-11T01:34:29.653Z",
   "channelHandle": "@space_tamnik",
-  "videosScanned": 300,
-  "likelyShorts": 300,
-  "ownerCommentCandidates": 298,
-  "japanCandidates": 237,
-  "geocoded": 9,
-  "published": 158,
-  "excludedNegativeSignal": 6,
-  "needsGeocode": 283,
-  "heldBack": 134,
+  "videosScanned": 557,
+  "likelyShorts": 557,
+  "ownerCommentCandidates": 550,
+  "japanCandidates": 471,
+  "geocoded": 17,
+  "published": 250,
+  "excludedNegativeSignal": 20,
+  "needsGeocode": 514,
+  "heldBack": 280,
   "heldBackLowConfidence": 0,
-  "heldBackMissingGeocode": 222,
-  "heldBackNonJapan": 61,
+  "heldBackMissingGeocode": 435,
+  "heldBackNonJapan": 78,
   "geocodeHoldbackBreakdown": {
-    "google_maps_search_query_only": 221,
-    "maps_short_url_unresolved": 1
+    "google_maps_search_query_only": 428,
+    "maps_short_url_unresolved": 7
   }
 }
