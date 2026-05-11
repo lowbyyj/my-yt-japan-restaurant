@@ -115,7 +115,7 @@ describe("agent-assisted location resolutions", () => {
     ).toEqual([]);
   });
 
-  it("deduplicates repeated resolutions for the same source video", () => {
+  it("deduplicates repeated resolutions for the same source comment", () => {
     const places = buildResolvedPublicPlaces(
       [baseCandidate, { ...baseCandidate, id: "candidate_duplicate" }],
       [baseResolution],
@@ -123,6 +123,31 @@ describe("agent-assisted location resolutions", () => {
     );
 
     expect(places).toHaveLength(1);
+  });
+
+  it("allows multiple resolved places from one list-style source video", () => {
+    const secondCandidate = {
+      ...baseCandidate,
+      id: "candidate_2",
+      sourceCommentId: "comment_1#item-2",
+      nameKoOrOriginal: "FAKE_TEST_SHOP_BETA",
+    };
+    const secondResolution = {
+      ...baseResolution,
+      id: "resolution_2",
+      sourceCommentId: "comment_1#item-2",
+      candidateName: "FAKE_TEST_SHOP_BETA",
+      resolvedName: "FAKE_TEST_SHOP_BETA Tokyo",
+      lat: 35.6895,
+      lng: 139.6917,
+    };
+
+    const places = buildResolvedPublicPlaces([baseCandidate, secondCandidate], [baseResolution, secondResolution], {
+      generatedAt: "2026-05-07T00:00:00.000Z",
+      confidenceThreshold: 0.55,
+    });
+
+    expect(places).toHaveLength(2);
   });
 
   it("prefers public-evidence resolved places over automatic geocode duplicates", () => {

@@ -28,6 +28,29 @@ function stableCandidateId(videoId: string, commentId: string) {
   return `yt_${videoId}_${safeComment}`;
 }
 
+function splitNumberedPlaceItems(text: string) {
+  const itemPattern = /(?:^|\n)\s*(\d{1,2})[.)]\s*([^\n]+)([\s\S]*?)(?=\n\s*\d{1,2}[.)]\s|$)/gu;
+  const items: Array<{ index: number; text: string; mapsUrl?: string }> = [];
+
+  let match: RegExpExecArray | null;
+  while ((match = itemPattern.exec(text)) !== null) {
+    const index = Number(match[1]);
+    const itemText = `${match[2]}\n${match[3] ?? ""}`.trim();
+    const mapsUrl = extractGoogleMapsUrls(itemText)[0];
+    if (!mapsUrl) continue;
+    items.push({ index, text: itemText, mapsUrl });
+  }
+
+  return items.length >= 2 ? items : [];
+}
+
+function firstNonEmptyLine(text: string) {
+  return text
+    .split("\n")
+    .map((line) => line.replace(/^[-•]\s*/u, "").trim())
+    .find(Boolean);
+}
+
 function confidenceFromSignals(score: number, boost: number, hasName: boolean) {
   const normalizedScore = Math.min(0.38, score / 240);
   const nameBoost = hasName ? 0.1 : 0;
@@ -76,65 +99,87 @@ async function main() {
     const ownerComment = video.ownerLocationCommentCandidate;
     if (!ownerComment) continue;
 
-    const actualMapsUrl = extractGoogleMapsUrls(ownerComment.text)[0];
-    const parsed = parseOwnerComment(ownerComment.text, video.title);
-    const combinedText = [video.title, video.description, ownerComment.text].join("\n");
-    const negativeSignalHits = Array.from(new Set(findNegativeSignals(combinedText)));
-    const positiveSignalHits = Array.from(new Set(findPositiveSignals(combinedText)));
-    const japanSignalHits = Array.from(
-      new Set([...findJapanSignals(combinedText), ...parsed.japanSignalHits]),
-    );
-    const hasLocationSignal = Boolean(
-      actualMapsUrl || parsed.addressCandidate || parsed.city || japanSignalHits.length > 0,
-    );
-    const confidence = confidenceFromSignals(
-      ownerComment.candidateScore,
-      parsed.confidenceBoost,
-      Boolean(parsed.nameKoOrOriginal),
-    );
-    const verdict = verdictForCandidate({
-      negativeSignalHits,
-      japanSignalHits,
-      hasLocationSignal,
-      confidence,
-    });
+    const numberedPlaceItems = splitNumberedPlaceItems(ownerComment.text);
+    const sourceItems =
+      numberedPlaceItems.length > 0
+        ? numberedPlaceItems.map((item) => ({
+            sourceCommentId: `${ownerComment.commentId}#item-${item.index}`,
+            sourceCommentText: item.text,
+            explicitMapsUrl: item.mapsUrl,
+          }))
+        : [
+            {
+              sourceCommentId: ownerComment.commentId,
+              sourceCommentText: ownerComment.text,
+              explicitMapsUrl: extractGoogleMapsUrls(ownerComment.text)[0],
+            },
+          ];
 
-    const googleMapsQuery = actualMapsUrl
-      ? extractGoogleMapsQuery(actualMapsUrl)
-      : parsed.googleMapsQuery;
-    const parsedName =
-      parsed.nameKoOrOriginal || googleMapsQuery || video.title.replace(/#\S+/gu, "");
-    const nameKoOrOriginal = shouldPreferGoogleMapsQuery(parsedName, googleMapsQuery)
-      ? googleMapsQuery!
-      : parsedName;
+    for (const sourceItem of sourceItems) {
+      const actualMapsUrl = sourceItem.explicitMapsUrl;
+      const parsed = parseOwnerComment(sourceItem.sourceCommentText, video.title);
+      const combinedText = [video.title, video.description, sourceItem.sourceCommentText].join("\n");
+      const negativeSignalHits = Array.from(new Set(findNegativeSignals(combinedText)));
+      const positiveSignalHits = Array.from(new Set(findPositiveSignals(combinedText)));
+      const parentJapanSignalHits = findJapanSignals([video.title, video.description, ownerComment.text].join("\n"));
+      const japanSignalHits = Array.from(
+        new Set([...findJapanSignals(combinedText), ...parentJapanSignalHits, ...parsed.japanSignalHits]),
+      );
+      const hasLocationSignal = Boolean(
+        actualMapsUrl || parsed.addressCandidate || parsed.city || japanSignalHits.length > 0,
+      );
+      const confidence = confidenceFromSignals(
+        ownerComment.candidateScore,
+        parsed.confidenceBoost,
+        Boolean(parsed.nameKoOrOriginal),
+      );
+      const verdict = verdictForCandidate({
+        negativeSignalHits,
+        japanSignalHits,
+        hasLocationSignal,
+        confidence,
+      });
 
-    candidates.push({
-      id: stableCandidateId(video.videoId, ownerComment.commentId),
-      videoId: video.videoId,
-      videoTitle: video.title,
-      videoDescription: video.description,
-      videoUrl: video.videoUrl,
-      thumbnailUrl: video.thumbnailUrl,
-      sourceCommentId: ownerComment.commentId,
-      sourceCommentText: ownerComment.text,
-      candidateScore: ownerComment.candidateScore,
-      sourceKind: "owner_location_comment_candidate",
-      nameKoOrOriginal,
-      nameLocal: parsed.nameLocal,
-      addressCandidate: parsed.addressCandidate,
-      city: parsed.city,
-      country: japanSignalHits.length > 0 ? "JP" : undefined,
-      googleMapsUrl: actualMapsUrl ?? parsed.googleMapsUrl,
-      googleMapsQuery,
-      categoryTags: parsed.categoryTags,
-      commentKoAuto: parsed.commentKoAuto,
-      verdict,
-      confidence,
-      negativeSignalHits,
-      positiveSignalHits,
-      japanSignalHits,
-      generatedAt,
-    });
+      const googleMapsQuery = actualMapsUrl
+        ? extractGoogleMapsQuery(actualMapsUrl)
+        : parsed.googleMapsQuery;
+      const parsedName =
+        parsed.nameKoOrOriginal ||
+        googleMapsQuery ||
+        firstNonEmptyLine(sourceItem.sourceCommentText) ||
+        video.title.replace(/#\S+/gu, "");
+      const nameKoOrOriginal = shouldPreferGoogleMapsQuery(parsedName, googleMapsQuery)
+        ? googleMapsQuery!
+        : parsedName;
+
+      candidates.push({
+        id: stableCandidateId(video.videoId, sourceItem.sourceCommentId),
+        videoId: video.videoId,
+        videoTitle: video.title,
+        videoDescription: video.description,
+        videoUrl: video.videoUrl,
+        thumbnailUrl: video.thumbnailUrl,
+        sourceCommentId: sourceItem.sourceCommentId,
+        sourceCommentText: sourceItem.sourceCommentText,
+        candidateScore: ownerComment.candidateScore,
+        sourceKind: "owner_location_comment_candidate",
+        nameKoOrOriginal,
+        nameLocal: parsed.nameLocal,
+        addressCandidate: parsed.addressCandidate,
+        city: parsed.city,
+        country: japanSignalHits.length > 0 ? "JP" : undefined,
+        googleMapsUrl: actualMapsUrl ?? parsed.googleMapsUrl,
+        googleMapsQuery,
+        categoryTags: parsed.categoryTags,
+        commentKoAuto: parsed.commentKoAuto,
+        verdict,
+        confidence,
+        negativeSignalHits,
+        positiveSignalHits,
+        japanSignalHits,
+        generatedAt,
+      });
+    }
   }
 
   const validated = placeCandidatesSchema.parse(candidates);

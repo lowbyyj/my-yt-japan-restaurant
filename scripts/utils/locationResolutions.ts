@@ -85,14 +85,15 @@ export function buildResolvedPublicPlaces(
     }
   }
 
-  const seenVideos = new Set<string>();
+  const seenSourceCandidates = new Set<string>();
   const places: PublicPlace[] = [];
   for (const candidate of candidates) {
-    if (seenVideos.has(candidate.videoId)) continue;
-    const resolution = resolutionByCandidate.get(candidateKey(candidate));
+    const sourceKey = candidateKey(candidate);
+    if (seenSourceCandidates.has(sourceKey)) continue;
+    const resolution = resolutionByCandidate.get(sourceKey);
     if (!isPublishableResolution(candidate, resolution, options.confidenceThreshold)) continue;
     places.push(toResolvedPublicPlace(candidate, resolution!, options.generatedAt));
-    seenVideos.add(candidate.videoId);
+    seenSourceCandidates.add(sourceKey);
   }
 
   return publicPlacesSchema.parse(places);
@@ -103,14 +104,15 @@ export function mergeAndDedupePublicPlaces(
   resolvedPlaces: PublicPlace[],
 ) {
   const merged: PublicPlace[] = [];
-  const seenSourceVideos = new Set<string>();
+  const seenSourceKeys = new Set<string>();
   const seenPlaceKeys = new Set<string>();
 
   for (const place of [...resolvedPlaces, ...basePlaces]) {
+    const sourceKey = `${place.sourceVideoId}:${place.sourceCommentId}`;
     const placeKey = `${place.nameKoOrOriginal.toLowerCase()}|${place.city.toLowerCase()}|${place.lat.toFixed(5)}|${place.lng.toFixed(5)}`;
-    if (seenSourceVideos.has(place.sourceVideoId) || seenPlaceKeys.has(placeKey)) continue;
+    if (seenSourceKeys.has(sourceKey) || seenPlaceKeys.has(placeKey)) continue;
     merged.push(place);
-    seenSourceVideos.add(place.sourceVideoId);
+    seenSourceKeys.add(sourceKey);
     seenPlaceKeys.add(placeKey);
   }
 

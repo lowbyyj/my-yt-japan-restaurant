@@ -2,7 +2,7 @@
 
 - Project display name: 탐닉 일본 맛집 지도
 - Operator identity: `dr.lowb`
-- Current task: `M3.5 source-channel marker completion`
+- Current task: `M3.5 source-channel marker completion + Fukuoka list-item expansion`
 - Repo name: `my-yt-japan-restaurant`
 - Repo URL: `https://github.com/lowbyyj/my-yt-japan-restaurant`
 - Branch: `main`
@@ -25,10 +25,10 @@
 - Real data source: automated `@space_tamnik` Shorts owner comment candidate extraction only.
 - Agent-assisted resolutions: allowed only when tied to an automated candidate and backed by public/free evidence in `data/location_resolutions.json`.
 - Public enrichment: allowed only as public-safe Korean display copy in `data/place_enrichments.json`; never edit `public/data/places.json` directly to add real records.
-- Public published count after M3.5: `250`.
-- Published records resolved by public-safe evidence: `250`.
+- Public published count after M3.5 list-item expansion: `258`.
+- Published records resolved by public-safe evidence: `258`.
 - Automatic geocode-only published records after M3.2: `0`.
-- Public enrichment records after M3.5: `277` tracked records; all `250` published places have enrichment and `broadCategoryKo`.
+- Public enrichment records after M3.5 list-item expansion: `286` tracked records; all `258` published places have enrichment and `broadCategoryKo`.
 - Raw API dumps committed: no.
 - Cache/raw paths committed: no.
 
@@ -146,6 +146,15 @@
 - Description scan after build/local preview: `250/250` descriptions present, forbidden public wording count `0`.
 - Local preview smoke passed: site/data/status HTTP `200`, marker count `250`, Google Maps card links are coordinate-based, genre filter remains exactly `전체`, `밥`, `디저트`, `술`, marker click scrolls the internal `.cards` list while body scroll remains `0`.
 - Remaining candidates are held back when branch/name matching is ambiguous, the search result points to a different region/shop, or no public/free coordinate evidence is available.
+
+## M3.5 Fukuoka List-Item Expansion
+
+- Scope: expanded a single existing `@space_tamnik` owner-comment list candidate (`oyPL3hm3URw`) into individual item candidates so list-style source comments can publish multiple places without manual `public/data` edits.
+- Added item-level public/free evidence resolutions and enrichments for 9 requested Fukuoka entries from that source comment.
+- Net published count increased from `250` to `258`; `カフェスタンド 10.8` was already present at the same coordinates and remained deduped as the existing marker.
+- New/confirmed entries from the requested list: `すみ劇場 むさし坐`, `焼肉酒場 にくまる 春吉店`, `はじめの一歩`, `茶和々 太宰府店`, `博多シーフード うお田`, `Ｍei Cafe`, `カフェスタンド 10.8`, `ナンクル nancle`, `博多元気一杯!!`.
+- Verification: `npm run build:data`, `npm run validate:data`, `npm run test`, `npm run build`, and local preview smoke passed.
+- Public deploy status: not pushed/deployed yet; waiting for explicit push/deploy approval.
 
 ## Resolved Places
 

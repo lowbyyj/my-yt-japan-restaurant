@@ -2214,5 +2214,77 @@
     "signatureKo": "식사·일식",
     "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
     "displayDescriptionKo": "도쿄 여행 동선에 넣기 좋은 식당."
+  },
+  {
+    "id": "yt_oyPL3hm3URw_UgxwtRlVjd00WJS4GEh4AaABAg_item-1",
+    "broadCategoryKo": "술",
+    "placeTypeKo": "이자카야",
+    "signatureKo": "화로구이와 야키토리",
+    "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
+    "displayDescriptionKo": "후쿠오카에서 화로구이와 야키토리로 들르기 좋은 이자카야."
+  },
+  {
+    "id": "yt_oyPL3hm3URw_UgxwtRlVjd00WJS4GEh4AaABAg_item-2",
+    "broadCategoryKo": "밥",
+    "placeTypeKo": "고기·야키니쿠",
+    "signatureKo": "와규 야키니쿠",
+    "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
+    "displayDescriptionKo": "후쿠오카에서 창작 와규 야키니쿠로 보기 좋은 고깃집."
+  },
+  {
+    "id": "yt_oyPL3hm3URw_UgxwtRlVjd00WJS4GEh4AaABAg_item-3",
+    "broadCategoryKo": "밥",
+    "placeTypeKo": "해산물·일식",
+    "signatureKo": "고마사바와 해산물",
+    "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
+    "displayDescriptionKo": "후쿠오카에서 고마사바와 해산물을 먹으러 들르기 좋은 식당."
+  },
+  {
+    "id": "yt_oyPL3hm3URw_UgxwtRlVjd00WJS4GEh4AaABAg_item-4",
+    "broadCategoryKo": "디저트",
+    "placeTypeKo": "카페·디저트",
+    "signatureKo": "말차 젤라또",
+    "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
+    "displayDescriptionKo": "다자이후에서 진한 말차 젤라또와 디저트로 들르기 좋은 곳."
+  },
+  {
+    "id": "yt_oyPL3hm3URw_UgxwtRlVjd00WJS4GEh4AaABAg_item-5",
+    "broadCategoryKo": "밥",
+    "placeTypeKo": "해산물·일식",
+    "signatureKo": "명란 계란덮밥",
+    "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
+    "displayDescriptionKo": "후쿠오카에서 명란 계란덮밥과 해산물 메뉴로 보기 좋은 식당."
+  },
+  {
+    "id": "yt_oyPL3hm3URw_UgxwtRlVjd00WJS4GEh4AaABAg_item-6",
+    "broadCategoryKo": "디저트",
+    "placeTypeKo": "카페·디저트",
+    "signatureKo": "딸기 크레페",
+    "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
+    "displayDescriptionKo": "후쿠오카에서 딸기 크레페와 과일 디저트로 들르기 좋은 카페."
+  },
+  {
+    "id": "yt_oyPL3hm3URw_UgxwtRlVjd00WJS4GEh4AaABAg_item-7",
+    "broadCategoryKo": "디저트",
+    "placeTypeKo": "카페·디저트",
+    "signatureKo": "수플레 팬케이크",
+    "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
+    "displayDescriptionKo": "구루메에서 수플레 팬케이크와 디저트로 들르기 좋은 카페."
+  },
+  {
+    "id": "yt_oyPL3hm3URw_UgxwtRlVjd00WJS4GEh4AaABAg_item-8",
+    "broadCategoryKo": "디저트",
+    "placeTypeKo": "타코야키·간식",
+    "signatureKo": "대왕 타코야키",
+    "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
+    "displayDescriptionKo": "후쿠오카 다이묘에서 큼직한 타코야키 간식으로 들르기 좋은 곳."
+  },
+  {
+    "id": "yt_oyPL3hm3URw_UgxwtRlVjd00WJS4GEh4AaABAg_item-9",
+    "broadCategoryKo": "밥",
+    "placeTypeKo": "라멘·면요리",
+    "signatureKo": "돈코츠 라멘",
+    "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
+    "displayDescriptionKo": "후쿠오카에서 진한 돈코츠 라멘 한 그릇으로 넣기 좋은 라멘집."
   }
 ]
