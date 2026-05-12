@@ -9,16 +9,11 @@ export type PublicPlace = {
   lat: number;
   lng: number;
   categoryTags: string[];
-  commentKoAuto: string;
-  verdict: "auto_recommended";
-  confidence: number;
-  negativeSignalHits: [];
+  commentKoAuto?: string;
   sourceVideoId: string;
   sourceVideoTitle: string;
   sourceVideoUrl: string;
   thumbnailUrl: string;
-  sourceCommentId: string;
-  sourceKind: "owner_location_comment_candidate";
   googleMapsUrl?: string;
   placeTypeKo?: string;
   signatureKo?: string;

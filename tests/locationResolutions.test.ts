@@ -62,7 +62,7 @@ describe("agent-assisted location resolutions", () => {
     });
   });
 
-  it("publishes a resolved candidate with evidence metadata", () => {
+  it("publishes a resolved candidate with public display fields only", () => {
     const places = buildResolvedPublicPlaces([baseCandidate], [baseResolution], {
       generatedAt: "2026-05-07T00:00:00.000Z",
       confidenceThreshold: 0.55,
@@ -74,10 +74,7 @@ describe("agent-assisted location resolutions", () => {
       nameKoOrOriginal: "FAKE_TEST_SHOP_ALPHA Tokyo",
       lat: 35.681236,
       lng: 139.767125,
-      locationResolvedBy: "hermes",
-      locationConfidence: 0.86,
-      coordinateSource: "osm",
-      evidenceUrls: ["https://www.openstreetmap.org/node/123456789"],
+      commentKoAuto: "숏츠에서 저장해 둔 일본 가게입니다.",
     });
   });
 
@@ -158,10 +155,6 @@ describe("agent-assisted location resolutions", () => {
     const automaticPlace = {
       ...resolvedPlace,
       nameKoOrOriginal: baseCandidate.nameKoOrOriginal,
-      locationResolvedBy: undefined,
-      locationConfidence: undefined,
-      coordinateSource: undefined,
-      evidenceUrls: undefined,
     };
 
     const places = mergeAndDedupePublicPlaces([automaticPlace], [resolvedPlace]);
@@ -169,8 +162,7 @@ describe("agent-assisted location resolutions", () => {
     expect(places).toHaveLength(1);
     expect(places[0]).toMatchObject({
       nameKoOrOriginal: baseResolution.resolvedName,
-      locationResolvedBy: "hermes",
-      coordinateSource: baseResolution.coordinateSource,
     });
+    expect(places[0]).not.toHaveProperty("coordinateSource");
   });
 });

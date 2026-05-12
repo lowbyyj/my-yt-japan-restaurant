@@ -31,15 +31,10 @@ const validPublishedPlace = {
   lng: 139.767125,
   categoryTags: ["synthetic"],
   commentKoAuto: "Synthetic test record only.",
-  verdict: "auto_recommended",
-  confidence: 0.82,
-  negativeSignalHits: [],
   sourceVideoId: "syntheticVideoId",
   sourceVideoTitle: "Synthetic fake video title",
   sourceVideoUrl: "https://www.youtube.com/watch?v=syntheticVideoId",
   thumbnailUrl: "https://i.ytimg.com/vi/syntheticVideoId/hqdefault.jpg",
-  sourceCommentId: "syntheticCommentId",
-  sourceKind: "owner_location_comment_candidate",
   googleMapsUrl:
     "https://www.google.com/maps/search/?api=1&query=35.681236,139.767125",
   generatedAt: "2026-05-06T00:00:00.000Z",
@@ -57,7 +52,6 @@ describe("public place validation", () => {
     expect(publicPlaceSchema.parse(validPublishedPlace)).toMatchObject({
       id: "synthetic_public_place",
       country: "JP",
-      verdict: "auto_recommended",
     });
   });
 
@@ -74,12 +68,14 @@ describe("public place validation", () => {
     expect(() => publicPlaceSchema.parse(missing)).toThrow();
   });
 
-  it("rejects public records with negative signals", () => {
-    expect(() =>
+  it("strips internal validation/provenance fields from public records", () => {
+    expect(
       publicPlaceSchema.parse({
         ...validPublishedPlace,
+        confidence: 0.82,
         negativeSignalHits: ["비추"],
+        sourceKind: "owner_location_comment_candidate",
       }),
-    ).toThrow();
+    ).not.toHaveProperty("confidence");
   });
 });

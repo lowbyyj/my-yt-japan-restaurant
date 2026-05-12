@@ -49,21 +49,12 @@ function toResolvedPublicPlace(
     lat: resolution.lat!,
     lng: resolution.lng!,
     categoryTags: candidate.categoryTags,
-    commentKoAuto: `${candidate.commentKoAuto} Hermes가 공개 웹 근거로 위치를 확인했습니다.`,
-    verdict: "auto_recommended",
-    confidence: Math.max(candidate.confidence, resolution.confidence),
-    negativeSignalHits: [],
+    commentKoAuto: "숏츠에서 저장해 둔 일본 가게입니다.",
     sourceVideoId: candidate.videoId,
     sourceVideoTitle: candidate.videoTitle,
     sourceVideoUrl: candidate.videoUrl,
     thumbnailUrl: candidate.thumbnailUrl,
-    sourceCommentId: candidate.sourceCommentId,
-    sourceKind: "owner_location_comment_candidate",
     googleMapsUrl: resolution.googleMapsSearchUrl,
-    locationResolvedBy: resolution.resolvedBy,
-    locationConfidence: resolution.confidence,
-    evidenceUrls: resolution.evidenceUrls,
-    coordinateSource: resolution.coordinateSource,
     placeTypeKo: resolution.placeTypeKo,
     signatureKo: resolution.signatureKo,
     whyKo: resolution.whyKo,
@@ -108,7 +99,7 @@ export function mergeAndDedupePublicPlaces(
   const seenPlaceKeys = new Set<string>();
 
   for (const place of [...resolvedPlaces, ...basePlaces]) {
-    const sourceKey = `${place.sourceVideoId}:${place.sourceCommentId}`;
+    const sourceKey = place.id;
     const placeKey = `${place.nameKoOrOriginal.toLowerCase()}|${place.city.toLowerCase()}|${place.lat.toFixed(5)}|${place.lng.toFixed(5)}`;
     if (seenSourceKeys.has(sourceKey) || seenPlaceKeys.has(placeKey)) continue;
     merged.push(place);

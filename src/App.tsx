@@ -168,8 +168,8 @@ export function App() {
     <main className="app-shell">
       <header className="topbar">
         <div>
-          <h1>탐닉 일본 맛집 지도</h1>
-          <p>공간탐닉 Shorts에서 소개된 일본 맛집을 한눈에 보는 비공식 지도</p>
+          <h1>일본 맛집 숏츠 지도</h1>
+          <p>맛집 숏츠 보다가 저장해 둔 일본 가게들을 지도에 꽂아놨습니다.</p>
         </div>
         <div className="status-pill">
           <span>{status.published}</span>
@@ -178,7 +178,7 @@ export function App() {
       </header>
 
       <section className="notice">
-        영상과 공개 위치 근거를 바탕으로 만든 비공식 지도입니다. 방문 전 영업시간과 휴무는 한 번 더 확인해 주세요.
+        스크롤하다가 맛있어 보여서, 일단 지도에 박아둔 일본 가게들. 방문 전 영업시간과 휴무는 한 번 더 확인해 주세요.
       </section>
 
       <section className="workspace">
@@ -279,7 +279,7 @@ export function App() {
                       {place.categoryTags.slice(0, 4).map((tag) => (
                         <span key={tag}>{friendlyCategoryTag(tag)}</span>
                       ))}
-                      <span className="verified">위치 확인됨</span>
+                      <span className="verified">저장한 곳</span>
                     </span>
                     <p className="description">{buildDisplayDescription(place)}</p>
                     <dl className="quick-facts">
@@ -323,10 +323,10 @@ export function App() {
                       </a>
                     </span>
                     <details className="provenance" onClick={(event) => event.stopPropagation()}>
-                      <summary>데이터 출처 보기</summary>
-                      <p>영상과 공개 위치 근거를 바탕으로 지도에 표시했습니다.</p>
+                      <summary>관련 영상 보기</summary>
+                      <p>이 가게를 저장하게 된 숏츠를 열어볼 수 있습니다.</p>
                       <a href={place.sourceVideoUrl} rel="noreferrer" target="_blank">
-                        원본 영상 열기
+                        영상 열기
                       </a>
                     </details>
                   </div>

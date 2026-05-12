@@ -65,6 +65,16 @@ Source-channel marker completion:
 - Adds a Tabelog public/free evidence-backed bulk resolution batch tied to automated owner-comment candidates.
 - Publishes 250 enriched markers while preserving Tokyo start view, `전체/밥/디저트/술` filter, coordinate-based Google Maps buttons, and existing UI structure.
 
+## M3.6
+
+Brand polish and source-channel completion:
+
+- Renames the public site to `일본 맛집 숏츠 지도` / `Japan Shorts Food Map`.
+- Removes channel-specific branding from public title, metadata, and header copy.
+- Adds first-party favicon/apple-touch/OG preview assets.
+- Keeps the existing Tokyo start view, `전체`/`밥`/`디저트`/`술` filter, marker-to-card focus, and coordinate-based Google Maps buttons.
+- Continues source-channel marker completion from the existing generated candidate pool only.
+
 ## M4
 
 Optional next step: add link from the separate `lowbyyj.github.io` homepage repo, only when explicitly requested.

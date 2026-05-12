@@ -24,12 +24,6 @@ for (const place of places) {
   if (place.country !== "JP") {
     throw new Error(`${place.id}: non-JP place cannot be public`);
   }
-  if (place.negativeSignalHits.length > 0) {
-    throw new Error(`${place.id}: negative signal place cannot be public`);
-  }
-  if (place.verdict !== "auto_recommended") {
-    throw new Error(`${place.id}: only auto_recommended places can be public`);
-  }
 }
 
 if (status.published !== places.length) {

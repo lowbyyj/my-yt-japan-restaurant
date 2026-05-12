@@ -1,8 +1,8 @@
 # Project State
 
-- Project display name: 탐닉 일본 맛집 지도
+- Project display name: 일본 맛집 숏츠 지도
 - Operator identity: `dr.lowb`
-- Current task: `M3.5 source-channel marker completion + Fukuoka list-item expansion`
+- Current task: `M3.6 brand polish and source-channel completion`
 - Repo name: `my-yt-japan-restaurant`
 - Repo URL: `https://github.com/lowbyyj/my-yt-japan-restaurant`
 - Branch: `main`
