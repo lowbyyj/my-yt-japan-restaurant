@@ -1,22 +1,21 @@
 {
-  "dataGenerated": false,
-  "reason": "YOUTUBE_API_KEY not provided",
-  "generatedAt": null,
+  "dataGenerated": true,
+  "generatedAt": "2026-05-12T05:35:11.131Z",
   "channelHandle": "@space_tamnik",
-  "videosScanned": 557,
-  "likelyShorts": 557,
-  "ownerCommentCandidates": 550,
-  "japanCandidates": 601,
+  "videosScanned": 558,
+  "likelyShorts": 558,
+  "ownerCommentCandidates": 551,
+  "japanCandidates": 602,
   "geocoded": 131,
   "published": 258,
   "excludedNegativeSignal": 36,
-  "needsGeocode": 514,
-  "heldBack": 386,
+  "needsGeocode": 515,
+  "heldBack": 387,
   "heldBackLowConfidence": 0,
-  "heldBackMissingGeocode": 435,
+  "heldBackMissingGeocode": 436,
   "heldBackNonJapan": 78,
   "geocodeHoldbackBreakdown": {
-    "google_maps_search_query_only": 428,
+    "google_maps_search_query_only": 429,
     "maps_short_url_unresolved": 7
   }
 }

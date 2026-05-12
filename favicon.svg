@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="Japan Shorts Food Map icon">
+  <rect width="128" height="128" rx="28" fill="#fff7ed"/>
+  <path d="M64 10c-23 0-41 18-41 41 0 29 36 62 41 67 5-5 41-38 41-67 0-23-18-41-41-41Z" fill="#e5483f"/>
+  <circle cx="64" cy="51" r="26" fill="#fffaf0"/>
+  <path d="M42 54h44c-2 13-10 21-22 21S44 67 42 54Z" fill="#f6b14b"/>
+  <path d="M48 50c7 4 25 4 32 0" fill="none" stroke="#7a2f21" stroke-width="5" stroke-linecap="round"/>
+  <path d="M50 39l32-12M56 45l34-13" stroke="#7a2f21" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="55" cy="58" r="4" fill="#7a2f21"/>
+  <circle cx="73" cy="58" r="4" fill="#7a2f21"/>
+</svg>
