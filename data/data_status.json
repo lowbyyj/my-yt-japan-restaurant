@@ -1,7 +1,7 @@
 {
-  "dataGenerated": true,
-  "generatedAt": "2026-05-12T05:35:11.131Z",
-  "channelHandle": "@space_tamnik",
+  "dataGenerated": false,
+  "reason": "YOUTUBE_API_KEY not provided",
+  "generatedAt": null,
   "videosScanned": 558,
   "likelyShorts": 558,
   "ownerCommentCandidates": 551,
