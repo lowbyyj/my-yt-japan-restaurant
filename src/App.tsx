@@ -8,6 +8,8 @@ import {
   buildGoogleMapsViewUrl,
   classifyBroadCategory,
   friendlyCategoryTag,
+  thumbnailAltText,
+  thumbnailFallbackEmoji,
 } from "./placeDisplay";
 import type { DataStatus, PublicPlace } from "./types";
 
@@ -15,7 +17,6 @@ const DEFAULT_STATUS: DataStatus = {
   dataGenerated: false,
   reason: "YOUTUBE_API_KEY not provided",
   generatedAt: null,
-  channelHandle: "@space_tamnik",
   videosScanned: 0,
   likelyShorts: 0,
   ownerCommentCandidates: 0,
@@ -90,6 +91,7 @@ export function App() {
   const [category, setCategory] = useState("all");
   const [tileLayer, setTileLayer] = useState<TileLayerKey>("voyager");
   const [loadError, setLoadError] = useState<string | null>(null);
+  const [brokenThumbnailIds, setBrokenThumbnailIds] = useState(() => new Set<string>());
   const cardRefs = useRef(new Map<string, HTMLElement>());
 
   useEffect(() => {
@@ -140,7 +142,10 @@ export function App() {
           place.nameLocal ?? "",
           place.city,
           place.area ?? "",
-          place.sourceVideoTitle,
+          place.broadCategoryKo ?? "",
+          place.placeTypeKo ?? "",
+          place.signatureKo ?? "",
+          place.displayDescriptionKo ?? "",
           place.categoryTags.join(" "),
         ].join(" "),
       );
@@ -178,7 +183,7 @@ export function App() {
       </header>
 
       <section className="notice">
-        스크롤하다가 맛있어 보여서, 일단 지도에 박아둔 일본 가게들. 방문 전 영업시간과 휴무는 한 번 더 확인해 주세요.
+        유튜브 숏츠를 스크롤하다 맛있어 보여서 지도에 꽂아둔 일본 가게들입니다. 원본 영상은 각 카드의 “영상 보기”에서 확인할 수 있어요. 문제가 있는 항목은 알려주시면 확인 후 수정하거나 제거하겠습니다.
       </section>
 
       <section className="workspace">
@@ -269,7 +274,23 @@ export function App() {
                   role="button"
                   tabIndex={0}
                 >
-                  <img src={place.thumbnailUrl} alt="" loading="lazy" />
+                  <div className="thumbnail-wrap">
+                    <span className="thumbnail-source">YouTube 영상</span>
+                    {brokenThumbnailIds.has(place.id) ? (
+                      <div className="thumbnail-placeholder" aria-label="영상 썸네일 대체 표시">
+                        {thumbnailFallbackEmoji(place)}
+                      </div>
+                    ) : (
+                      <img
+                        src={place.thumbnailUrl}
+                        alt={thumbnailAltText(place)}
+                        loading="lazy"
+                        onError={() =>
+                          setBrokenThumbnailIds((previous) => new Set(previous).add(place.id))
+                        }
+                      />
+                    )}
+                  </div>
                   <div className="card-main">
                     <div>
                       <strong>{place.nameLocal ?? place.nameKoOrOriginal}</strong>
@@ -322,7 +343,7 @@ export function App() {
                         길찾기
                       </a>
                     </span>
-                    <details className="provenance" onClick={(event) => event.stopPropagation()}>
+                    <details className="video-note" onClick={(event) => event.stopPropagation()}>
                       <summary>관련 영상 보기</summary>
                       <p>이 가게를 저장하게 된 숏츠를 열어볼 수 있습니다.</p>
                       <a href={place.sourceVideoUrl} rel="noreferrer" target="_blank">

@@ -11,10 +11,8 @@ export type PublicPlace = {
   categoryTags: string[];
   commentKoAuto?: string;
   sourceVideoId: string;
-  sourceVideoTitle: string;
   sourceVideoUrl: string;
   thumbnailUrl: string;
-  googleMapsUrl?: string;
   placeTypeKo?: string;
   signatureKo?: string;
   whyKo?: string;
@@ -27,7 +25,6 @@ export type DataStatus = {
   dataGenerated: boolean;
   reason?: string;
   generatedAt: string | null;
-  channelHandle: string;
   videosScanned: number;
   likelyShorts: number;
   ownerCommentCandidates: number;

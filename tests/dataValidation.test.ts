@@ -9,7 +9,6 @@ const safeEmptyStatus = {
   dataGenerated: false,
   reason: "YOUTUBE_API_KEY not provided",
   generatedAt: null,
-  channelHandle: "@space_tamnik",
   videosScanned: 0,
   likelyShorts: 0,
   ownerCommentCandidates: 0,
@@ -32,11 +31,8 @@ const validPublishedPlace = {
   categoryTags: ["synthetic"],
   commentKoAuto: "Synthetic test record only.",
   sourceVideoId: "syntheticVideoId",
-  sourceVideoTitle: "Synthetic fake video title",
   sourceVideoUrl: "https://www.youtube.com/watch?v=syntheticVideoId",
   thumbnailUrl: "https://i.ytimg.com/vi/syntheticVideoId/hqdefault.jpg",
-  googleMapsUrl:
-    "https://www.google.com/maps/search/?api=1&query=35.681236,139.767125",
   generatedAt: "2026-05-06T00:00:00.000Z",
 } as const;
 
@@ -69,13 +65,17 @@ describe("public place validation", () => {
   });
 
   it("strips internal validation/provenance fields from public records", () => {
-    expect(
-      publicPlaceSchema.parse({
-        ...validPublishedPlace,
-        confidence: 0.82,
-        negativeSignalHits: ["비추"],
-        sourceKind: "owner_location_comment_candidate",
-      }),
-    ).not.toHaveProperty("confidence");
+    const parsed = publicPlaceSchema.parse({
+      ...validPublishedPlace,
+      confidence: 0.82,
+      googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=raw+comment+text",
+      negativeSignalHits: ["비추"],
+      sourceKind: "owner_location_comment_candidate",
+      sourceVideoTitle: "Synthetic fake video title",
+    });
+
+    expect(parsed).not.toHaveProperty("confidence");
+    expect(parsed).not.toHaveProperty("googleMapsUrl");
+    expect(parsed).not.toHaveProperty("sourceVideoTitle");
   });
 });

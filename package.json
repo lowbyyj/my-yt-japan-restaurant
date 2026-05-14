@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "type": "module",
-  "description": "Unofficial auto-generated Japan map of places from @space_tamnik Shorts owner comments.",
+  "description": "Personal Japan food Shorts map with source-neutral public display.",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",

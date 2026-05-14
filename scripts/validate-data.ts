@@ -7,7 +7,6 @@ const status = dataStatusSchema.parse(
     dataGenerated: false,
     reason: "YOUTUBE_API_KEY not provided",
     generatedAt: null,
-    channelHandle: "@space_tamnik",
     videosScanned: 0,
     likelyShorts: 0,
     ownerCommentCandidates: 0,

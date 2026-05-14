@@ -6,6 +6,8 @@ import {
   classifyBroadCategory,
   forbiddenPublicDescriptionPattern,
   friendlyCategoryTag,
+  thumbnailAltText,
+  thumbnailFallbackEmoji,
 } from "../src/placeDisplay.js";
 import type { PublicPlace } from "../src/types.js";
 
@@ -23,11 +25,8 @@ function place(overrides: Partial<PublicPlace> = {}): PublicPlace {
     categoryTags: ["ramen", "noodles"],
     commentKoAuto: "숏츠에서 저장해 둔 일본 가게입니다.",
     sourceVideoId: "abc",
-    sourceVideoTitle: "도쿄에서 한정판 라멘을 주문하면 생기는 일",
     sourceVideoUrl: "https://www.youtube.com/watch?v=abc",
     thumbnailUrl: "https://example.com/thumb.jpg",
-    googleMapsUrl:
-      "https://www.google.com/maps/search/?api=1&query=%EB%8F%84%EC%BF%84%EC%97%90%EC%84%9C%20%ED%95%9C%EC%A0%95%ED%8C%90%20%EB%9D%BC%EB%A9%98%EC%9D%84%20%EC%A3%BC%EB%AC%B8",
     generatedAt: "2026-05-07T00:00:00Z",
     ...overrides,
   };
@@ -58,16 +57,14 @@ describe("place display helpers", () => {
   it("generates a user-facing description without internal provenance wording", () => {
     const description = buildDisplayDescription(place());
 
-    expect(description).toBe("도쿄에서 소개된 라멘집.");
+    expect(description).toBe("Tokyo / Ginza에서 들르기 좋은 라멘집.");
     expect(description).not.toMatch(/Hermes|자동 추출|owner comment|confidence|coordinateSource/i);
   });
 
-  it("uses city and area fallback when video title is not descriptive", () => {
-    expect(
-      buildDisplayDescription(
-        place({ sourceVideoTitle: "2026년 4월 4일", city: "Fukuoka", area: "Tenjin" }),
-      ),
-    ).toBe("Fukuoka / Tenjin에서 소개된 가게.");
+  it("uses city and category copy instead of source video title fallback", () => {
+    expect(buildDisplayDescription(place({ city: "Fukuoka", area: "Tenjin" }))).toBe(
+      "Fukuoka / Tenjin에서 들르기 좋은 라멘집.",
+    );
   });
 
   it("prefers curated public-safe enrichment text when available", () => {
@@ -124,5 +121,18 @@ describe("place display helpers", () => {
     );
 
     expect(description).not.toMatch(forbiddenDescriptionWords);
+  });
+
+  it("uses source-neutral thumbnail alt text", () => {
+    expect(thumbnailAltText(place())).toBe("麺屋 テスト 관련 영상 썸네일");
+    expect(thumbnailAltText(place({ nameLocal: undefined }))).toBe(
+      "도쿄 라멘 관련 영상 썸네일",
+    );
+  });
+
+  it("chooses category placeholders when thumbnails fail", () => {
+    expect(thumbnailFallbackEmoji(place({ broadCategoryKo: "밥" }))).toBe("🍜");
+    expect(thumbnailFallbackEmoji(place({ broadCategoryKo: "디저트" }))).toBe("🍮");
+    expect(thumbnailFallbackEmoji(place({ broadCategoryKo: "술" }))).toBe("🍶");
   });
 });

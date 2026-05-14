@@ -23,7 +23,7 @@ type IngestSummary = {
   dataGenerated: boolean;
   reason?: string;
   generatedAt: string | null;
-  channelHandle: string;
+  channelHandle?: string;
   videosScanned: number;
   likelyShorts: number;
   ownerCommentCandidates: number;
@@ -67,10 +67,8 @@ function toPublicPlace(candidate: (typeof geocodedCandidatesSchema._output)[numb
     categoryTags: candidate.categoryTags,
     commentKoAuto: "숏츠에서 저장해 둔 일본 가게입니다.",
     sourceVideoId: candidate.videoId,
-    sourceVideoTitle: candidate.videoTitle,
     sourceVideoUrl: candidate.videoUrl,
     thumbnailUrl: candidate.thumbnailUrl,
-    googleMapsUrl: candidate.googleMapsUrl,
     generatedAt: new Date().toISOString(),
   };
   return place;
@@ -127,7 +125,6 @@ async function main() {
     dataGenerated: false,
     reason: "YOUTUBE_API_KEY not provided",
     generatedAt: null,
-    channelHandle: process.env.YOUTUBE_CHANNEL_HANDLE || "@space_tamnik",
     videosScanned: 0,
     likelyShorts: 0,
     ownerCommentCandidates: 0,
@@ -194,7 +191,6 @@ async function main() {
         : "No publishable places after automated filters"
       : ingest.reason ?? "YOUTUBE_API_KEY not provided",
     generatedAt: dataGenerated ? new Date().toISOString() : null,
-    channelHandle: ingest.channelHandle,
     videosScanned: ingest.videosScanned,
     likelyShorts: ingest.likelyShorts,
     ownerCommentCandidates: ingest.ownerCommentCandidates,

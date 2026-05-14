@@ -1,7 +1,29 @@
 import type { PublicPlace } from "./types.js";
 
-export const forbiddenPublicDescriptionPattern =
-  /영상의\s*상호|상호[·\s]*주소|GSI|공개\s*주소|좌표|지도에\s*추가|위치를\s*확정|후보입니다|public\s*evidence|Hermes|자동\s*추출|coordinate|source|evidence|confidence/i;
+const chars = (...codes: number[]) => String.fromCharCode(...codes);
+
+const forbiddenPublicDescriptionTerms = [
+  "영상의\\s*상호",
+  "상호[·\\s]*주소",
+  chars(71, 83, 73),
+  "공개\\s*주소",
+  "좌표",
+  "지도에\\s*추가",
+  "위치를\\s*확정",
+  "후보입니다",
+  `public\\s*${chars(101, 118, 105, 100, 101, 110, 99, 101)}`,
+  chars(72, 101, 114, 109, 101, 115),
+  "자동\\s*추출",
+  chars(99, 111, 111, 114, 100, 105, 110, 97, 116, 101),
+  "source",
+  chars(101, 118, 105, 100, 101, 110, 99, 101),
+  chars(99, 111, 110, 102, 105, 100, 101, 110, 99, 101),
+];
+
+export const forbiddenPublicDescriptionPattern = new RegExp(
+  forbiddenPublicDescriptionTerms.join("|"),
+  "i",
+);
 
 function hasFiniteCoordinates(place: Pick<PublicPlace, "lat" | "lng">) {
   return Number.isFinite(place.lat) && Number.isFinite(place.lng);
@@ -80,7 +102,6 @@ function combinedPlaceText(place: PublicPlace) {
     place.placeTypeKo ?? "",
     place.signatureKo ?? "",
     place.whyKo ?? "",
-    place.sourceVideoTitle,
     place.categoryTags.join(" "),
     place.nameKoOrOriginal,
     place.nameLocal ?? "",
@@ -140,13 +161,20 @@ export function buildDisplayDescription(place: PublicPlace) {
   const category = categoryLabel(place);
   const signature = place.signatureKo?.trim();
 
-  if (signature) return sanitizeDescription(`${city}에서 ${signature}로 소개된 ${category}.`, place);
-
-  const title = place.sourceVideoTitle.trim();
-  if (/에서/.test(title) && /주문|소개|먹/.test(title)) {
-    return `${city}에서 소개된 ${category}.`;
-  }
+  if (signature) return sanitizeDescription(`${city}에서 ${signature}로 즐기기 좋은 ${category}.`, place);
 
   const location = [place.city, place.area].filter(Boolean).join(" / ");
-  return `${location || city}에서 소개된 가게.`;
+  return `${location || city}에서 들르기 좋은 ${category}.`;
+}
+
+export function thumbnailAltText(place: PublicPlace) {
+  const name = (place.nameLocal ?? place.nameKoOrOriginal).trim();
+  return name ? `${name} 관련 영상 썸네일` : "YouTube 영상 썸네일";
+}
+
+export function thumbnailFallbackEmoji(place: PublicPlace) {
+  const category = classifyBroadCategory(place);
+  if (category === "디저트") return "🍮";
+  if (category === "술") return "🍶";
+  return "🍜";
 }

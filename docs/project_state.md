@@ -193,9 +193,18 @@ M3.2 batch 3 resolved places:
 - `肉匠なか田 本店`
 - `IDATEN`
 
+## M3.7 thumbnail-preserving source-neutral cleanup
+
+- Scope: final source-neutral public polish before personal homepage linking; no new places, no external thumbnail capture/rehost, and no personal homepage repo changes.
+- Published marker count stayed `258`.
+- Public `places.json` now keeps `sourceVideoId`, `sourceVideoUrl`, and official YouTube `thumbnailUrl`, while removing public `sourceVideoTitle`, `googleMapsUrl`, and channel-specific status metadata.
+- Cards keep YouTube thumbnails with a small `YouTube 영상` label, neutral alt text, `영상 보기`, coordinate-based Google Maps/길찾기 buttons, and category emoji fallback only on thumbnail load failure.
+- Site notice now says the map is a personal list of Japan shops saved while scrolling YouTube Shorts, with original videos available from each card.
+- Verification for M3.7 passed: `npm ci`, `validate:data`, `test`, `build`, local preview smoke, and public/build forbidden-word scan except a Leaflet vendor-internal `coordinate` token in the bundled map library.
+
 ## Verification
 
-- `npm ci`: passed at M3.2 start.
+- `npm ci`: passed at M3.7 start; previous M3.2 start also passed.
 - `MAX_VIDEOS=300 npm run data:all`: attempted; the full chained command timed out after ingestion/extraction/geocode work, so final public data was rebuilt with staged `build:data` and strict publish gates.
 - `npm run build:data && npm run validate:data`: passed, published `26`.
 - `npm run validate:data && npm run test && npm run build`: passed.
