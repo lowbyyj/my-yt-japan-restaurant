@@ -30,4 +30,4 @@
 ## More
 
 - Personal page: https://lowbyyj.github.io/
-- Projects: https://lowbyyj.github.io/#projects
+- Projects: https://lowbyyj.github.io/projects/
