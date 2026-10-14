@@ -19,7 +19,6 @@
     ],
     "evidenceNotes": "Mapion lists ピノキオ at 東京都板橋区大山金井町16-8 with phone 03-3974-9336 and coordinates; OSM/Nominatim has a matching Coffee Shop Pinocchio cafe nearby. External copyrighted assets or paid Google Places data were not used.",
     "coordinateSource": "Mapion public phonebook coordinates; cross-checked against OSM/Nominatim node 11411613669 nearby",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-07T02:48:02Z",
     "confidence": 0.86,
     "status": "resolved"
@@ -45,7 +44,6 @@
     ],
     "evidenceNotes": "Mapion lists きつねや at 東京都中央区築地4-9-12 築地市場外 with coordinates; OSM/Nominatim has matching Kitsuneya Tripe Stew in Tsukiji. External copyrighted assets or paid Google Places data were not used.",
     "coordinateSource": "Mapion public phonebook coordinates; cross-checked against OSM/Nominatim node 10811562505 nearby",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-07T02:48:02Z",
     "confidence": 0.9191666666666666,
     "status": "resolved"
@@ -70,7 +68,6 @@
     ],
     "evidenceNotes": "Mapion lists ヘッケルン at 東京都港区西新橋1-20-11 安藤ビル1S with phone 03-3580-5661 and coordinates. External copyrighted assets or paid Google Places data were not used.",
     "coordinateSource": "Mapion public phonebook coordinates",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-07T02:48:02Z",
     "confidence": 0.9066666666666666,
     "status": "resolved"
@@ -96,7 +93,6 @@
     ],
     "evidenceNotes": "Mapion lists めん馬鹿一代 at 京都市上京区南伊勢屋町757-2 with phone 075-812-5818 and coordinates; OSM/Nominatim has matching restaurant nearby. External copyrighted assets or paid Google Places data were not used.",
     "coordinateSource": "Mapion public phonebook coordinates; cross-checked against OSM/Nominatim node 4421738444 nearby",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-07T02:48:02Z",
     "confidence": 0.86,
     "status": "resolved"
@@ -121,7 +117,6 @@
     ],
     "evidenceNotes": "Mapion lists とんかつ 成蔵 at 東京都杉並区成田東4-33-9 with phone 03-6882-5214 and coordinates. External copyrighted assets or paid Google Places data were not used.",
     "coordinateSource": "Mapion public phonebook coordinates",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-07T02:48:02Z",
     "confidence": 0.9274999999999999,
     "status": "resolved"
@@ -145,7 +140,6 @@
     ],
     "evidenceNotes": "Mapion lists 丸亀製麺 京都市役所前店 at 京都府京都市中京区下本能寺前町522-19 with phone 075-221-8005 and coordinates. External copyrighted assets or paid Google Places data were not used.",
     "coordinateSource": "Mapion public phonebook coordinates",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-07T02:48:02Z",
     "confidence": 0.98,
     "status": "resolved"
@@ -170,7 +164,6 @@
     ],
     "evidenceNotes": "Generated candidate query explicitly named Pontocho Yakiniku Kiraku / 先斗町焼肉きらく. Mapion lists 先斗町焼肉 きらく at 京都市中京区若松町139-2 with phone 075-606-5153 and coordinates. External copyrighted assets or paid Google Places data were not used.",
     "coordinateSource": "Mapion public phonebook coordinates",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-07T02:48:02Z",
     "confidence": 0.98,
     "status": "resolved"
@@ -195,7 +188,6 @@
     ],
     "evidenceNotes": "Tabelog public detail page lists CORDUROY cafe at 福岡市中央区大名1-15-35 FPG links DAIMYOⅢ 4F-A with coordinates; OSM/Nominatim has a matching cafe node nearby. External copyrighted assets, paid Google Places data, and Google Maps scraping were not used.",
     "coordinateSource": "Tabelog public detail coordinates; cross-checked against OSM/Nominatim node 7211182087 nearby",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-07T04:25:00Z",
     "confidence": 0.93,
     "status": "resolved"
@@ -220,7 +212,6 @@
     ],
     "evidenceNotes": "Official site lists まほろば囲炉裏 心斎橋 at 大阪市中央区東心斎橋1-16-32 BE’S50ビル1F; Tabelog public detail page lists the same address with coordinates. External copyrighted assets, paid Google Places data, and Google Maps scraping were not used.",
     "coordinateSource": "Tabelog public detail coordinates, matched to the official site address",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-07T04:25:00Z",
     "confidence": 0.94,
     "status": "resolved"
@@ -244,7 +235,6 @@
     ],
     "evidenceNotes": "Tabelog public detail page lists MENSHO District at 東京都渋谷区西原3-8-5 アコルデ代々木上原 with coordinates. The generated candidate explicitly named MENSHO District. External copyrighted assets, paid Google Places data, and Google Maps scraping were not used.",
     "coordinateSource": "Tabelog public detail coordinates",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-07T04:25:00Z",
     "confidence": 0.88,
     "status": "resolved"
@@ -268,7 +258,6 @@
     ],
     "evidenceNotes": "Tabelog public map/detail page lists とんかつ 丸七 銀座店 at 東京都中央区銀座4-13-3 with coordinates. The generated candidate explicitly named the Ginza branch. External copyrighted assets, paid Google Places data, and Google Maps scraping were not used.",
     "coordinateSource": "Tabelog public map/detail coordinates",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-07T04:25:00Z",
     "confidence": 0.92,
     "status": "resolved"
@@ -293,7 +282,6 @@
     ],
     "evidenceNotes": "Tabelog public detail page lists 中華そば 辻 at 大阪市中央区釣鐘町1-1-1 with coordinates; OSM/Nominatim has a matching restaurant node nearby. External copyrighted assets, paid Google Places data, and Google Maps scraping were not used.",
     "coordinateSource": "Tabelog public detail coordinates; cross-checked against OSM/Nominatim node 5251882222 nearby",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-07T04:25:00Z",
     "confidence": 0.91,
     "status": "resolved"
@@ -318,7 +306,6 @@
     ],
     "evidenceNotes": "Tabelog public detail page lists 麺屋 さくら井 at 東京都武蔵野市西久保2-21-3 with coordinates; OSM/Nominatim has a matching restaurant node nearby. External copyrighted assets, paid Google Places data, and Google Maps scraping were not used.",
     "coordinateSource": "Tabelog public detail coordinates; cross-checked against OSM/Nominatim node 10196474641 nearby",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-07T04:25:00Z",
     "confidence": 0.9,
     "status": "resolved"
@@ -342,7 +329,6 @@
     ],
     "evidenceNotes": "Tabelog public map/detail page lists 石村萬盛堂 本店 at 福岡市博多区須崎2-1 with coordinates. The generated candidate explicitly named the main store, resolving the previous branch ambiguity. External copyrighted assets, paid Google Places data, and Google Maps scraping were not used.",
     "coordinateSource": "Tabelog public map/detail coordinates",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-07T04:25:00Z",
     "confidence": 0.9,
     "status": "resolved"
@@ -367,7 +353,6 @@
     ],
     "evidenceNotes": "Tabelog public detail page lists 2050 Coffee at 京都市中京区桜之町402 with coordinates; OSM/Nominatim has a matching cafe node nearby. External copyrighted assets, paid Google Places data, and Google Maps scraping were not used.",
     "coordinateSource": "Tabelog public detail coordinates; cross-checked against OSM/Nominatim node 12768082398 nearby",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-07T04:25:00Z",
     "confidence": 0.92,
     "status": "resolved"
@@ -391,7 +376,6 @@
     ],
     "evidenceNotes": "Tabelog public detail page lists おいしい氷屋 天神南店 at 福岡市中央区渡辺通5-14-12 with coordinates. The generated candidate explicitly named the Tenjin-Minami branch. External copyrighted assets, paid Google Places data, and Google Maps scraping were not used.",
     "coordinateSource": "Tabelog public detail coordinates",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-07T04:25:00Z",
     "confidence": 0.91,
     "status": "resolved"
@@ -415,7 +399,6 @@
     ],
     "evidenceNotes": "Tabelog public detail page lists まるもち家 伏見稲荷本店 at 京都市伏見区深草一ノ坪町27-9 with coordinates. The generated candidate explicitly named the Fushimi Inari main store. External copyrighted assets, paid Google Places data, and Google Maps scraping were not used.",
     "coordinateSource": "Tabelog public detail coordinates",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-07T04:25:00Z",
     "confidence": 0.92,
     "status": "resolved"
@@ -440,7 +423,6 @@
     ],
     "evidenceNotes": "Tabelog public detail page lists 炭焼きうなぎの魚伊 本店 at 大阪市旭区高殿4-8-10 with coordinates; OSM/Nominatim has a matching restaurant node nearby. External copyrighted assets, paid Google Places data, and Google Maps scraping were not used.",
     "coordinateSource": "Tabelog public detail coordinates; cross-checked against OSM/Nominatim node 7295887135 nearby",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-07T04:25:00Z",
     "confidence": 0.93,
     "status": "resolved"
@@ -464,7 +446,6 @@
     ],
     "evidenceNotes": "Tabelog public detail page lists 銀座はるちゃんラーメン with address and coordinates. The expanded scan candidate/video clearly describes Haruchan ramen selected for the 2026 Michelin Bib Gourmand. External copyrighted assets, paid Google Places data, and Google Maps scraping were not used.",
     "coordinateSource": "Tabelog public detail coordinates",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-07T06:35:00Z",
     "confidence": 0.89,
     "status": "resolved"
@@ -488,7 +469,6 @@
     ],
     "evidenceNotes": "Tabelog public detail page lists #Hirokiya Roppongi with address and coordinates. The generated candidate/video is a Tokyo wagyu rice bowl and the evidence matches the Roppongi Hirokiya branch. External copyrighted assets, paid Google Places data, and Google Maps scraping were not used.",
     "coordinateSource": "Tabelog public detail coordinates",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-07T06:35:00Z",
     "confidence": 0.88,
     "status": "resolved"
@@ -512,7 +492,6 @@
     ],
     "evidenceNotes": "Tabelog public detail page lists うなぎ 串料理 いづも ルクア with address and coordinates. The generated candidate/video is an Osaka oversized unagi bowl, matching the Lucua branch. External copyrighted assets, paid Google Places data, and Google Maps scraping were not used.",
     "coordinateSource": "Tabelog public detail coordinates",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-07T06:35:00Z",
     "confidence": 0.88,
     "status": "resolved"
@@ -536,7 +515,6 @@
     ],
     "evidenceNotes": "Tabelog public detail page lists ramen hisui with address and coordinates. The generated candidate/video describes a French-style lobster ramen specialist in Tokyo. External copyrighted assets, paid Google Places data, and Google Maps scraping were not used.",
     "coordinateSource": "Tabelog public detail coordinates",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-07T06:35:00Z",
     "confidence": 0.86,
     "status": "resolved"
@@ -560,7 +538,6 @@
     ],
     "evidenceNotes": "Tabelog public detail page lists 喫茶サテラ at 渋谷1-7-5 青山セブンハイツ 1F with coordinates. The generated candidate/video describes a long-running Tokyo cafe known for pudding. External copyrighted assets, paid Google Places data, and Google Maps scraping were not used.",
     "coordinateSource": "Tabelog public detail coordinates",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-07T06:35:00Z",
     "confidence": 0.87,
     "status": "resolved"
@@ -584,7 +561,6 @@
     ],
     "evidenceNotes": "Tabelog public detail page lists Shinjuku Ushimitsu with address and coordinates. The generated candidate/video describes a Tokyo wagyu omakase/yakiniku course, matching this branch. External copyrighted assets, paid Google Places data, and Google Maps scraping were not used.",
     "coordinateSource": "Tabelog public detail coordinates",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-07T06:35:00Z",
     "confidence": 0.87,
     "status": "resolved"
@@ -608,7 +584,6 @@
     ],
     "evidenceNotes": "Tabelog public detail page lists Nikushou Nakata Honten / 肉匠なか田 本店 with address and coordinates. The generated candidate/video describes an Osaka wagyu specialist using high-grade female wagyu. External copyrighted assets, paid Google Places data, and Google Maps scraping were not used.",
     "coordinateSource": "Tabelog public detail coordinates",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-07T06:35:00Z",
     "confidence": 0.91,
     "status": "resolved"
@@ -632,7 +607,6 @@
     ],
     "evidenceNotes": "Tabelog public detail page lists IDATEN with address and coordinates. The generated candidate/video describes an Osaka wagyu steak rice bowl specialty. External copyrighted assets, paid Google Places data, and Google Maps scraping were not used.",
     "coordinateSource": "Tabelog public detail coordinates",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-07T06:35:00Z",
     "confidence": 0.9,
     "status": "resolved"
@@ -656,7 +630,6 @@
     ],
     "evidenceNotes": "Generated YouTube owner-comment candidate names 쁘띠 주르 Petit Jour with address Japan, Fukuoka, Chuo Ward, Yakuin 1-12-19. Japan GSI public address search resolves 福岡県福岡市中央区薬院1-12-19 to 福岡県福岡市中央区薬院一丁目１２番１９号 with coordinates. Google Maps/Places scraping or paid APIs were not used.",
     "coordinateSource": "Japan GSI public address search coordinates from owner-comment address",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-07T10:45:00Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -680,7 +653,6 @@
     ],
     "evidenceNotes": "Generated YouTube owner-comment candidate names Yakiniku Tetsuya 焼肉てつや with address Japan, Fukuoka, Chuo Ward, Kego, 2−17−21. Japan GSI public address search resolves 福岡県福岡市中央区警固2-17-21 to 福岡県福岡市中央区警固二丁目１７番２１号 with coordinates. Google Maps/Places scraping or paid APIs were not used.",
     "coordinateSource": "Japan GSI public address search coordinates from owner-comment address",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-07T10:45:00Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -704,7 +676,6 @@
     ],
     "evidenceNotes": "Generated YouTube owner-comment candidate names yellow 表参道 with address Japan, Tokyo, Minato City, Minamiaoyama, 5 Chome−10−1 AOYAMA BUILDING H2 F2. Japan GSI public address search resolves 東京都港区南青山5-10-1 to 東京都港区南青山五丁目１０番 with coordinates. Google Maps/Places scraping or paid APIs were not used.",
     "coordinateSource": "Japan GSI public address search coordinates from owner-comment address",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-07T10:45:00Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -728,7 +699,6 @@
     ],
     "evidenceNotes": "Generated YouTube owner-comment candidate names IPPUKU&MATCHA Nihonbashi store with address Japan, Tokyo, Chuo City, Nihonbashimuromachi, 2 Chome−1−1１F. Japan GSI public address search resolves 東京都中央区日本橋室町2-1-1 to 東京都中央区日本橋室町二丁目１番１号 with coordinates. Google Maps/Places scraping or paid APIs were not used.",
     "coordinateSource": "Japan GSI public address search coordinates from owner-comment address",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-07T10:45:00Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -752,7 +722,6 @@
     ],
     "evidenceNotes": "Generated YouTube owner-comment candidate names Mikage Noodles Kaburaya with address 6-1 Goseki, Sakura Ward, Saitama, Japan. Japan GSI public address search resolves 埼玉県さいたま市桜区五関6-1 to 埼玉県さいたま市桜区五関６番地 with coordinates. Google Maps/Places scraping or paid APIs were not used.",
     "coordinateSource": "Japan GSI public address search coordinates from owner-comment address",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-07T10:45:00Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -776,7 +745,6 @@
     ],
     "evidenceNotes": "Generated YouTube owner-comment candidate names mei xin restaurant Yokohama with address Japan, Kanagawa, Yokohama, Naka Ward, Yamashitacho 126-1. Japan GSI public address search resolves 神奈川県横浜市中区山下町126-1 to 神奈川県横浜市中区山下町１２６番地 with coordinates. Google Maps/Places scraping or paid APIs were not used.",
     "coordinateSource": "Japan GSI public address search coordinates from owner-comment address",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-07T10:45:00Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -800,7 +768,6 @@
     ],
     "evidenceNotes": "Generated YouTube owner-comment candidate names TEPPAN DINING BY THE WAY with address Tokyo, Meguro City, Jiyugaoka, 1-26−20 笹川ビル 2F. Japan GSI public address search resolves 東京都目黒区自由が丘1-26-20 to 東京都目黒区自由が丘一丁目２６番２０号 with coordinates. Google Maps/Places scraping or paid APIs were not used.",
     "coordinateSource": "Japan GSI public address search coordinates from owner-comment address",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-07T10:45:00Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -824,7 +791,6 @@
     ],
     "evidenceNotes": "Generated YouTube owner-comment candidate names Imonne Hakata with address Fukuoka, Hakata Ward, Hakataekichuogai, 9−1 1F. Japan GSI public address search resolves 福岡県福岡市博多区博多駅中央街9-1 to 福岡県福岡市博多区博多駅中央街９番 with coordinates. Google Maps/Places scraping or paid APIs were not used.",
     "coordinateSource": "Japan GSI public address search coordinates from owner-comment address",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-07T10:45:00Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -848,7 +814,6 @@
     ],
     "evidenceNotes": "Generated YouTube owner-comment candidate names Gion Tsujiri • Saryo Tsujiri Daimaru Shinsaibashi Store 祇園辻利 茶寮都路里 大丸心斎橋店 with address Osaka, Chuo Ward, Shinsaibashisuji, 1 Chome−7−1 Main Building, 8F Daimaru Shinsaibashi. Japan GSI public address search resolves 大阪府大阪市中央区心斎橋筋1-7-1 to 大阪府大阪市中央区心斎橋筋一丁目７番１号 with coordinates. Google Maps/Places scraping or paid APIs were not used.",
     "coordinateSource": "Japan GSI public address search coordinates from owner-comment address",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-07T10:45:00Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -872,7 +837,6 @@
     ],
     "evidenceNotes": "Generated YouTube owner-comment candidate names RAMEN SHION with address Tokyo, Shinjuku City, Takadanobaba, 2 Chome−6−10 関ビル 103. Japan GSI public address search resolves 東京都新宿区高田馬場2-6-10 to 東京都新宿区高田馬場二丁目６番１０号 with coordinates. Google Maps/Places scraping or paid APIs were not used.",
     "coordinateSource": "Japan GSI public address search coordinates from owner-comment address",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-07T10:45:00Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -896,7 +860,6 @@
     ],
     "evidenceNotes": "Generated YouTube owner-comment candidate names Chicago Pizza & Volcano Pasta Forne with address 1 Chome-20-12 Kamimeguro, Meguro City, Tokyo, Japan. Japan GSI public address search resolves 東京都目黒区上目黒1-20-12 to 東京都目黒区上目黒一丁目２０番１２号 with coordinates. Google Maps/Places scraping or paid APIs were not used.",
     "coordinateSource": "Japan GSI public address search coordinates from owner-comment address",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-07T10:45:00Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -920,7 +883,6 @@
     ],
     "evidenceNotes": "Generated YouTube owner-comment candidate names PUDDING LAB Ginza with address Tokyo, Chuo City, Ginza, 5 Chome−7−10 Nakamura Sekizenkai Building, イグジットメルサ 1F. Japan GSI public address search resolves 東京都中央区銀座5-7-10 to 東京都中央区銀座五丁目７番１０号 with coordinates. Google Maps/Places scraping or paid APIs were not used.",
     "coordinateSource": "Japan GSI public address search coordinates from owner-comment address",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-07T10:45:00Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -944,7 +906,6 @@
     ],
     "evidenceNotes": "Generated YouTube owner-comment candidate names KOME MAME with address 6-14-18 Tanimachi, Chuo Ward, Osaka, Japan. Japan GSI public address search resolves 大阪府大阪市中央区谷町6-14-18 to 大阪府大阪市中央区谷町六丁目１４番１８号 with coordinates. Google Maps/Places scraping or paid APIs were not used.",
     "coordinateSource": "Japan GSI public address search coordinates from owner-comment address",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-07T10:45:00Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -968,7 +929,6 @@
     ],
     "evidenceNotes": "Generated YouTube owner-comment candidate names Menya Sugō Kanda 麺屋 周郷 神田店 with address Tokyo, Chiyoda City, Uchikanda 2 Chome-9-11. Japan GSI public address search resolves 東京都千代田区内神田2-9-11 to 東京都千代田区内神田二丁目９番１１号 with coordinates. Google Maps/Places scraping or paid APIs were not used.",
     "coordinateSource": "Japan GSI public address search coordinates from owner-comment address",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-07T10:45:00Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -992,7 +952,6 @@
     ],
     "evidenceNotes": "Generated YouTube owner-comment candidate names Saint Sawai Orions with address Tokyo, Chuo City, Ginza, 7 Chome−3−13 ニューギンザビル 10階. Japan GSI public address search resolves 東京都中央区銀座7-3-13 to 東京都中央区銀座七丁目３番１３号 with coordinates. Google Maps/Places scraping or paid APIs were not used.",
     "coordinateSource": "Japan GSI public address search coordinates from owner-comment address",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-07T10:45:00Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -1016,7 +975,6 @@
     ],
     "evidenceNotes": "Generated YouTube owner-comment candidate names Budechige Shin-Okubo 新大久保ブデチゲ with address Tokyo, Shinjuku City, Hyakunincho 2-2-3. Japan GSI public address search resolves 東京都新宿区百人町2-2-3 to 東京都新宿区百人町二丁目２番３号 with coordinates. Google Maps/Places scraping or paid APIs were not used.",
     "coordinateSource": "Japan GSI public address search coordinates from owner-comment address",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-07T10:45:00Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -1040,7 +998,6 @@
     ],
     "evidenceNotes": "Generated YouTube owner-comment candidate names Sweet Check with address Tokyo, Shibuya City, Jinnan 1-15-7. Japan GSI public address search resolves 東京都渋谷区神南1-15-7 to 東京都渋谷区神南一丁目１５番７号 with coordinates. Google Maps/Places scraping or paid APIs were not used.",
     "coordinateSource": "Japan GSI public address search coordinates from owner-comment address",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-07T10:45:00Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -1064,7 +1021,6 @@
     ],
     "evidenceNotes": "Generated YouTube owner-comment candidate names Sushi Yoshikawa Ebisu 鮨よしかわ 恵比寿 with address Tokyo, Shibuya City, Ebisu 1-6-3. Japan GSI public address search resolves 東京都渋谷区恵比寿1-6-3 to 東京都渋谷区恵比寿一丁目６番３号 with coordinates. Google Maps/Places scraping or paid APIs were not used.",
     "coordinateSource": "Japan GSI public address search coordinates from owner-comment address",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-07T10:45:00Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -1088,7 +1044,6 @@
     ],
     "evidenceNotes": "Generated YouTube owner-comment candidate names Sushi Hinoki 鮨 日の樹 with address Japan, Osaka, Kita Ward, Dojima, 1 Chome−5−5  エスパス北新地 25. Japan GSI public address search resolves 大阪府大阪市北区堂島1-5-5 to 大阪府大阪市北区堂島一丁目５番５号 with coordinates. Google Maps/Places scraping or paid APIs were not used.",
     "coordinateSource": "Japan GSI public address search coordinates from owner-comment address",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-07T10:45:00Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -1112,7 +1067,6 @@
     ],
     "evidenceNotes": "Generated YouTube owner-comment candidate names Bar Centifolia with address Tokyo, Minato City, Azabujuban, 1−6−5 ラミューズ麻布十番ビル 6F. Japan GSI public address search resolves 東京都港区麻布十番1-6-5 to 東京都港区麻布十番一丁目６番 with coordinates. Google Maps/Places scraping or paid APIs were not used.",
     "coordinateSource": "Japan GSI public address search coordinates from owner-comment address",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-07T10:45:00Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -1136,7 +1090,6 @@
     ],
     "evidenceNotes": "Generated YouTube owner-comment candidate names Tobiushi Iidabashi 和牛焼肉 とびうし with address Tokyo, Chiyoda City, Fujimi, 2 Chome−2−12 KIDS001ビル 4・5F. Japan GSI public address search resolves 東京都千代田区富士見2-2-12 to 東京都千代田区富士見二丁目２番１２号 with coordinates. Google Maps/Places scraping or paid APIs were not used.",
     "coordinateSource": "Japan GSI public address search coordinates from owner-comment address",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-07T10:45:00Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -1160,7 +1113,6 @@
     ],
     "evidenceNotes": "Generated YouTube owner-comment candidate names SAKImoto Bakery Osaka Main Store with address 오사카시 나니와구 난바나카 2-3-18. Japan GSI public address search resolves 大阪府大阪市浪速区難波中2-3-18 to 大阪府大阪市浪速区難波中二丁目３番１８号 with coordinates. Google Maps/Places scraping or paid APIs were not used.",
     "coordinateSource": "Japan GSI public address search coordinates from owner-comment address",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-07T10:45:00Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -1184,7 +1136,6 @@
     ],
     "evidenceNotes": "Generated YouTube owner-comment candidate names Hirokiya Shinjuku (ヒロキヤ新宿) with address Tokyo, Shinjuku City, Shinjuku, 3 Chome−35−17 F.U Assets 3F. Japan GSI public address search resolves 東京都新宿区新宿3-35-17 to 東京都新宿区新宿三丁目３５番１７号 with coordinates. Google Maps/Places scraping or paid APIs were not used.",
     "coordinateSource": "Japan GSI public address search coordinates from owner-comment address",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-07T10:45:00Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -1208,7 +1159,6 @@
     ],
     "evidenceNotes": "Generated YouTube owner-comment candidate names Kani Azabu かにじぇんぬ麻布 with address Japan, Tokyo, Minato City, Azabujuban, 3 Chome−10−5 The City Azabu-Juban II Cross, 2F. Japan GSI public address search resolves 東京都港区麻布十番3-10-5 to 東京都港区麻布十番三丁目１０番 with coordinates. Google Maps/Places scraping or paid APIs were not used.",
     "coordinateSource": "Japan GSI public address search coordinates from owner-comment address",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-07T10:45:00Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -1232,7 +1182,6 @@
     ],
     "evidenceNotes": "Generated YouTube owner-comment candidate names Shunyacchan 屋台ラーメン しゅんやっちゃん with address 1277-8 Hatsuzawamachi, Hachioji, Tokyo. Japan GSI public address search resolves 東京都八王子市初沢町1277-8 to 東京都八王子市初沢町１２７７番地 with coordinates. Google Maps/Places scraping or paid APIs were not used.",
     "coordinateSource": "Japan GSI public address search coordinates from owner-comment address",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-07T10:45:00Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -1256,7 +1205,6 @@
     ],
     "evidenceNotes": "Generated YouTube owner-comment candidate names Yakiniku T with address Osaka, Naniwa Ward, Shikitsuhigashi, 3 Chome−11−8 アパホテル 1F. Japan GSI public address search resolves 大阪府大阪市浪速区敷津東3-11-8 to 大阪府大阪市浪速区敷津東三丁目１１番８号 with coordinates. Google Maps/Places scraping or paid APIs were not used.",
     "coordinateSource": "Japan GSI public address search coordinates from owner-comment address",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-07T10:45:00Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -1280,7 +1228,6 @@
     ],
     "evidenceNotes": "Generated YouTube owner-comment candidate names Salt Bread Bakery Pain Maison Ginza with address Tokyo, Chuo City, Ginza, 2 Chome−14−5 1F. Japan GSI public address search resolves 東京都中央区銀座2-14-5 to 東京都中央区銀座二丁目１４番５号 with coordinates. Google Maps/Places scraping or paid APIs were not used.",
     "coordinateSource": "Japan GSI public address search coordinates from owner-comment address",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-07T10:45:00Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -1304,7 +1251,6 @@
     ],
     "evidenceNotes": "Generated YouTube owner-comment candidate names MOTHER’S of KAMAKURA with address 2-2-17 Komachi, Kamakura, Kanagawa, Japan. Japan GSI public address search resolves 神奈川県鎌倉市小町2-2-17 to 神奈川県鎌倉市小町二丁目２番１７号 with coordinates. Google Maps/Places scraping or paid APIs were not used.",
     "coordinateSource": "Japan GSI public address search coordinates from owner-comment address",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-07T10:45:00Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -1328,7 +1274,6 @@
     ],
     "evidenceNotes": "Generated YouTube owner-comment candidate names Iseya Kameari Main Store with address 3 Chome-32-1 Kameari, Katsushika City, Tokyo. Japan GSI public address search resolves 東京都葛飾区亀有3-32-1 to 東京都葛飾区亀有三丁目３２番１号 with coordinates. Google Maps/Places scraping or paid APIs were not used.",
     "coordinateSource": "Japan GSI public address search coordinates from owner-comment address",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-07T10:45:00Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -1352,7 +1297,6 @@
     ],
     "evidenceNotes": "Generated YouTube owner-comment candidate names SOBOONG ソブン with address Japan, Tokyo, Shinjuku City, Hyakunincho, 2 Chome−1−4 盛好堂ビル 1階. Japan GSI public address search resolves 東京都新宿区百人町2-1-4 to 東京都新宿区百人町二丁目１番４号 with coordinates. Google Maps/Places scraping or paid APIs were not used.",
     "coordinateSource": "Japan GSI public address search coordinates from owner-comment address",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-07T10:45:00Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -1376,7 +1320,6 @@
     ],
     "evidenceNotes": "Generated YouTube owner-comment candidate names Hakata Yaki Shoronpo 1010 (てんてん) with address Japan, Fukuoka, Chuo Ward, Daimyo, 1 Chome−13−9 1F. Japan GSI public address search resolves 福岡県福岡市中央区大名1-13-9 to 福岡県福岡市中央区大名一丁目１３番９号 with coordinates. Google Maps/Places scraping or paid APIs were not used.",
     "coordinateSource": "Japan GSI public address search coordinates from owner-comment address",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-07T10:45:00Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -1400,7 +1343,6 @@
     ],
     "evidenceNotes": "Generated YouTube owner-comment candidate names Shiki うどん しき with address 415‐23 Maruyacho, Shimogyo Ward, Kyoto, Japan. Japan GSI public address search resolves 京都府京都市下京区丸屋町415-23 to 京都府京都市下京区丸屋町４１５番地 with coordinates. Google Maps/Places scraping or paid APIs were not used.",
     "coordinateSource": "Japan GSI public address search coordinates from owner-comment address",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-07T10:45:00Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -1424,7 +1366,6 @@
     ],
     "evidenceNotes": "Generated YouTube owner-comment candidate names 端×寿司 裏福島 Hana/Robata×Sushi Hana Osaka with address 오사카부 오사카시 후쿠시마구 후쿠시마 5-11-16. Japan GSI public address search resolves 大阪府大阪市福島区福島5-11-16 to 大阪府大阪市福島区福島五丁目１１番１６号 with coordinates. Google Maps/Places scraping or paid APIs were not used.",
     "coordinateSource": "Japan GSI public address search coordinates from owner-comment address",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-07T10:45:00Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -1448,7 +1389,6 @@
     ],
     "evidenceNotes": "Generated YouTube owner-comment candidate names Ikura Shibuya いくら 渋谷店 with address Tokyo, Shibuya, Maruyamacho, 5−3 MIEUX Building 1F. Japan GSI public address search resolves 東京都渋谷区円山町5-3 to 東京都渋谷区円山町５番３号 with coordinates. Google Maps/Places scraping or paid APIs were not used.",
     "coordinateSource": "Japan GSI public address search coordinates from owner-comment address",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-07T10:45:00Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -1472,7 +1412,6 @@
     ],
     "evidenceNotes": "Generated YouTube owner-comment candidate names Yamada Sweets 焼きたて台湾カステラ 山田スイーツ with address Japan, Fukuoka, Kurume, Higashimachi 361-24. Japan GSI public address search resolves 福岡県久留米市東町361-24 to 福岡県久留米市東町３６１番地 with coordinates. Google Maps/Places scraping or paid APIs were not used.",
     "coordinateSource": "Japan GSI public address search coordinates from owner-comment address",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-07T10:45:00Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -1496,7 +1435,6 @@
     ],
     "evidenceNotes": "Generated YouTube owner-comment candidate names Sushi Teppen (鮨てっぺん) with address Tokyo, Shibuya, Udagawacho, 42−4 ワイリービル 2F. Japan GSI public address search resolves 東京都渋谷区宇田川町42-4 to 東京都渋谷区宇田川町４２番４号 with coordinates. Google Maps/Places scraping or paid APIs were not used.",
     "coordinateSource": "Japan GSI public address search coordinates from owner-comment address",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-07T10:45:00Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -1520,7 +1458,6 @@
     ],
     "evidenceNotes": "Generated YouTube owner-comment candidate names Chacha Koubou Kiyosumi with address Tokyo, Koto City, Miyoshi 1 Chome-5-4. Japan GSI public address search resolves 東京都江東区三好1-5-4 to 東京都江東区三好一丁目５番４号 with coordinates. Google Maps/Places scraping or paid APIs were not used.",
     "coordinateSource": "Japan GSI public address search coordinates from owner-comment address",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-07T10:45:00Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -1544,7 +1481,6 @@
     ],
     "evidenceNotes": "Generated YouTube owner-comment candidate names Ginza Chikamitsu 6-chome 銀座ちかみつ六丁目 with address Tokyo, Chuo City, Ginza, 6 Chome-13-16 1F. Japan GSI public address search resolves 東京都中央区銀座6-13-16 to 東京都中央区銀座六丁目１３番１６号 with coordinates. Google Maps/Places scraping or paid APIs were not used.",
     "coordinateSource": "Japan GSI public address search coordinates from owner-comment address",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-07T10:45:00Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -1568,7 +1504,6 @@
     ],
     "evidenceNotes": "Generated YouTube owner-comment candidate names Tsukijiaozora Hakata 築地青空三代目 博多 with address Japan, Fukuoka, Hakata Ward, Sumiyoshi, 1 Chome−2−82  B1. Japan GSI public address search resolves 福岡県福岡市博多区住吉1-2-82 to 福岡県福岡市博多区住吉一丁目２番８２号 with coordinates. Google Maps/Places scraping or paid APIs were not used.",
     "coordinateSource": "Japan GSI public address search coordinates from owner-comment address",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-07T10:45:00Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -1592,7 +1527,6 @@
     ],
     "evidenceNotes": "Generated YouTube owner-comment candidate names Edo Yakiniku 江戸焼肉 with address Tokyo, Chuo City, Ginza, 6 Chome−6−5 HULIC & New GINZA NAMIKI ６ ４F B. Japan GSI public address search resolves 東京都中央区銀座6-6-5 to 東京都中央区銀座六丁目６番５号 with coordinates. Google Maps/Places scraping or paid APIs were not used.",
     "coordinateSource": "Japan GSI public address search coordinates from owner-comment address",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-07T10:45:00Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -1616,7 +1550,6 @@
     ],
     "evidenceNotes": "Generated YouTube owner-comment candidate names Fluffy dogs フラッフィードッグス with address Japan, Fukuoka Hakata Ward Sanno 1-8-18 1 Chome-8-18. Japan GSI public address search resolves 福岡県福岡市博多区山王1-8-18 to 福岡県福岡市博多区山王一丁目８番１８号 with coordinates. Google Maps/Places scraping or paid APIs were not used.",
     "coordinateSource": "Japan GSI public address search coordinates from owner-comment address",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-07T10:45:00Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -1640,7 +1573,6 @@
     ],
     "evidenceNotes": "Generated YouTube owner-comment candidate names Mirai Suisan みらい水産 with address Tokyo, Suginami, Izumi, 3 Chome-52-15. Japan GSI public address search resolves 東京都杉並区和泉3-52-15 to 東京都杉並区和泉三丁目５２番１５号 with coordinates. Google Maps/Places scraping or paid APIs were not used.",
     "coordinateSource": "Japan GSI public address search coordinates from owner-comment address",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-07T10:45:00Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -1664,7 +1596,6 @@
     ],
     "evidenceNotes": "Generated YouTube owner-comment candidate names Ramen Jazzy Beats with address Tokyo, Meguro City, Kamimeguro, 3−5−25 나카메구로 철도 고가 아래. Japan GSI public address search resolves 東京都目黒区上目黒3-5-25 to 東京都目黒区上目黒三丁目５番２５号 with coordinates. Google Maps/Places scraping or paid APIs were not used.",
     "coordinateSource": "Japan GSI public address search coordinates from owner-comment address",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-07T10:45:00Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -1688,7 +1619,6 @@
     ],
     "evidenceNotes": "Generated YouTube owner-comment candidate names yakiuo ishikawa hakata 焼うおいし川 博多 with address Japan, Fukuoka, Hakata Ward, Sumiyoshi, 1 Chome−2−82 B1. Japan GSI public address search resolves 福岡県福岡市博多区住吉1-2-82 to 福岡県福岡市博多区住吉一丁目２番８２号 with coordinates. Google Maps/Places scraping or paid APIs were not used.",
     "coordinateSource": "Japan GSI public address search coordinates from owner-comment address",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-07T10:45:00Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -1712,7 +1642,6 @@
     ],
     "evidenceNotes": "Generated YouTube owner-comment candidate names Udon Taniya with address Tokyo, Chuo City, Nihonbashiningyocho, 2 Chome-15-17. Japan GSI public address search resolves 東京都中央区日本橋人形町2-15-17 to 東京都中央区日本橋人形町二丁目１５番１７号 with coordinates. Google Maps/Places scraping or paid APIs were not used.",
     "coordinateSource": "Japan GSI public address search coordinates from owner-comment address",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-07T10:45:00Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -1736,7 +1665,6 @@
     ],
     "evidenceNotes": "Generated YouTube owner-comment candidate names Cafe Stand 10.8 / カフェスタンド 10.8 with address Japan, Fukuoka, Kurume, Torimachi, 107−13 1F. Japan GSI public address search resolves 福岡県久留米市通町107-13 to 福岡県久留米市通町１０７番 with coordinates. Google Maps/Places scraping or paid APIs were not used.",
     "coordinateSource": "Japan GSI public address search coordinates from owner-comment address",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-07T10:45:00Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -1760,7 +1688,6 @@
     ],
     "evidenceNotes": "Generated YouTube owner-comment candidate names kutsurogi+tenjin with address Japan, Fukuoka, Chuo Ward, Watanabedori 5 Chome-2-8. Japan GSI public address search resolves 福岡県福岡市中央区渡辺通5-2-8 to 福岡県福岡市中央区渡辺通五丁目２番８号 with coordinates. Google Maps/Places scraping or paid APIs were not used.",
     "coordinateSource": "Japan GSI public address search coordinates from owner-comment address",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-07T10:45:00Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -1784,7 +1711,6 @@
     ],
     "evidenceNotes": "Generated YouTube owner-comment candidate names Yakiniku Kappo Ryotei Note with address Tokyo, Minato City, Azabujuban, 2−9−5 1F. Japan GSI public address search resolves 東京都港区麻布十番2-9-5 to 東京都港区麻布十番二丁目９番 with coordinates. Google Maps/Places scraping or paid APIs were not used.",
     "coordinateSource": "Japan GSI public address search coordinates from owner-comment address",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-07T10:45:00Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -1808,7 +1734,6 @@
     ],
     "evidenceNotes": "Generated YouTube owner-comment candidate names 설화(유키하나) 熟成肉＆海鮮料理専門店 雪花 with address Japan, Fukuoka, Chuo Ward, Haruyoshi, 3 Chome−11−19 1F. Japan GSI public address search resolves 福岡県福岡市中央区春吉3-11-19 to 福岡県福岡市中央区春吉三丁目１１番 with coordinates. Google Maps/Places scraping or paid APIs were not used.",
     "coordinateSource": "Japan GSI public address search coordinates from owner-comment address",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-07T10:45:00Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -1832,7 +1757,6 @@
     ],
     "evidenceNotes": "Generated YouTube owner-comment candidate names TEA SQUARE MORIHAN with address Kyoto, Uji, Oguracho kubo-78. Japan GSI public address search resolves 京都府宇治市小倉町久保78 to 京都府宇治市小倉町久保７８番地 with coordinates. Google Maps/Places scraping or paid APIs were not used.",
     "coordinateSource": "Japan GSI public address search coordinates from owner-comment address",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-07T10:55:00Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -1861,7 +1785,6 @@
     "signatureKo": "말차 메뉴",
     "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
     "displayDescriptionKo": "후쿠오카 여행 중 말차 디저트로 들르기 좋은 카페.",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-07T12:30:00Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -1890,7 +1813,6 @@
     "signatureKo": "달달한 디저트 메뉴",
     "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
     "displayDescriptionKo": "오사카에서 들르기 좋은 카페·디저트 스팟.",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-07T12:30:00Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -1919,7 +1841,6 @@
     "signatureKo": "라멘 한 그릇",
     "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
     "displayDescriptionKo": "도쿄에서 라멘 일정을 짤 때 넣기 좋은 라멘집.",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-07T12:30:00Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -1948,7 +1869,6 @@
     "signatureKo": "밤 코스로 보기 좋은 술자리",
     "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
     "displayDescriptionKo": "오사카에서 밤 코스로 보기 좋은 바·술집.",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-07T12:30:00Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -1977,7 +1897,6 @@
     "signatureKo": "고기 코스",
     "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
     "displayDescriptionKo": "오사카에서 고기 코스로 보기 좋은 야키니쿠 가게.",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-07T12:30:00Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -2006,7 +1925,6 @@
     "signatureKo": "밤 코스로 보기 좋은 술자리",
     "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
     "displayDescriptionKo": "시즈오카에서 밤 코스로 보기 좋은 바·술집.",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-07T12:30:00Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -2035,7 +1953,6 @@
     "signatureKo": "식사·일식",
     "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
     "displayDescriptionKo": "후쿠오카 여행 동선에 넣기 좋은 식당.",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-07T12:30:00Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -2064,7 +1981,6 @@
     "signatureKo": "밤 코스로 보기 좋은 술자리",
     "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
     "displayDescriptionKo": "도쿄에서 밤 코스로 보기 좋은 바·술집.",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-07T12:30:00Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -2093,7 +2009,6 @@
     "signatureKo": "밤 코스로 보기 좋은 술자리",
     "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
     "displayDescriptionKo": "도쿄에서 밤 코스로 보기 좋은 바·술집.",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-07T12:30:00Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -2122,7 +2037,6 @@
     "signatureKo": "밤 코스로 보기 좋은 술자리",
     "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
     "displayDescriptionKo": "오사카에서 밤 코스로 보기 좋은 바·술집.",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-07T12:30:00Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -2151,7 +2065,6 @@
     "signatureKo": "달달한 디저트 메뉴",
     "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
     "displayDescriptionKo": "도쿄에서 들르기 좋은 카페·디저트 스팟.",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-07T12:30:00Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -2180,7 +2093,6 @@
     "signatureKo": "식당",
     "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
     "displayDescriptionKo": "도쿄 여행 동선에 넣기 좋은 식당.",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-07T12:30:00Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -2209,7 +2121,6 @@
     "signatureKo": "밤 코스로 보기 좋은 술자리",
     "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
     "displayDescriptionKo": "도쿄에서 밤 코스로 보기 좋은 바·술집.",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-07T12:30:00Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -2238,7 +2149,6 @@
     "signatureKo": "고기 코스",
     "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
     "displayDescriptionKo": "도쿄에서 고기 코스로 보기 좋은 야키니쿠 가게.",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-07T12:30:00Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -2267,7 +2177,6 @@
     "signatureKo": "말차 메뉴",
     "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
     "displayDescriptionKo": "도쿄 여행 중 말차 디저트로 들르기 좋은 카페.",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-07T12:30:00Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -2296,7 +2205,6 @@
     "signatureKo": "식당",
     "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
     "displayDescriptionKo": "교토 여행 동선에 넣기 좋은 식당.",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-07T12:30:00Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -2325,7 +2233,6 @@
     "signatureKo": "우동·소바",
     "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
     "displayDescriptionKo": "도쿄 여행 중 따뜻한 한 끼로 보기 좋은 우동집.",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-07T12:30:00Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -2354,7 +2261,6 @@
     "signatureKo": "식사·일식",
     "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
     "displayDescriptionKo": "요코하마 여행 동선에 넣기 좋은 식당.",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-07T12:30:00Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -2383,7 +2289,6 @@
     "signatureKo": "해산물·일식",
     "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
     "displayDescriptionKo": "오사카 여행 동선에 넣기 좋은 식당.",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-07T12:30:00Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -2412,7 +2317,6 @@
     "signatureKo": "달달한 디저트 메뉴",
     "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
     "displayDescriptionKo": "도쿄에서 들르기 좋은 카페·디저트 스팟.",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-07T12:30:00Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -2441,7 +2345,6 @@
     "signatureKo": "달달한 디저트 메뉴",
     "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
     "displayDescriptionKo": "도쿄에서 들르기 좋은 카페·디저트 스팟.",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-07T12:30:00Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -2470,7 +2373,6 @@
     "signatureKo": "고기 코스",
     "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
     "displayDescriptionKo": "교토에서 고기 코스로 보기 좋은 야키니쿠 가게.",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-07T12:30:00Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -2499,7 +2401,6 @@
     "signatureKo": "달달한 디저트 메뉴",
     "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
     "displayDescriptionKo": "오사카에서 들르기 좋은 카페·디저트 스팟.",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-07T12:30:00Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -2528,7 +2429,6 @@
     "signatureKo": "밤 코스로 보기 좋은 술자리",
     "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
     "displayDescriptionKo": "도쿄에서 밤 코스로 보기 좋은 바·술집.",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-07T12:30:00Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -2557,7 +2457,6 @@
     "signatureKo": "달달한 디저트 메뉴",
     "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
     "displayDescriptionKo": "도쿄에서 들르기 좋은 카페·디저트 스팟.",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-07T12:30:00Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -2586,7 +2485,6 @@
     "signatureKo": "고기 코스",
     "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
     "displayDescriptionKo": "도쿄에서 고기 코스로 보기 좋은 야키니쿠 가게.",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-07T12:30:00Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -2615,7 +2513,6 @@
     "signatureKo": "말차 메뉴",
     "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
     "displayDescriptionKo": "도쿄 여행 중 말차 디저트로 들르기 좋은 카페.",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-07T12:30:00Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -2644,7 +2541,6 @@
     "signatureKo": "해산물·일식",
     "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
     "displayDescriptionKo": "도쿄 여행 동선에 넣기 좋은 식당.",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-07T12:30:00Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -2673,7 +2569,6 @@
     "signatureKo": "스시 코스",
     "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
     "displayDescriptionKo": "도쿄에서 스시 코스로 보기 좋은 식당.",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-07T12:30:00Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -2702,7 +2597,6 @@
     "signatureKo": "밤 코스로 보기 좋은 술자리",
     "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
     "displayDescriptionKo": "도쿄에서 밤 코스로 보기 좋은 바·술집.",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-07T12:30:00Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -2731,7 +2625,6 @@
     "signatureKo": "식당",
     "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
     "displayDescriptionKo": "도쿄 여행 동선에 넣기 좋은 식당.",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-07T12:30:00Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -2760,7 +2653,6 @@
     "signatureKo": "달달한 디저트 메뉴",
     "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
     "displayDescriptionKo": "도쿄에서 들르기 좋은 카페·디저트 스팟.",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-07T12:30:00Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -2789,7 +2681,6 @@
     "signatureKo": "라멘 한 그릇",
     "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
     "displayDescriptionKo": "도쿄에서 라멘 일정을 짤 때 넣기 좋은 라멘집.",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-07T12:30:00Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -2818,7 +2709,6 @@
     "signatureKo": "말차 메뉴",
     "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
     "displayDescriptionKo": "오사카 여행 중 말차 디저트로 들르기 좋은 카페.",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-07T12:30:00Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -2847,7 +2737,6 @@
     "signatureKo": "달달한 디저트 메뉴",
     "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
     "displayDescriptionKo": "도쿄에서 들르기 좋은 카페·디저트 스팟.",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-07T12:30:00Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -2876,7 +2765,6 @@
     "signatureKo": "고기·야키니쿠",
     "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
     "displayDescriptionKo": "도쿄 여행 동선에 넣기 좋은 식당.",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-07T12:30:00Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -2905,7 +2793,6 @@
     "signatureKo": "달달한 디저트 메뉴",
     "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
     "displayDescriptionKo": "교토에서 들르기 좋은 카페·디저트 스팟.",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-07T12:30:00Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -2934,7 +2821,6 @@
     "signatureKo": "고기 코스",
     "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
     "displayDescriptionKo": "후쿠오카에서 고기 코스로 보기 좋은 야키니쿠 가게.",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-07T12:30:00Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -2963,7 +2849,6 @@
     "signatureKo": "달달한 디저트 메뉴",
     "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
     "displayDescriptionKo": "오사카에서 들르기 좋은 카페·디저트 스팟.",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-07T12:30:00Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -2992,7 +2877,6 @@
     "signatureKo": "고기·야키니쿠",
     "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
     "displayDescriptionKo": "도쿄 여행 동선에 넣기 좋은 식당.",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-07T12:30:00Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -3021,7 +2905,6 @@
     "signatureKo": "달달한 디저트 메뉴",
     "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
     "displayDescriptionKo": "도쿄에서 들르기 좋은 카페·디저트 스팟.",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-07T12:30:00Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -3050,7 +2933,6 @@
     "signatureKo": "밤 코스로 보기 좋은 술자리",
     "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
     "displayDescriptionKo": "도쿄에서 밤 코스로 보기 좋은 바·술집.",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-07T12:30:00Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -3079,7 +2961,6 @@
     "signatureKo": "달달한 디저트 메뉴",
     "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
     "displayDescriptionKo": "도쿄에서 들르기 좋은 카페·디저트 스팟.",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-07T12:30:00Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -3108,7 +2989,6 @@
     "signatureKo": "말차 메뉴",
     "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
     "displayDescriptionKo": "후쿠오카 여행 중 말차 디저트로 들르기 좋은 카페.",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-07T12:30:00Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -3137,7 +3017,6 @@
     "signatureKo": "식사·일식",
     "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
     "displayDescriptionKo": "요코하마 여행 동선에 넣기 좋은 식당.",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-07T12:30:00Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -3166,7 +3045,6 @@
     "signatureKo": "밤 코스로 보기 좋은 술자리",
     "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
     "displayDescriptionKo": "오사카에서 밤 코스로 보기 좋은 바·술집.",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-07T12:30:00Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -3195,7 +3073,6 @@
     "signatureKo": "식당",
     "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
     "displayDescriptionKo": "나라 여행 동선에 넣기 좋은 식당.",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-07T12:30:00Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -3224,7 +3101,6 @@
     "signatureKo": "식당",
     "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
     "displayDescriptionKo": "후쿠오카 여행 동선에 넣기 좋은 식당.",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-07T12:30:00Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -3253,7 +3129,6 @@
     "signatureKo": "해산물·일식",
     "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
     "displayDescriptionKo": "도쿄 여행 동선에 넣기 좋은 식당.",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-07T12:30:00Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -3282,7 +3157,6 @@
     "signatureKo": "말차 메뉴",
     "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
     "displayDescriptionKo": "가마쿠라 여행 중 말차 디저트로 들르기 좋은 카페.",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-07T12:30:00Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -3311,7 +3185,6 @@
     "signatureKo": "달달한 디저트 메뉴",
     "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
     "displayDescriptionKo": "도쿄에서 들르기 좋은 카페·디저트 스팟.",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-07T12:30:00Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -3340,7 +3213,6 @@
     "signatureKo": "말차 메뉴",
     "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
     "displayDescriptionKo": "오사카 여행 중 말차 디저트로 들르기 좋은 카페.",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-07T12:30:00Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -3369,7 +3241,6 @@
     "signatureKo": "식사·일식",
     "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
     "displayDescriptionKo": "후쿠오카 여행 동선에 넣기 좋은 식당.",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-07T12:30:00Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -3398,7 +3269,6 @@
     "signatureKo": "라멘 한 그릇",
     "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
     "displayDescriptionKo": "도쿄에서 라멘 일정을 짤 때 넣기 좋은 라멘집.",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-07T12:30:00Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -3427,7 +3297,6 @@
     "signatureKo": "식사·일식",
     "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
     "displayDescriptionKo": "후쿠오카 여행 동선에 넣기 좋은 식당.",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-07T12:30:00Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -3456,7 +3325,6 @@
     "signatureKo": "고기 코스",
     "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
     "displayDescriptionKo": "오사카에서 고기 코스로 보기 좋은 야키니쿠 가게.",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-07T12:30:00Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -3485,7 +3353,6 @@
     "signatureKo": "말차 메뉴",
     "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
     "displayDescriptionKo": "후쿠오카 여행 중 말차 디저트로 들르기 좋은 카페.",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-07T12:30:00Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -3514,7 +3381,6 @@
     "signatureKo": "말차 메뉴",
     "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
     "displayDescriptionKo": "후쿠오카 여행 중 말차 디저트로 들르기 좋은 카페.",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-07T12:30:00Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -3543,7 +3409,6 @@
     "signatureKo": "식당",
     "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
     "displayDescriptionKo": "도쿄 여행 동선에 넣기 좋은 식당.",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-07T12:30:00Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -3572,7 +3437,6 @@
     "signatureKo": "라멘·면요리",
     "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
     "displayDescriptionKo": "도쿄 여행 동선에 넣기 좋은 식당.",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-07T12:30:00Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -3601,7 +3465,6 @@
     "signatureKo": "밤 코스로 보기 좋은 술자리",
     "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
     "displayDescriptionKo": "도쿄에서 밤 코스로 보기 좋은 바·술집.",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-07T12:30:00Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -3630,7 +3493,6 @@
     "signatureKo": "스시 코스",
     "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
     "displayDescriptionKo": "도쿄에서 들르기 좋은 카페·디저트 스팟.",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-07T12:30:00Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -3659,7 +3521,6 @@
     "signatureKo": "달달한 디저트 메뉴",
     "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
     "displayDescriptionKo": "오사카에서 들르기 좋은 카페·디저트 스팟.",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-07T12:30:00Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -3688,7 +3549,6 @@
     "signatureKo": "밤 코스로 보기 좋은 술자리",
     "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
     "displayDescriptionKo": "오사카에서 밤 코스로 보기 좋은 바·술집.",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-07T12:30:00Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -3717,7 +3577,6 @@
     "signatureKo": "라멘 한 그릇",
     "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
     "displayDescriptionKo": "도쿄에서 라멘 일정을 짤 때 넣기 좋은 라멘집.",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-07T12:30:00Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -3746,7 +3605,6 @@
     "signatureKo": "식당",
     "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
     "displayDescriptionKo": "도쿄 여행 동선에 넣기 좋은 식당.",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-07T12:30:00Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -3775,7 +3633,6 @@
     "signatureKo": "밤 코스로 보기 좋은 술자리",
     "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
     "displayDescriptionKo": "오사카에서 밤 코스로 보기 좋은 바·술집.",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-07T12:30:00Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -3804,7 +3661,6 @@
     "signatureKo": "식당",
     "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
     "displayDescriptionKo": "도쿄 여행 동선에 넣기 좋은 식당.",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-07T12:30:00Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -3833,7 +3689,6 @@
     "signatureKo": "고기·야키니쿠",
     "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
     "displayDescriptionKo": "후쿠오카 여행 동선에 넣기 좋은 식당.",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-07T12:30:00Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -3862,7 +3717,6 @@
     "signatureKo": "식사·일식",
     "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
     "displayDescriptionKo": "도쿄 여행 동선에 넣기 좋은 식당.",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-07T12:30:00Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -3891,7 +3745,6 @@
     "signatureKo": "말차 메뉴",
     "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
     "displayDescriptionKo": "도쿄 여행 중 말차 디저트로 들르기 좋은 카페.",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-07T12:30:00Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -3920,7 +3773,6 @@
     "signatureKo": "식당",
     "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
     "displayDescriptionKo": "도쿄 여행 동선에 넣기 좋은 식당.",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-07T12:30:00Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -3949,7 +3801,6 @@
     "signatureKo": "달달한 디저트 메뉴",
     "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
     "displayDescriptionKo": "오사카에서 들르기 좋은 카페·디저트 스팟.",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-07T12:30:00Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -3978,7 +3829,6 @@
     "signatureKo": "스시 코스",
     "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
     "displayDescriptionKo": "도쿄에서 스시 코스로 보기 좋은 식당.",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-07T12:30:00Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -4007,7 +3857,6 @@
     "signatureKo": "말차 메뉴",
     "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
     "displayDescriptionKo": "도쿄 여행 중 말차 디저트로 들르기 좋은 카페.",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-07T12:30:00Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -4036,7 +3885,6 @@
     "signatureKo": "라멘·면요리",
     "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
     "displayDescriptionKo": "나라 여행 중 따뜻한 한 끼로 보기 좋은 우동집.",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-07T12:30:00Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -4065,7 +3913,6 @@
     "signatureKo": "고기·야키니쿠",
     "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
     "displayDescriptionKo": "도쿄 여행 동선에 넣기 좋은 식당.",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-07T12:30:00Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -4094,7 +3941,6 @@
     "signatureKo": "밤 코스로 보기 좋은 술자리",
     "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
     "displayDescriptionKo": "도쿄에서 밤 코스로 보기 좋은 바·술집.",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-07T12:30:00Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -4123,7 +3969,6 @@
     "signatureKo": "달달한 디저트 메뉴",
     "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
     "displayDescriptionKo": "오사카에서 들르기 좋은 카페·디저트 스팟.",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-07T12:30:00Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -4152,7 +3997,6 @@
     "signatureKo": "밤 코스로 보기 좋은 술자리",
     "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
     "displayDescriptionKo": "나고야에서 밤 코스로 보기 좋은 바·술집.",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-07T12:30:00Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -4181,7 +4025,6 @@
     "signatureKo": "밤 코스로 보기 좋은 술자리",
     "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
     "displayDescriptionKo": "후쿠오카에서 밤 코스로 보기 좋은 바·술집.",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-07T12:30:00Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -4210,7 +4053,6 @@
     "signatureKo": "식사·일식",
     "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
     "displayDescriptionKo": "오사카 여행 동선에 넣기 좋은 식당.",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-07T12:30:00Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -4239,7 +4081,6 @@
     "signatureKo": "달달한 디저트 메뉴",
     "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
     "displayDescriptionKo": "도쿄에서 들르기 좋은 카페·디저트 스팟.",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-07T12:30:00Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -4268,7 +4109,6 @@
     "signatureKo": "밤 코스로 보기 좋은 술자리",
     "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
     "displayDescriptionKo": "도쿄에서 밤 코스로 보기 좋은 바·술집.",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-07T12:30:00Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -4297,7 +4137,6 @@
     "signatureKo": "달달한 디저트 메뉴",
     "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
     "displayDescriptionKo": "도쿄에서 들르기 좋은 카페·디저트 스팟.",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-07T12:30:00Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -4326,7 +4165,6 @@
     "signatureKo": "스시 코스",
     "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
     "displayDescriptionKo": "오사카에서 스시 코스로 보기 좋은 식당.",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-07T12:30:00Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -4355,7 +4193,6 @@
     "signatureKo": "스시 코스",
     "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
     "displayDescriptionKo": "도쿄에서 스시 코스로 보기 좋은 식당.",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-07T12:30:00Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -4384,7 +4221,6 @@
     "signatureKo": "달달한 디저트 메뉴",
     "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
     "displayDescriptionKo": "도쿄에서 들르기 좋은 카페·디저트 스팟.",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-07T12:30:00Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -4413,7 +4249,6 @@
     "signatureKo": "고기 코스",
     "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
     "displayDescriptionKo": "후쿠오카에서 고기 코스로 보기 좋은 야키니쿠 가게.",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-07T12:30:00Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -4442,7 +4277,6 @@
     "signatureKo": "우동·소바",
     "whyKo": "여행 동선에서 목적이 분명한 장소라 저장해두기 좋습니다.",
     "displayDescriptionKo": "도쿄 여행 동선에 넣기 좋은 식당.",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-07T12:30:00Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -4465,7 +4299,6 @@
     ],
     "evidenceNotes": "Tabelog public page for Katsu Pulipo provides restaurant metadata and latitude/longitude; matched to the automated @space_tamnik owner-comment candidate name/address. Paid Google Places data was not used.",
     "coordinateSource": "Tabelog public restaurant page metadata coordinates from automated owner-comment candidate match",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-11T01:12:33Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -4488,7 +4321,6 @@
     ],
     "evidenceNotes": "Tabelog public page for THE MATCHA TOKYO 오모테산도점 provides restaurant metadata and latitude/longitude; matched to the automated @space_tamnik owner-comment candidate name/address. Paid Google Places data was not used.",
     "coordinateSource": "Tabelog public restaurant page metadata coordinates from automated owner-comment candidate match",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-11T01:12:33Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -4511,7 +4343,6 @@
     ],
     "evidenceNotes": "Tabelog public page for 스폰티니 캐스케이드 하라주쿠점 SPONTINI カスケード原宿店 provides restaurant metadata and latitude/longitude; matched to the automated @space_tamnik owner-comment candidate name/address. Paid Google Places data was not used.",
     "coordinateSource": "Tabelog public restaurant page metadata coordinates from automated owner-comment candidate match",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-11T01:12:33Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -4534,7 +4365,6 @@
     ],
     "evidenceNotes": "Tabelog public page for 스미게키죠 무사지사 すみ劇場 むさし坐 provides restaurant metadata and latitude/longitude; matched to the automated @space_tamnik owner-comment candidate name/address. Paid Google Places data was not used.",
     "coordinateSource": "Tabelog public restaurant page metadata coordinates from automated owner-comment candidate match",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-11T01:12:33Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -4557,7 +4387,6 @@
     ],
     "evidenceNotes": "Tabelog public page for 라멘 히스이 Ramen 翡翠 provides restaurant metadata and latitude/longitude; matched to the automated @space_tamnik owner-comment candidate name/address. Paid Google Places data was not used.",
     "coordinateSource": "Tabelog public restaurant page metadata coordinates from automated owner-comment candidate match",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-11T01:12:33Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -4580,7 +4409,6 @@
     ],
     "evidenceNotes": "Tabelog public page for mochico provides restaurant metadata and latitude/longitude; matched to the automated @space_tamnik owner-comment candidate name/address. Paid Google Places data was not used.",
     "coordinateSource": "Tabelog public restaurant page metadata coordinates from automated owner-comment candidate match",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-11T01:12:33Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -4603,7 +4431,6 @@
     ],
     "evidenceNotes": "Tabelog public page for Kyo ha Matcha de Kimeru provides restaurant metadata and latitude/longitude; matched to the automated @space_tamnik owner-comment candidate name/address. Paid Google Places data was not used.",
     "coordinateSource": "Tabelog public restaurant page metadata coordinates from automated owner-comment candidate match",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-11T01:12:33Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -4626,7 +4453,6 @@
     ],
     "evidenceNotes": "Tabelog public page for BUTTER 美瑛放牧酪農場 provides restaurant metadata and latitude/longitude; matched to the automated @space_tamnik owner-comment candidate name/address. Paid Google Places data was not used.",
     "coordinateSource": "Tabelog public restaurant page metadata coordinates from automated owner-comment candidate match",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-11T01:12:33Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -4649,7 +4475,6 @@
     ],
     "evidenceNotes": "Tabelog public page for MATCHA MANIA KAMAKURA provides restaurant metadata and latitude/longitude; matched to the automated @space_tamnik owner-comment candidate name/address. Paid Google Places data was not used.",
     "coordinateSource": "Tabelog public restaurant page metadata coordinates from automated owner-comment candidate match",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-11T01:12:33Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -4672,7 +4497,6 @@
     ],
     "evidenceNotes": "Tabelog public page for Sweet Check provides restaurant metadata and latitude/longitude; matched to the automated @space_tamnik owner-comment candidate name/address. Paid Google Places data was not used.",
     "coordinateSource": "Tabelog public restaurant page metadata coordinates from automated owner-comment candidate match",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-11T01:12:33Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -4695,7 +4519,6 @@
     ],
     "evidenceNotes": "Tabelog public page for 츠키야 西天満つきや provides restaurant metadata and latitude/longitude; matched to the automated @space_tamnik owner-comment candidate name/address. Paid Google Places data was not used.",
     "coordinateSource": "Tabelog public restaurant page metadata coordinates from automated owner-comment candidate match",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-11T01:12:33Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -4718,7 +4541,6 @@
     ],
     "evidenceNotes": "Tabelog public page for Sundowner Tokyo Omuretsu provides restaurant metadata and latitude/longitude; matched to the automated @space_tamnik owner-comment candidate name/address. Paid Google Places data was not used.",
     "coordinateSource": "Tabelog public restaurant page metadata coordinates from automated owner-comment candidate match",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-11T01:12:33Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -4741,7 +4563,6 @@
     ],
     "evidenceNotes": "Tabelog public page for WAGYU BURGER HIROKIYA provides restaurant metadata and latitude/longitude; matched to the automated @space_tamnik owner-comment candidate name/address. Paid Google Places data was not used.",
     "coordinateSource": "Tabelog public restaurant page metadata coordinates from automated owner-comment candidate match",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-11T01:12:33Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -4764,7 +4585,6 @@
     ],
     "evidenceNotes": "Tabelog public page for 3 STARS PANCAKE provides restaurant metadata and latitude/longitude; matched to the automated @space_tamnik owner-comment candidate name/address. Paid Google Places data was not used.",
     "coordinateSource": "Tabelog public restaurant page metadata coordinates from automated owner-comment candidate match",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-11T01:12:33Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -4787,7 +4607,6 @@
     ],
     "evidenceNotes": "Tabelog public page for 중화소바 토미타 中華蕎麦 とみ田 provides restaurant metadata and latitude/longitude; matched to the automated @space_tamnik owner-comment candidate name/address. Paid Google Places data was not used.",
     "coordinateSource": "Tabelog public restaurant page metadata coordinates from automated owner-comment candidate match",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-11T01:12:33Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -4810,7 +4629,6 @@
     ],
     "evidenceNotes": "Tabelog public page for MYSTAR BASE provides restaurant metadata and latitude/longitude; matched to the automated @space_tamnik owner-comment candidate name/address. Paid Google Places data was not used.",
     "coordinateSource": "Tabelog public restaurant page metadata coordinates from automated owner-comment candidate match",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-11T01:12:33Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -4833,7 +4651,6 @@
     ],
     "evidenceNotes": "Tabelog public page for PERFECT BEER LABO 東京 provides restaurant metadata and latitude/longitude; matched to the automated @space_tamnik owner-comment candidate name/address. Paid Google Places data was not used.",
     "coordinateSource": "Tabelog public restaurant page metadata coordinates from automated owner-comment candidate match",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-11T01:12:33Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -4856,7 +4673,6 @@
     ],
     "evidenceNotes": "Tabelog public page for Kitashinchi Shabu shabu Sukiyaki Kiraku provides restaurant metadata and latitude/longitude; matched to the automated @space_tamnik owner-comment candidate name/address. Paid Google Places data was not used.",
     "coordinateSource": "Tabelog public restaurant page metadata coordinates from automated owner-comment candidate match",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-11T01:12:33Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -4879,7 +4695,6 @@
     ],
     "evidenceNotes": "Tabelog public page for 나가타 혼조켄 長田本庄軒メトロセンター西葛西 provides restaurant metadata and latitude/longitude; matched to the automated @space_tamnik owner-comment candidate name/address. Paid Google Places data was not used.",
     "coordinateSource": "Tabelog public restaurant page metadata coordinates from automated owner-comment candidate match",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-11T01:12:33Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -4902,7 +4717,6 @@
     ],
     "evidenceNotes": "Tabelog public page for 나나야 아모야마 ななや青山店 provides restaurant metadata and latitude/longitude; matched to the automated @space_tamnik owner-comment candidate name/address. Paid Google Places data was not used.",
     "coordinateSource": "Tabelog public restaurant page metadata coordinates from automated owner-comment candidate match",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-11T01:12:33Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -4925,7 +4739,6 @@
     ],
     "evidenceNotes": "Tabelog public page for 사키모토 베이커리 본점 SAKImoto bakery 大阪初號本店 provides restaurant metadata and latitude/longitude; matched to the automated @space_tamnik owner-comment candidate name/address. Paid Google Places data was not used.",
     "coordinateSource": "Tabelog public restaurant page metadata coordinates from automated owner-comment candidate match",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-11T01:12:33Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -4948,7 +4761,6 @@
     ],
     "evidenceNotes": "Tabelog public page for snack kuma©︎ provides restaurant metadata and latitude/longitude; matched to the automated @space_tamnik owner-comment candidate name/address. Paid Google Places data was not used.",
     "coordinateSource": "Tabelog public restaurant page metadata coordinates from automated owner-comment candidate match",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-11T01:12:33Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -4971,7 +4783,6 @@
     ],
     "evidenceNotes": "Tabelog public page for 산미코안 교토 본점 三味洪庵 京都本店 provides restaurant metadata and latitude/longitude; matched to the automated @space_tamnik owner-comment candidate name/address. Paid Google Places data was not used.",
     "coordinateSource": "Tabelog public restaurant page metadata coordinates from automated owner-comment candidate match",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-11T01:12:33Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -4994,7 +4805,6 @@
     ],
     "evidenceNotes": "Tabelog public page for 와카 키타호리에점 和果 北堀江店 provides restaurant metadata and latitude/longitude; matched to the automated @space_tamnik owner-comment candidate name/address. Paid Google Places data was not used.",
     "coordinateSource": "Tabelog public restaurant page metadata coordinates from automated owner-comment candidate match",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-11T01:12:33Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -5017,7 +4827,6 @@
     ],
     "evidenceNotes": "Tabelog public page for This is Shizen provides restaurant metadata and latitude/longitude; matched to the automated @space_tamnik owner-comment candidate name/address. Paid Google Places data was not used.",
     "coordinateSource": "Tabelog public restaurant page metadata coordinates from automated owner-comment candidate match",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-11T01:12:33Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -5040,7 +4849,6 @@
     ],
     "evidenceNotes": "Tabelog public page for 이쿠라 텐진이마이즈미점 鉄板焼酒場 いくら 天神今泉店 provides restaurant metadata and latitude/longitude; matched to the automated @space_tamnik owner-comment candidate name/address. Paid Google Places data was not used.",
     "coordinateSource": "Tabelog public restaurant page metadata coordinates from automated owner-comment candidate match",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-11T01:12:33Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -5063,7 +4871,6 @@
     ],
     "evidenceNotes": "Tabelog public page for New Louvre provides restaurant metadata and latitude/longitude; matched to the automated @space_tamnik owner-comment candidate name/address. Paid Google Places data was not used.",
     "coordinateSource": "Tabelog public restaurant page metadata coordinates from automated owner-comment candidate match",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-11T01:12:33Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -5086,7 +4893,6 @@
     ],
     "evidenceNotes": "Tabelog public page for 보테쥬 본점 도톤보리 ぼてぢゅう本店 道頓堀 provides restaurant metadata and latitude/longitude; matched to the automated @space_tamnik owner-comment candidate name/address. Paid Google Places data was not used.",
     "coordinateSource": "Tabelog public restaurant page metadata coordinates from automated owner-comment candidate match",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-11T01:12:33Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -5109,7 +4915,6 @@
     ],
     "evidenceNotes": "Tabelog public page for American Diner Andra provides restaurant metadata and latitude/longitude; matched to the automated @space_tamnik owner-comment candidate name/address. Paid Google Places data was not used.",
     "coordinateSource": "Tabelog public restaurant page metadata coordinates from automated owner-comment candidate match",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-11T01:12:33Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -5132,7 +4937,6 @@
     ],
     "evidenceNotes": "Tabelog public page for 魚と炭と鉄板と ととと provides restaurant metadata and latitude/longitude; matched to the automated @space_tamnik owner-comment candidate name/address. Paid Google Places data was not used.",
     "coordinateSource": "Tabelog public restaurant page metadata coordinates from automated owner-comment candidate match",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-11T01:12:33Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -5155,7 +4959,6 @@
     ],
     "evidenceNotes": "Tabelog public page for TEA SQUARE MORIHAN provides restaurant metadata and latitude/longitude; matched to the automated @space_tamnik owner-comment candidate name/address. Paid Google Places data was not used.",
     "coordinateSource": "Tabelog public restaurant page metadata coordinates from automated owner-comment candidate match",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-11T01:12:33Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -5178,7 +4981,6 @@
     ],
     "evidenceNotes": "Tabelog public page for cafe 33 provides restaurant metadata and latitude/longitude; matched to the automated @space_tamnik owner-comment candidate name/address. Paid Google Places data was not used.",
     "coordinateSource": "Tabelog public restaurant page metadata coordinates from automated owner-comment candidate match",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-11T01:12:33Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -5201,7 +5003,6 @@
     ],
     "evidenceNotes": "Tabelog public page for Mochitsukian provides restaurant metadata and latitude/longitude; matched to the automated @space_tamnik owner-comment candidate name/address. Paid Google Places data was not used.",
     "coordinateSource": "Tabelog public restaurant page metadata coordinates from automated owner-comment candidate match",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-11T01:12:33Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -5224,7 +5025,6 @@
     ],
     "evidenceNotes": "Tabelog public page for Ramen Break Beats provides restaurant metadata and latitude/longitude; matched to the automated @space_tamnik owner-comment candidate name/address. Paid Google Places data was not used.",
     "coordinateSource": "Tabelog public restaurant page metadata coordinates from automated owner-comment candidate match",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-11T01:12:33Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -5247,7 +5047,6 @@
     ],
     "evidenceNotes": "Tabelog public page for Hirokiya Roppongi provides restaurant metadata and latitude/longitude; matched to the automated @space_tamnik owner-comment candidate name/address. Paid Google Places data was not used.",
     "coordinateSource": "Tabelog public restaurant page metadata coordinates from automated owner-comment candidate match",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-11T01:12:33Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -5270,7 +5069,6 @@
     ],
     "evidenceNotes": "Tabelog public page for 나가미네 세이차 도쿄 타바타점 長峰製茶 東京田端店 provides restaurant metadata and latitude/longitude; matched to the automated @space_tamnik owner-comment candidate name/address. Paid Google Places data was not used.",
     "coordinateSource": "Tabelog public restaurant page metadata coordinates from automated owner-comment candidate match",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-11T01:12:33Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -5293,7 +5091,6 @@
     ],
     "evidenceNotes": "Tabelog public page for 사키모토 베이커리 SAKImoto bakery 大阪初號本店 provides restaurant metadata and latitude/longitude; matched to the automated @space_tamnik owner-comment candidate name/address. Paid Google Places data was not used.",
     "coordinateSource": "Tabelog public restaurant page metadata coordinates from automated owner-comment candidate match",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-11T01:12:33Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -5316,7 +5113,6 @@
     ],
     "evidenceNotes": "Tabelog public page for 스미게키죠 이로하 すみ劇場一六八 provides restaurant metadata and latitude/longitude; matched to the automated @space_tamnik owner-comment candidate name/address. Paid Google Places data was not used.",
     "coordinateSource": "Tabelog public restaurant page metadata coordinates from automated owner-comment candidate match",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-11T01:12:33Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -5339,7 +5135,6 @@
     ],
     "evidenceNotes": "Tabelog public page for Hirokiya Roppongi provides restaurant metadata and latitude/longitude; matched to the automated @space_tamnik owner-comment candidate name/address. Paid Google Places data was not used.",
     "coordinateSource": "Tabelog public restaurant page metadata coordinates from automated owner-comment candidate match",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-11T01:12:33Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -5362,7 +5157,6 @@
     ],
     "evidenceNotes": "Tabelog public page for 치야키 우나기 호젠지 야마카즈 地焼うなぎ 法善寺山かづ provides restaurant metadata and latitude/longitude; matched to the automated @space_tamnik owner-comment candidate name/address. Paid Google Places data was not used.",
     "coordinateSource": "Tabelog public restaurant page metadata coordinates from automated owner-comment candidate match",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-11T01:12:33Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -5385,7 +5179,6 @@
     ],
     "evidenceNotes": "Tabelog public page for akim'p provides restaurant metadata and latitude/longitude; matched to the automated @space_tamnik owner-comment candidate name/address. Paid Google Places data was not used.",
     "coordinateSource": "Tabelog public restaurant page metadata coordinates from automated owner-comment candidate match",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-11T01:12:33Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -5408,7 +5201,6 @@
     ],
     "evidenceNotes": "Tabelog public page for 쓰키시마몬자 고보레야 아사쿠사 月島もんじゃ こぼれや 浅草 provides restaurant metadata and latitude/longitude; matched to the automated @space_tamnik owner-comment candidate name/address. Paid Google Places data was not used.",
     "coordinateSource": "Tabelog public restaurant page metadata coordinates from automated owner-comment candidate match",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-11T01:12:33Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -5431,7 +5223,6 @@
     ],
     "evidenceNotes": "Tabelog public page for By The Way provides restaurant metadata and latitude/longitude; matched to the automated @space_tamnik owner-comment candidate name/address. Paid Google Places data was not used.",
     "coordinateSource": "Tabelog public restaurant page metadata coordinates from automated owner-comment candidate match",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-11T01:12:33Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -5454,7 +5245,6 @@
     ],
     "evidenceNotes": "Tabelog public page for 와카 키타호리에점 和果 北堀江店 provides restaurant metadata and latitude/longitude; matched to the automated @space_tamnik owner-comment candidate name/address. Paid Google Places data was not used.",
     "coordinateSource": "Tabelog public restaurant page metadata coordinates from automated owner-comment candidate match",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-11T01:12:33Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -5477,7 +5267,6 @@
     ],
     "evidenceNotes": "Tabelog public page for 이시무라 만세이도 본점 石村萬盛堂 本店 provides restaurant metadata and latitude/longitude; matched to the automated @space_tamnik owner-comment candidate name/address. Paid Google Places data was not used.",
     "coordinateSource": "Tabelog public restaurant page metadata coordinates from automated owner-comment candidate match",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-11T01:12:33Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -5500,7 +5289,6 @@
     ],
     "evidenceNotes": "Tabelog public page for 멘야 이시이 麺屋 いしヰ provides restaurant metadata and latitude/longitude; matched to the automated @space_tamnik owner-comment candidate name/address. Paid Google Places data was not used.",
     "coordinateSource": "Tabelog public restaurant page metadata coordinates from automated owner-comment candidate match",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-11T01:12:33Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -5523,7 +5311,6 @@
     ],
     "evidenceNotes": "Tabelog public page for 부쿠카베이커리 ブクカベーカリー 本店 provides restaurant metadata and latitude/longitude; matched to the automated @space_tamnik owner-comment candidate name/address. Paid Google Places data was not used.",
     "coordinateSource": "Tabelog public restaurant page metadata coordinates from automated owner-comment candidate match",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-11T01:12:33Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -5546,7 +5333,6 @@
     ],
     "evidenceNotes": "Tabelog public page for 사키모토 베이커리 카페 SAKImoto Bakery provides restaurant metadata and latitude/longitude; matched to the automated @space_tamnik owner-comment candidate name/address. Paid Google Places data was not used.",
     "coordinateSource": "Tabelog public restaurant page metadata coordinates from automated owner-comment candidate match",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-11T01:12:33Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -5569,7 +5355,6 @@
     ],
     "evidenceNotes": "Tabelog public page for 焼肉たまき 京橋店 provides restaurant metadata and latitude/longitude; matched to the automated @space_tamnik owner-comment candidate name/address. Paid Google Places data was not used.",
     "coordinateSource": "Tabelog public restaurant page metadata coordinates from automated owner-comment candidate match",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-11T01:12:33Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -5592,7 +5377,6 @@
     ],
     "evidenceNotes": "Tabelog public page for 야키니쿠 이노우에 기치조지점 焼肉いのうえ 吉祥寺店 provides restaurant metadata and latitude/longitude; matched to the automated @space_tamnik owner-comment candidate name/address. Paid Google Places data was not used.",
     "coordinateSource": "Tabelog public restaurant page metadata coordinates from automated owner-comment candidate match",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-11T01:12:33Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -5615,7 +5399,6 @@
     ],
     "evidenceNotes": "Tabelog public page for Hannari Inari provides restaurant metadata and latitude/longitude; matched to the automated @space_tamnik owner-comment candidate name/address. Paid Google Places data was not used.",
     "coordinateSource": "Tabelog public restaurant page metadata coordinates from automated owner-comment candidate match",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-11T01:12:33Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -5638,7 +5421,6 @@
     ],
     "evidenceNotes": "Tabelog public page for Ramen Break Beats provides restaurant metadata and latitude/longitude; matched to the automated @space_tamnik owner-comment candidate name/address. Paid Google Places data was not used.",
     "coordinateSource": "Tabelog public restaurant page metadata coordinates from automated owner-comment candidate match",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-11T01:12:33Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -5661,7 +5443,6 @@
     ],
     "evidenceNotes": "Tabelog public page for 와규불고기고기타라시 和牛焼肉 肉たらし provides restaurant metadata and latitude/longitude; matched to the automated @space_tamnik owner-comment candidate name/address. Paid Google Places data was not used.",
     "coordinateSource": "Tabelog public restaurant page metadata coordinates from automated owner-comment candidate match",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-11T01:12:33Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -5684,7 +5465,6 @@
     ],
     "evidenceNotes": "Tabelog public page for Ginza Fruits provides restaurant metadata and latitude/longitude; matched to the automated @space_tamnik owner-comment candidate name/address. Paid Google Places data was not used.",
     "coordinateSource": "Tabelog public restaurant page metadata coordinates from automated owner-comment candidate match",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-11T01:12:33Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -5707,7 +5487,6 @@
     ],
     "evidenceNotes": "Tabelog public page for Cafe MARU provides restaurant metadata and latitude/longitude; matched to the automated @space_tamnik owner-comment candidate name/address. Paid Google Places data was not used.",
     "coordinateSource": "Tabelog public restaurant page metadata coordinates from automated owner-comment candidate match",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-11T01:12:33Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -5730,7 +5509,6 @@
     ],
     "evidenceNotes": "Tabelog public page for Eureka provides restaurant metadata and latitude/longitude; matched to the automated @space_tamnik owner-comment candidate name/address. Paid Google Places data was not used.",
     "coordinateSource": "Tabelog public restaurant page metadata coordinates from automated owner-comment candidate match",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-11T01:12:33Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -5753,7 +5531,6 @@
     ],
     "evidenceNotes": "Tabelog public page for Daily Chiko provides restaurant metadata and latitude/longitude; matched to the automated @space_tamnik owner-comment candidate name/address. Paid Google Places data was not used.",
     "coordinateSource": "Tabelog public restaurant page metadata coordinates from automated owner-comment candidate match",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-11T01:12:33Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -5776,7 +5553,6 @@
     ],
     "evidenceNotes": "Tabelog public page for 나카타니도 中谷堂 provides restaurant metadata and latitude/longitude; matched to the automated @space_tamnik owner-comment candidate name/address. Paid Google Places data was not used.",
     "coordinateSource": "Tabelog public restaurant page metadata coordinates from automated owner-comment candidate match",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-11T01:12:33Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -5799,7 +5575,6 @@
     ],
     "evidenceNotes": "Tabelog public page for By The Way provides restaurant metadata and latitude/longitude; matched to the automated @space_tamnik owner-comment candidate name/address. Paid Google Places data was not used.",
     "coordinateSource": "Tabelog public restaurant page metadata coordinates from automated owner-comment candidate match",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-11T01:12:33Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -5822,7 +5597,6 @@
     ],
     "evidenceNotes": "Tabelog public page for Le Monde provides restaurant metadata and latitude/longitude; matched to the automated @space_tamnik owner-comment candidate name/address. Paid Google Places data was not used.",
     "coordinateSource": "Tabelog public restaurant page metadata coordinates from automated owner-comment candidate match",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-11T01:12:33Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -5845,7 +5619,6 @@
     ],
     "evidenceNotes": "Tabelog public page for 바 센티폴리아 BAR CENTIFOLIA provides restaurant metadata and latitude/longitude; matched to the automated @space_tamnik owner-comment candidate name/address. Paid Google Places data was not used.",
     "coordinateSource": "Tabelog public restaurant page metadata coordinates from automated owner-comment candidate match",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-11T01:12:33Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -5868,7 +5641,6 @@
     ],
     "evidenceNotes": "Tabelog public page for 센토 사와이오리온즈 セント・サワイオリオンズ provides restaurant metadata and latitude/longitude; matched to the automated @space_tamnik owner-comment candidate name/address. Paid Google Places data was not used.",
     "coordinateSource": "Tabelog public restaurant page metadata coordinates from automated owner-comment candidate match",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-11T01:12:33Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -5891,7 +5663,6 @@
     ],
     "evidenceNotes": "Tabelog public page for 기온 코모리 ぎをん 小森 provides restaurant metadata and latitude/longitude; matched to the automated @space_tamnik owner-comment candidate name/address. Paid Google Places data was not used.",
     "coordinateSource": "Tabelog public restaurant page metadata coordinates from automated owner-comment candidate match",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-11T01:12:33Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -5914,7 +5685,6 @@
     ],
     "evidenceNotes": "Tabelog public page for 킨노하나 京都 金ノ華 嵯峨嵐山店 provides restaurant metadata and latitude/longitude; matched to the automated @space_tamnik owner-comment candidate name/address. Paid Google Places data was not used.",
     "coordinateSource": "Tabelog public restaurant page metadata coordinates from automated owner-comment candidate match",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-11T01:12:33Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -5937,7 +5707,6 @@
     ],
     "evidenceNotes": "Tabelog public page for 이즈모 루쿠아 うなぎ 串料理 いづも ルクア provides restaurant metadata and latitude/longitude; matched to the automated @space_tamnik owner-comment candidate name/address. Paid Google Places data was not used.",
     "coordinateSource": "Tabelog public restaurant page metadata coordinates from automated owner-comment candidate match",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-11T01:12:33Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -5960,7 +5729,6 @@
     ],
     "evidenceNotes": "Tabelog public page for 커피숍 피노키오 コーヒーショップ ピノキオ provides restaurant metadata and latitude/longitude; matched to the automated @space_tamnik owner-comment candidate name/address. Paid Google Places data was not used.",
     "coordinateSource": "Tabelog public restaurant page metadata coordinates from automated owner-comment candidate match",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-11T01:12:33Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -5983,7 +5751,6 @@
     ],
     "evidenceNotes": "Tabelog public page for Oyoppi Coffee 어여삐 커피 provides restaurant metadata and latitude/longitude; matched to the automated @space_tamnik owner-comment candidate name/address. Paid Google Places data was not used.",
     "coordinateSource": "Tabelog public restaurant page metadata coordinates from automated owner-comment candidate match",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-11T01:12:33Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -6006,7 +5773,6 @@
     ],
     "evidenceNotes": "Tabelog public page for Ramen Jazzy Beats provides restaurant metadata and latitude/longitude; matched to the automated @space_tamnik owner-comment candidate name/address. Paid Google Places data was not used.",
     "coordinateSource": "Tabelog public restaurant page metadata coordinates from automated owner-comment candidate match",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-11T01:12:33Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -6029,7 +5795,6 @@
     ],
     "evidenceNotes": "Tabelog public page for 토니스 피자 NEW YORK PIZZA TONY'S provides restaurant metadata and latitude/longitude; matched to the automated @space_tamnik owner-comment candidate name/address. Paid Google Places data was not used.",
     "coordinateSource": "Tabelog public restaurant page metadata coordinates from automated owner-comment candidate match",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-11T01:12:33Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -6052,7 +5817,6 @@
     ],
     "evidenceNotes": "Tabelog public page for 마루가메 세이멘 丸亀製麺京都市役所前 provides restaurant metadata and latitude/longitude; matched to the automated @space_tamnik owner-comment candidate name/address. Paid Google Places data was not used.",
     "coordinateSource": "Tabelog public restaurant page metadata coordinates from automated owner-comment candidate match",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-11T01:12:33Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -6075,7 +5839,6 @@
     ],
     "evidenceNotes": "Tabelog public page for PARK STORE provides restaurant metadata and latitude/longitude; matched to the automated @space_tamnik owner-comment candidate name/address. Paid Google Places data was not used.",
     "coordinateSource": "Tabelog public restaurant page metadata coordinates from automated owner-comment candidate match",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-11T01:12:33Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -6098,7 +5861,6 @@
     ],
     "evidenceNotes": "Tabelog public page for Nakatsu Woniku 中津をにく provides restaurant metadata and latitude/longitude; matched to the automated @space_tamnik owner-comment candidate name/address. Paid Google Places data was not used.",
     "coordinateSource": "Tabelog public restaurant page metadata coordinates from automated owner-comment candidate match",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-11T01:12:33Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -6121,7 +5883,6 @@
     ],
     "evidenceNotes": "Tabelog public page for 도지마 야키니쿠 요리점 堂島焼肉料理店 provides restaurant metadata and latitude/longitude; matched to the automated @space_tamnik owner-comment candidate name/address. Paid Google Places data was not used.",
     "coordinateSource": "Tabelog public restaurant page metadata coordinates from automated owner-comment candidate match",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-11T01:12:33Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -6144,7 +5905,6 @@
     ],
     "evidenceNotes": "Tabelog public page for 스미게키죠 무사지사 すみ劇場 むさし坐 provides restaurant metadata and latitude/longitude; matched to the automated @space_tamnik owner-comment candidate name/address. Paid Google Places data was not used.",
     "coordinateSource": "Tabelog public restaurant page metadata coordinates from automated owner-comment candidate match",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-11T01:12:33Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -6167,7 +5927,6 @@
     ],
     "evidenceNotes": "Tabelog public page for Sweet Check provides restaurant metadata and latitude/longitude; matched to the automated @space_tamnik owner-comment candidate name/address. Paid Google Places data was not used.",
     "coordinateSource": "Tabelog public restaurant page metadata coordinates from automated owner-comment candidate match",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-11T01:12:33Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -6190,7 +5949,6 @@
     ],
     "evidenceNotes": "Tabelog public page for Kyo ha Matcha de Kimeru provides restaurant metadata and latitude/longitude; matched to the automated @space_tamnik owner-comment candidate name/address. Paid Google Places data was not used.",
     "coordinateSource": "Tabelog public restaurant page metadata coordinates from automated owner-comment candidate match",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-11T01:12:33Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -6213,7 +5971,6 @@
     ],
     "evidenceNotes": "Tabelog public page for snack kuma©︎ provides restaurant metadata and latitude/longitude; matched to the automated @space_tamnik owner-comment candidate name/address. Paid Google Places data was not used.",
     "coordinateSource": "Tabelog public restaurant page metadata coordinates from automated owner-comment candidate match",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-11T01:12:33Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -6236,7 +5993,6 @@
     ],
     "evidenceNotes": "Tabelog public page for MYSTAR BASE provides restaurant metadata and latitude/longitude; matched to the automated @space_tamnik owner-comment candidate name/address. Paid Google Places data was not used.",
     "coordinateSource": "Tabelog public restaurant page metadata coordinates from automated owner-comment candidate match",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-11T01:12:33Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -6259,7 +6015,6 @@
     ],
     "evidenceNotes": "Tabelog public page for 스미게키죠 이로하 すみ劇場一六八 provides restaurant metadata and latitude/longitude; matched to the automated @space_tamnik owner-comment candidate name/address. Paid Google Places data was not used.",
     "coordinateSource": "Tabelog public restaurant page metadata coordinates from automated owner-comment candidate match",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-11T01:12:33Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -6282,7 +6037,6 @@
     ],
     "evidenceNotes": "Tabelog public page for 부쿠카베이커리 ブクカベーカリー 本店 provides restaurant metadata and latitude/longitude; matched to the automated @space_tamnik owner-comment candidate name/address. Paid Google Places data was not used.",
     "coordinateSource": "Tabelog public restaurant page metadata coordinates from automated owner-comment candidate match",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-11T01:12:33Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -6305,7 +6059,6 @@
     ],
     "evidenceNotes": "Tabelog public page for 이쿠라 텐진이마이즈미점 鉄板焼酒場 いくら 天神今泉店 provides restaurant metadata and latitude/longitude; matched to the automated @space_tamnik owner-comment candidate name/address. Paid Google Places data was not used.",
     "coordinateSource": "Tabelog public restaurant page metadata coordinates from automated owner-comment candidate match",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-11T01:12:33Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -6328,7 +6081,6 @@
     ],
     "evidenceNotes": "Tabelog public page for 치야키 우나기 호젠지 야마카즈 地焼うなぎ 法善寺山かづ provides restaurant metadata and latitude/longitude; matched to the automated @space_tamnik owner-comment candidate name/address. Paid Google Places data was not used.",
     "coordinateSource": "Tabelog public restaurant page metadata coordinates from automated owner-comment candidate match",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-11T01:12:33Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -6351,7 +6103,6 @@
     ],
     "evidenceNotes": "Tabelog public page for By The Way provides restaurant metadata and latitude/longitude; matched to the automated @space_tamnik owner-comment candidate name/address. Paid Google Places data was not used.",
     "coordinateSource": "Tabelog public restaurant page metadata coordinates from automated owner-comment candidate match",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-11T01:12:33Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -6374,7 +6125,6 @@
     ],
     "evidenceNotes": "Tabelog public page for 나가타 혼조켄 長田本庄軒メトロセンター西葛西 provides restaurant metadata and latitude/longitude; matched to the automated @space_tamnik owner-comment candidate name/address. Paid Google Places data was not used.",
     "coordinateSource": "Tabelog public restaurant page metadata coordinates from automated owner-comment candidate match",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-11T01:12:33Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -6397,7 +6147,6 @@
     ],
     "evidenceNotes": "Tabelog public page for Ramen Break Beats provides restaurant metadata and latitude/longitude; matched to the automated @space_tamnik owner-comment candidate name/address. Paid Google Places data was not used.",
     "coordinateSource": "Tabelog public restaurant page metadata coordinates from automated owner-comment candidate match",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-11T01:12:33Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -6420,7 +6169,6 @@
     ],
     "evidenceNotes": "Tabelog public page for American Diner Andra provides restaurant metadata and latitude/longitude; matched to the automated @space_tamnik owner-comment candidate name/address. Paid Google Places data was not used.",
     "coordinateSource": "Tabelog public restaurant page metadata coordinates from automated owner-comment candidate match",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-11T01:12:33Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -6443,7 +6191,6 @@
     ],
     "evidenceNotes": "Tabelog public page for セント・サワイオリオンズ 센토 사와이오리온즈 provides restaurant metadata and latitude/longitude; matched to the automated @space_tamnik owner-comment candidate name/address. Paid Google Places data was not used.",
     "coordinateSource": "Tabelog public restaurant page metadata coordinates from automated owner-comment candidate match",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-11T01:12:33Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -6466,7 +6213,6 @@
     ],
     "evidenceNotes": "Tabelog public page for Oyoppi Coffee 어여삐 커피 provides restaurant metadata and latitude/longitude; matched to the automated @space_tamnik owner-comment candidate name/address. Paid Google Places data was not used.",
     "coordinateSource": "Tabelog public restaurant page metadata coordinates from automated owner-comment candidate match",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-11T01:12:33Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -6489,7 +6235,6 @@
     ],
     "evidenceNotes": "Tabelog public page for 스미게키죠 무사시자 すみ劇場 むさし坐 provides restaurant metadata and latitude/longitude; matched to the automated @space_tamnik owner-comment candidate name/address. Paid Google Places data was not used.",
     "coordinateSource": "Tabelog public restaurant page metadata coordinates from automated owner-comment candidate match",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-11T01:12:33Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -6512,7 +6257,6 @@
     ],
     "evidenceNotes": "Tabelog public page for 리키마루 로바타야키 이사리비 力丸 炉ばた焼 漁火 provides restaurant metadata and latitude/longitude; matched to the automated @space_tamnik owner-comment candidate name/address. Paid Google Places data was not used.",
     "coordinateSource": "Tabelog public restaurant page metadata coordinates from automated owner-comment candidate match",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-11T01:12:33Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -6535,7 +6279,6 @@
     ],
     "evidenceNotes": "Tabelog public page for cafe capyba provides restaurant metadata and latitude/longitude; matched to the automated @space_tamnik owner-comment candidate name/address. Paid Google Places data was not used.",
     "coordinateSource": "Tabelog public restaurant page metadata coordinates from automated owner-comment candidate match",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-11T01:12:33Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -6558,7 +6301,6 @@
     ],
     "evidenceNotes": "Tabelog public page for 바 센티폴리아 BAR CENTIFOLIA provides restaurant metadata and latitude/longitude; matched to the automated @space_tamnik owner-comment candidate name/address. Paid Google Places data was not used.",
     "coordinateSource": "Tabelog public restaurant page metadata coordinates from automated owner-comment candidate match",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-11T01:12:33Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -6581,7 +6323,6 @@
     ],
     "evidenceNotes": "Tabelog public page for 카나가리 하나레 燗アガリはなれ provides restaurant metadata and latitude/longitude; matched to the automated @space_tamnik owner-comment candidate name/address. Paid Google Places data was not used.",
     "coordinateSource": "Tabelog public restaurant page metadata coordinates from automated owner-comment candidate match",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-11T01:12:33Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -6604,7 +6345,6 @@
     ],
     "evidenceNotes": "Tabelog public page for Crepe de Happiness provides restaurant metadata and latitude/longitude; matched to the automated @space_tamnik owner-comment candidate name/address. Paid Google Places data was not used.",
     "coordinateSource": "Tabelog public restaurant page metadata coordinates from automated owner-comment candidate match",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-11T01:12:33Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -6627,7 +6367,6 @@
     ],
     "evidenceNotes": "Tabelog public page for cafestand 10.8 provides restaurant metadata and latitude/longitude; matched to the automated @space_tamnik owner-comment candidate name/address. Paid Google Places data was not used.",
     "coordinateSource": "Tabelog public restaurant page metadata coordinates from automated owner-comment candidate match",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-11T01:12:33Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -6650,7 +6389,6 @@
     ],
     "evidenceNotes": "Tabelog public page for 우동 마루카 うどん 丸香 provides restaurant metadata and latitude/longitude; matched to the automated @space_tamnik owner-comment candidate name/address. Paid Google Places data was not used.",
     "coordinateSource": "Tabelog public restaurant page metadata coordinates from automated owner-comment candidate match",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-11T01:27:06Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -6673,7 +6411,6 @@
     ],
     "evidenceNotes": "Tabelog public page for Tonkatsu Marushichi Ginza とんかつ 丸七 銀座店 provides restaurant metadata and latitude/longitude; matched to the automated @space_tamnik owner-comment candidate name/address. Paid Google Places data was not used.",
     "coordinateSource": "Tabelog public restaurant page metadata coordinates from automated owner-comment candidate match",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-11T01:27:06Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -6696,7 +6433,6 @@
     ],
     "evidenceNotes": "Tabelog public page for SOBOONG ソブン provides restaurant metadata and latitude/longitude; matched to the automated @space_tamnik owner-comment candidate name/address. Paid Google Places data was not used.",
     "coordinateSource": "Tabelog public restaurant page metadata coordinates from automated owner-comment candidate match",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-11T01:27:06Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -6719,7 +6455,6 @@
     ],
     "evidenceNotes": "Tabelog public page for Nikutoeiba MATSUDA 肉といえば松田 タイムアウトマーケット大阪 provides restaurant metadata and latitude/longitude; matched to the automated @space_tamnik owner-comment candidate name/address. Paid Google Places data was not used.",
     "coordinateSource": "Tabelog public restaurant page metadata coordinates from automated owner-comment candidate match",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-11T01:27:06Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -6742,7 +6477,6 @@
     ],
     "evidenceNotes": "Tabelog public page for 로바타쇼 Robatasho ろばた翔 provides restaurant metadata and latitude/longitude; matched to the automated @space_tamnik owner-comment candidate name/address. Paid Google Places data was not used.",
     "coordinateSource": "Tabelog public restaurant page metadata coordinates from automated owner-comment candidate match",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-11T01:27:06Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -6765,7 +6499,6 @@
     ],
     "evidenceNotes": "Tabelog public page for 후지코 F 후지오 박물관 川崎市 藤子・F・不二雄ミュージアム provides restaurant metadata and latitude/longitude; matched to the automated @space_tamnik owner-comment candidate name/address. Paid Google Places data was not used.",
     "coordinateSource": "Tabelog public restaurant page metadata coordinates from automated owner-comment candidate match",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-11T01:27:06Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -6788,7 +6521,6 @@
     ],
     "evidenceNotes": "Tabelog public page for Den 京都鴨蕎麦 田 provides restaurant metadata and latitude/longitude; matched to the automated @space_tamnik owner-comment candidate name/address. Paid Google Places data was not used.",
     "coordinateSource": "Tabelog public restaurant page metadata coordinates from automated owner-comment candidate match",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-11T01:27:06Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -6811,7 +6543,6 @@
     ],
     "evidenceNotes": "Tabelog public page for 이몬네 하카타점 Imonne いもんね博多店 provides restaurant metadata and latitude/longitude; matched to the automated @space_tamnik owner-comment candidate name/address. Paid Google Places data was not used.",
     "coordinateSource": "Tabelog public restaurant page metadata coordinates from automated owner-comment candidate match",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-11T01:27:06Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -6834,7 +6565,6 @@
     ],
     "evidenceNotes": "Tabelog public page for Sukiyaki Asai すき焼き あさい provides restaurant metadata and latitude/longitude; matched to the automated @space_tamnik owner-comment candidate name/address. Paid Google Places data was not used.",
     "coordinateSource": "Tabelog public restaurant page metadata coordinates from automated owner-comment candidate match",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-11T01:27:06Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -6857,7 +6587,6 @@
     ],
     "evidenceNotes": "Tabelog public page for 오스노모리 카페 코다마 大須の森カフェ コダマ provides restaurant metadata and latitude/longitude; matched to the automated @space_tamnik owner-comment candidate name/address. Paid Google Places data was not used.",
     "coordinateSource": "Tabelog public restaurant page metadata coordinates from automated owner-comment candidate match",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-11T01:27:06Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -6880,7 +6609,6 @@
     ],
     "evidenceNotes": "Tabelog public page for Tokyo Style Noodle Hotate Biyori ほたて日和 provides restaurant metadata and latitude/longitude; matched to the automated @space_tamnik owner-comment candidate name/address. Paid Google Places data was not used.",
     "coordinateSource": "Tabelog public restaurant page metadata coordinates from automated owner-comment candidate match",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-11T01:27:06Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -6903,7 +6631,6 @@
     ],
     "evidenceNotes": "Tabelog public page for Teuchi Ren 手打ち 蓮 provides restaurant metadata and latitude/longitude; matched to the automated @space_tamnik owner-comment candidate name/address. Paid Google Places data was not used.",
     "coordinateSource": "Tabelog public restaurant page metadata coordinates from automated owner-comment candidate match",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-11T01:27:06Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -6926,7 +6653,6 @@
     ],
     "evidenceNotes": "Tabelog public page for 나나야 교토산조점 provides restaurant metadata and latitude/longitude; matched to the automated @space_tamnik owner-comment candidate name/address. Paid Google Places data was not used.",
     "coordinateSource": "Tabelog public restaurant page metadata coordinates from automated owner-comment candidate match",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-11T01:27:06Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -6949,7 +6675,6 @@
     ],
     "evidenceNotes": "Tabelog public page for Unagi Mankichi うなぎ満吉 provides restaurant metadata and latitude/longitude; matched to the automated @space_tamnik owner-comment candidate name/address. Paid Google Places data was not used.",
     "coordinateSource": "Tabelog public restaurant page metadata coordinates from automated owner-comment candidate match",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-11T01:28:07Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -6972,7 +6697,6 @@
     ],
     "evidenceNotes": "Tabelog public page for Midori お食事処 美登里食堂 provides restaurant metadata and latitude/longitude; matched to the automated @space_tamnik owner-comment candidate name/address. Paid Google Places data was not used.",
     "coordinateSource": "Tabelog public restaurant page metadata coordinates from automated owner-comment candidate match",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-11T01:28:07Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -6995,7 +6719,6 @@
     ],
     "evidenceNotes": "Tabelog public page for Matoi Ginza provides restaurant metadata and latitude/longitude; matched to the automated @space_tamnik owner-comment candidate name/address. Paid Google Places data was not used.",
     "coordinateSource": "Tabelog public restaurant page metadata coordinates from automated owner-comment candidate match",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-11T01:34:23Z",
     "confidence": 0.82,
     "status": "resolved"
@@ -7005,7 +6728,6 @@
     "sourceVideoUrl": "https://www.youtube.com/watch?v=oyPL3hm3URw",
     "country": "JP",
     "city": "Fukuoka",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-11T08:45:00Z",
     "status": "resolved",
     "id": "yt_oyPL3hm3URw_UgxwtRlVjd00WJS4GEh4AaABAg_item-1",
@@ -7030,7 +6752,6 @@
     "sourceVideoUrl": "https://www.youtube.com/watch?v=oyPL3hm3URw",
     "country": "JP",
     "city": "Fukuoka",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-11T08:45:00Z",
     "status": "resolved",
     "id": "yt_oyPL3hm3URw_UgxwtRlVjd00WJS4GEh4AaABAg_item-2",
@@ -7054,7 +6775,6 @@
     "sourceVideoUrl": "https://www.youtube.com/watch?v=oyPL3hm3URw",
     "country": "JP",
     "city": "Fukuoka",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-11T08:45:00Z",
     "status": "resolved",
     "id": "yt_oyPL3hm3URw_UgxwtRlVjd00WJS4GEh4AaABAg_item-3",
@@ -7078,7 +6798,6 @@
     "sourceVideoUrl": "https://www.youtube.com/watch?v=oyPL3hm3URw",
     "country": "JP",
     "city": "Fukuoka",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-11T08:45:00Z",
     "status": "resolved",
     "id": "yt_oyPL3hm3URw_UgxwtRlVjd00WJS4GEh4AaABAg_item-4",
@@ -7103,7 +6822,6 @@
     "sourceVideoUrl": "https://www.youtube.com/watch?v=oyPL3hm3URw",
     "country": "JP",
     "city": "Fukuoka",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-11T08:45:00Z",
     "status": "resolved",
     "id": "yt_oyPL3hm3URw_UgxwtRlVjd00WJS4GEh4AaABAg_item-5",
@@ -7127,7 +6845,6 @@
     "sourceVideoUrl": "https://www.youtube.com/watch?v=oyPL3hm3URw",
     "country": "JP",
     "city": "Fukuoka",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-11T08:45:00Z",
     "status": "resolved",
     "id": "yt_oyPL3hm3URw_UgxwtRlVjd00WJS4GEh4AaABAg_item-6",
@@ -7151,7 +6868,6 @@
     "sourceVideoUrl": "https://www.youtube.com/watch?v=oyPL3hm3URw",
     "country": "JP",
     "city": "Fukuoka",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-11T08:45:00Z",
     "status": "resolved",
     "id": "yt_oyPL3hm3URw_UgxwtRlVjd00WJS4GEh4AaABAg_item-7",
@@ -7175,7 +6891,6 @@
     "sourceVideoUrl": "https://www.youtube.com/watch?v=oyPL3hm3URw",
     "country": "JP",
     "city": "Fukuoka",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-11T08:45:00Z",
     "status": "resolved",
     "id": "yt_oyPL3hm3URw_UgxwtRlVjd00WJS4GEh4AaABAg_item-8",
@@ -7200,7 +6915,6 @@
     "sourceVideoUrl": "https://www.youtube.com/watch?v=oyPL3hm3URw",
     "country": "JP",
     "city": "Fukuoka",
-    "resolvedBy": "hermes",
     "resolvedAt": "2026-05-11T08:45:00Z",
     "status": "resolved",
     "id": "yt_oyPL3hm3URw_UgxwtRlVjd00WJS4GEh4AaABAg_item-9",

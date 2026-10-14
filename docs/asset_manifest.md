@@ -7,14 +7,14 @@ This repo does not use binary asset packs for the restaurant map. M3.2's “asse
 - `data/location_resolutions.json`
   - Purpose: vetted public/free evidence coordinates for generated YouTube owner-comment candidates.
   - Total records after M3.2: `26`.
-  - Generation mode: mixed automated candidate pipeline + Hermes public/free evidence resolution.
+  - Generation mode: mixed automated candidate pipeline + public/free evidence resolution.
   - External copyright assets: none.
 
 - `data/place_enrichments.json`
   - Purpose: public-safe Korean display copy for published places.
   - Total records after M3.2: `26`.
   - Fields: `placeTypeKo`, `signatureKo`, `whyKo`, `displayDescriptionKo`.
-  - Generation mode: Hermes-authored summaries from public-safe candidate context and public evidence, not raw comment dumps.
+  - Generation mode: summaries written from public-safe candidate context and public evidence, not raw comment dumps.
   - External copyright assets: none.
 
 ## Generated Public Outputs

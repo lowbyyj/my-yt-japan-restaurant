@@ -108,7 +108,6 @@ export const locationResolutionSchema = z.object({
   whyKo: z.string().min(1).optional(),
   displayDescriptionKo: z.string().min(1).optional(),
   broadCategoryKo: z.enum(["밥", "디저트", "술"]).optional(),
-  resolvedBy: z.literal("hermes"),
   resolvedAt: z.string().datetime(),
   confidence: z.number().min(0).max(1),
   status: z.literal("resolved"),

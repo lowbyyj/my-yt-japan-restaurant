@@ -47,16 +47,14 @@ const baseResolution = {
   evidenceUrls: ["https://www.openstreetmap.org/node/123456789"],
   evidenceNotes: "Synthetic OSM/Nominatim fixture confirms name and Tokyo address.",
   coordinateSource: "osm",
-  resolvedBy: "hermes" as const,
   resolvedAt: "2026-05-07T00:00:00.000Z",
   confidence: 0.86,
   status: "resolved" as const,
 };
 
-describe("agent-assisted location resolutions", () => {
+describe("location resolutions", () => {
   it("validates public-safe resolved records", () => {
     expect(locationResolutionSchema.parse(baseResolution)).toMatchObject({
-      resolvedBy: "hermes",
       status: "resolved",
       country: "JP",
     });

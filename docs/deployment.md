@@ -27,7 +27,7 @@ https://lowbyyj.github.io/my-yt-japan-restaurant/
 
 The preferred future deployment flow is GitHub Actions, but the current GitHub OAuth token only has `repo`, `read:org`, and `gist` scopes. GitHub rejected a push that created `.github/workflows/deploy-pages.yml` because the token lacks `workflow` scope.
 
-To complete the free public deployment without blocking M3, Hermes used the GitHub Pages branch-source fallback:
+To complete the free public deployment without blocking M3, the project used the GitHub Pages branch-source fallback:
 
 1. Run `npm ci`.
 2. Run `npm run validate:data`.
